@@ -1,0 +1,65 @@
+<template>
+  <div>
+<!--    <BreadCrumb crumb-title="About Us" :crumb-media="image" :crumb-links="links" />-->
+    <div class="main-content">
+          <BreadCrump/>
+          <Story/>
+          <ChooseUs/>
+          <Awards/>
+          <ContactUs/>
+          <Testimonial/>
+<!--      <AboutUs />-->
+<!--      <History />-->
+<!--      <Team />-->
+      <Footer />
+    </div>
+  </div>
+</template>
+
+<script>
+import AboutUs from '../../components/AboutUs-1/AboutUs'
+import History from '../../components/AboutUs-1/History'
+import Team from '../../components/AboutUs-1/Team'
+import Footer from '../../components/AboutUs-1/Footer'
+import { themes } from '../../assets/app/app'
+import BreadCrump from '../../components/AboutUs-1/BreadCrum.vue'
+import Story from '../../components/AboutUs-1/Story.vue'
+import ChooseUs from "~/components/AboutUs-1/ChooseUs.vue";
+import Awards from "~/components/AboutUs-1/Awards.vue";
+import ContactUs from "~/components/AboutUs-1/ContactUs.vue";
+import Testimonial from "~/components/AboutUs-1/Testimonial.vue";
+
+
+export default {
+  layout: 'AboutUs',
+  components: {
+    Testimonial,
+    ContactUs,
+    Awards,
+    ChooseUs,
+    AboutUs,
+    History,
+    Team,
+    Footer,
+    BreadCrump,
+    Story,
+
+  },
+  data () {
+    return {
+      image: require('../../assets/images/about-us/04.png'),
+      links: [{
+        title: 'Home',
+        href: 'landing-page-1'
+      }]
+    }
+  },
+  mounted () {
+    // const layout = themes.getCookie('layout')
+    // this.$nuxt.setLayout(layout)
+    setTimeout(function () {
+      themes.index()
+    }, 1000)
+  }
+}
+</script>
