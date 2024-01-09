@@ -4,6 +4,7 @@
     <div class="main-content">
           <BreadCrump/>
           <Story/>
+          <Ideas/>
           <ChooseUs/>
           <Awards/>
           <ContactUs/>
@@ -28,11 +29,13 @@ import ChooseUs from "~/components/AboutUs-1/ChooseUs.vue";
 import Awards from "~/components/AboutUs-1/Awards.vue";
 import ContactUs from "~/components/AboutUs-1/ContactUs.vue";
 import Testimonial from "~/components/AboutUs-1/Testimonial.vue";
+import Ideas from "~/components/AboutUs-1/Ideas.vue";
 
 
 export default {
   layout: 'AboutUs',
   components: {
+    Ideas,
     Testimonial,
     ContactUs,
     Awards,

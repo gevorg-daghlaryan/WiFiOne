@@ -9,7 +9,7 @@
             </h2>
           </div>
           <div class=" text-center mt-5 ">
-            <a class="button blue-btn button-icon" href="/landing-page-19"><span class="btn-effect"> Contact US</span></a>
+            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
           </div>
         </div>
       </div>
@@ -27,7 +27,6 @@ export default {
   background-size: contain;
   background-repeat: repeat-y;
   background-position: 103px;
-
 }
 
 </style>
