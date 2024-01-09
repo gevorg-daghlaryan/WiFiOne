@@ -63,7 +63,7 @@ export default {
           title: 'Services'
         },
         {
-          href: '/customers',
+          href: '/',
           title: 'Customers'
         },
         {
