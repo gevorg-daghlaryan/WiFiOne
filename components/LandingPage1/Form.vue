@@ -46,7 +46,7 @@
               <div class="xamin-blue-bg text-white px-3 py-5">
                 <h3 class="text-white">Managed Network</h3>
                 <p class="text-white m-0 mb-2">Router and managment</p>
-                <span class="text-white price">$650/mo</span>
+                <span class="text-white price">${{total()}}/mo</span>
                 <p class="text-white m-0">Competitors $3.20</p>
                 <p class="text-white m-0 font-weight-bold">Top Features</p>
                 <div class="list-item">
@@ -73,15 +73,22 @@
   </section>
 </template>
 <script>
+
 export default {
   name: 'Form',
   data() {
     return {
-      value: '100',
+      defaultValue: 200,
+      value: 200,
       coverageOptimized: false,
       performanceUpgrade: false,
       powerMonitoring: false,
       lteBackup: false,
+    }
+  },
+  methods: {
+    total() {
+      return  +this.defaultValue + (+(this.coverageOptimized ? this.value : +0)) + (+(this.performanceUpgrade ? this.value : +0)) + (+(this.powerMonitoring ? +20 : +0)) + (+(this.lteBackup ? +50 : +0));
     }
   }
 }
