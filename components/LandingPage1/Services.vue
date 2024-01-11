@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="title-box wow fadeInUp text-center">
-            <span class="title-design">Services</span>
+            <span class="title-design font-weight-bold">Services</span>
           </div>
         </div>
       </div>
@@ -24,8 +24,8 @@
               <p class=" font-weight-bold mt-4">{{ list.info }}</p>
             </div>
             <div slot="cardLink">
-              <div class="blog-button w-100 d-flex justify-content-end">
-                <a href="#" class="button-link">Learn More</a>
+              <div class="blog-button w-100 d-flex justify-content-end mt-3">
+                  <a href="#" class="button blue-btn button-icon text-left">Learn More</a>
               </div>
             </div>
           </CardStyle1>

@@ -1,21 +1,24 @@
 <template>
   <div class="main-content">
-    <BreadCrum />
+<!--    <BreadCrum />-->
+    <Hero/>
     <Analytics />
     <Footer />
   </div>
 </template>
 
 <script>
-import BreadCrum from '../../components/DataAnalytics/BreadCrum'
-import Analytics from '../../components/DataAnalytics/Analytics'
-import Footer from '../../components/DataAnalytics/Footer'
+// import BreadCrum from '~/components/ManagedWiFI/BreadCrum'
+import Analytics from '~/components/ManagedWiFI/Analytics'
+import Footer from '~/components/ManagedWiFI/Footer'
+import Hero from '~/components/ManagedWiFI/Hero.vue'
 import { themes } from '../../assets/app/app'
 export default {
   layout: 'Services',
   components: {
-    BreadCrum,
+    // BreadCrum,
     Analytics,
+    Hero,
     Footer
   },
   mounted () {

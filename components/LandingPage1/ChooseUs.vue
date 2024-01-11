@@ -1,6 +1,7 @@
 <template>
   <section class="choose">
     <div class="container">
+      <h2  class="text-center choose-title mb-5">WHY CHOOSE US</h2>
       <div class="row">
         <div class="col-lg-6 col-md-6" v-for="(list,index) in items" :key="index">
           <div>
@@ -47,6 +48,12 @@ export default {
 }
 .choose {
   padding-top: 0px;
+}
+.choose-title {
+  color:#3F81D1;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
 }
 .choose-text {
   color: #343E59;

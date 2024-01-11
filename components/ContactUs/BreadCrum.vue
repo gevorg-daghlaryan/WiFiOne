@@ -19,6 +19,7 @@ export default {
     background-image: url("../../assets/images/contact-us/contact-us.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size:cover;
     height: 490px;
   }
   .contact-us-top-text {

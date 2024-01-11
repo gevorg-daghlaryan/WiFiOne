@@ -5,10 +5,10 @@
         <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
           <div class="title-box wow fadeInUp  text-center">
             <h2 class="text-white">
-              Get 35% discount for new member course
+              Contact us for tailored solutions
             </h2>
             <p class="text-white">
-              Fast track your career with our comprehensive courses in AI and Machine Learning at a special discount now.
+              See how wifiOne can transform your business operations.
             </p>
           </div>
           <div class=" text-center mt-5 ">

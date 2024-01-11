@@ -95,36 +95,28 @@ export const services = [
     title: 'Services'
   },
   {
-    href: '/data-analytics',
-    title: 'Data Analytics'
+    href: '/managed-wifi',
+    title: 'Managed WiFi'
   },
   {
-    href: '/managed-analytics',
-    title: 'Managed Analytics'
+    href: '/event-wifi',
+    title: 'Event WiFI'
   },
   {
-    href: '/big-data-services',
-    title: 'Big Data Services'
+    href: '/managed-cameras',
+    title: 'Managed Cameras'
   },
   {
-    href: '/data-science-consulting',
-    title: 'Data Science Consulting'
+    href: '/managed-music-system',
+    title: 'Managed Music System'
   },
   {
-    href: '/business-intelligence',
-    title: 'Business Intelligence'
+    href: '/site-power-monitoring',
+    title: 'Site Power Monitoring'
   },
   {
-    href: '/data-visualization',
-    title: 'Data Visualization'
-  },
-  {
-    href: '/data-management',
-    title: 'Data Management'
-  },
-  {
-    href: '/artificial-intelligence',
-    title: 'Artificial Intelligence'
+    href: '/managed-media-wall',
+    title: 'Managed Media Wall'
   }
 ]
 export const pages = [

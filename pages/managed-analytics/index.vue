@@ -1,6 +1,6 @@
 <template>
   <div>
-    <BreadCrumb crumb-title="Managed Analytics" :crumb-media="image" :crumb-links="links" />
+<!--    <BreadCrumb crumb-title="Managed Analytics" :crumb-media="image" :crumb-links="links" />-->
     <div class="main-content">
       <Service />
     </div>

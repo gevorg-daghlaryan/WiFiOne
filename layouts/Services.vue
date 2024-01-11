@@ -18,16 +18,18 @@ export default {
       navItems: [
         { href: '/landing-page-1',
           title: 'Home',
-          children: true,
+          children: false,
           child: menu,
           classname: 'menu'
         },
-        { href: '/about-1', title: 'About Us', children: true , child: landing1About, classname: ' ' },
+        { href: '/about-1', title: 'About Us', children: false , child: landing1About, classname: ' ' },
         { href: '/services', title: 'Services', active: true , children: true, child: services, classname: ' ' },
-        { href: '/masonry-2', title: 'Our Cases', children: true , child: ourCases, classname: ' ' },
-        { href: '/blog', title: 'Blog', children: true , child: blog, classname: ' ' },
+        // { href: '/masonry-2', title: 'Our Cases', children: false , child: ourCases, classname: ' ' },
+        // { href: '/blog', title: 'Blog', children: false , child: blog, classname: ' ' },
         // eslint-disable-next-line standard/object-curly-even-spacing
-        { href: '/our-team', title: 'Pages', children: true, child: pages, classname: ' '}
+        // { href: '/our-team', title: 'Pages', children: false, child: pages, classname: ' '},
+        // { href: '/our-team', title: 'Pages', children: true, child: pages, classname: ' ' },
+        { href: '/contact-us', title: 'Contact Us', children: false, child: pages, classname: ' ' }
       ]
     }
   },

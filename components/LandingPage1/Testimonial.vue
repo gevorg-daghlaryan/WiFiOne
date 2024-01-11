@@ -5,7 +5,7 @@
         <div class="col-sm-12 wow fadeInUp">
           <div class="title-box wow fadeInUp text-center">
             <span class="title-design">TESTIMONIAL</span>
-            <h3>100+ people are benefiting from wifiOne</h3>
+            <h3>100+ people are benefiting from wifiOne's solutions</h3>
             <span>“Unparalleled WiFi Solutions, Praised by Our Customers"</span>
           </div>
         </div>

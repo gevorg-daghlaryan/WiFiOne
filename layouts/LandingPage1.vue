@@ -24,7 +24,7 @@ export default {
           classname: 'menu'
         },
         { href: '/about-1', title: 'About Us', children: false, child: landing1About, classname: ' ' },
-        // { href: '/services', title: 'Services', children: true, child: services, classname: ' ' },
+        { href: '/services', title: 'Services', children: true, child: services, classname: ' ' },
         // { href: '/masonry-2', title: 'Our Cases', children: true, child: ourCases, classname: ' ' },
         // { href: '/blog', title: 'Blog', children: true, child: blog, classname: ' ' },
         { href: '/contact-us', title: 'Contact Us', children: false, child: pages, classname: ' ' }

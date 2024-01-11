@@ -1,0 +1,211 @@
+<template>
+  <section class="managed-music-top">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-10">
+          <div class="managed-music-top-wrapper">
+            <h1 class="text-white">Managed Music System</h1>
+            <p class="text-white managed-music-top-text">Welcome to Site Managed Cameras page Welcome to Site Managed Cameras page .</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-2 image">
+          <img src="../../assets/images/services/load.png" alt="">
+        </div>
+      </div>
+      <div>
+        <div class="loader-container">
+          <div class="rectangle-1"></div>
+          <div class="rectangle-2"></div>
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="rectangle-5"></div>
+          <div class="rectangle-6"></div>
+          <div class="rectangle-5"></div>
+          <div class="rectangle-4"></div>
+          <div class="rectangle-3"></div>
+          <div class="rectangle-2"></div>
+          <div class="rectangle-1"></div>
+          <div class="rectangle-2"></div>
+          <div class="rectangle-3"></div>
+          <div class="rectangle-4"></div>
+          <div class="rectangle-5"></div>
+          <div class="rectangle-6"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</template>
+<script>
+export default {
+  name:'Hero'
+}
+</script>
+<style>
+.managed-music-top {
+  background-image: url("../../assets/images/services/manag-music-hero.png");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 490px;
+}
+.managed-music-top-text {
+  font-size: 21px;
+}
+.managed-music-top-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  justify-content: start;
+  gap: 31px;
+  height: 100%;
+}
+.loader-container {
+  gap: 23px;
+  justify-content: center;
+  display: flex;
+  height: 40px;
+  width: 100%;
+  margin: 0px auto 0;
+}
+
+.loader-container > div {
+  position: relative;
+  display: inline-block;
+  background: #FFFFFF;
+  border-radius: 3px;
+  height: 100%;
+  width: 10px;
+  margin: 0;
+  -webkit-animation: load 3s ease-in-out infinite;
+  animation: load 3s ease-in-out infinite;
+}
+
+.loader-container .rectangle-2 {
+  -webkit-animation-delay: 0.1s;
+  animation-delay: 0.1s;
+}
+
+.loader-container .rectangle-3 {
+  -webkit-animation-delay: 0.2s;
+  animation-delay: 0.2s;
+}
+
+.loader-container .rectangle-4 {
+  -webkit-animation-delay: 0.3s;
+  animation-delay: 0.3s;
+}
+
+.loader-container .rectangle-5 {
+  -webkit-animation-delay: 0.4s;
+  animation-delay: 0.4s;
+}
+
+.loader-container .rectangle-6 {
+  -webkit-animation-delay: 0.5s;
+  animation-delay: 0.5s;
+}
+
+@-moz-keyframes load {
+  0%,
+  100% {
+    -moz-transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  16.67% {
+    -moz-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  33.33% {
+    -moz-transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  50% {
+    -moz-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  66.67% {
+    -moz-transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  83.34% {
+    -moz-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+}
+
+@-webkit-keyframes load {
+  0%,
+  100% {
+    -webkit-transform: scaleY(1);
+    background:#FFFFFF;;
+  }
+  16.67% {
+    -webkit-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  33.33% {
+    -webkit-transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  50% {
+    -webkit-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  66.67% {
+    -webkit-transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  83.34% {
+    -webkit-transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+}
+
+@keyframes load {
+  0%,
+  100% {
+    transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  16.67% {
+    transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  33.33% {
+    transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  50% {
+    transform: scaleY(3);
+    background: #FFFFFF;;
+  }
+  66.67% {
+    transform: scaleY(1);
+    background: #FFFFFF;;
+  }
+  83.34% {
+    transform: scaleY(3);
+    background: #FFFFFF;
+  }
+}
+
+.image {
+  position: relative;
+}
+
+.image img {
+  animation: rotate 3s infinite linear;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+</style>

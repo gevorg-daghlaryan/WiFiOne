@@ -5,16 +5,14 @@
         <div class="col-lg-4 col-md-6 col-sm-6">
           <FooterLogo
             :section-image="navLogo"
-            section-text="It is a long established fact that a reader will be distracted by the readable content."
+            section-text="wifiOne excels in delivering secure managed WiFi networks in Singapore, enssuring consistent connectivity. Explore how we transform your experience with the best-managed WiFi, keeping you at the forefront of WiFi technology."
+
           />
         </div>
         <div class="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0">
           <FooterLinks :content="footerHome" title="Menu"/>
         </div>
-        <div class="col-lg-2 col-md-6 col-sm-6 mt-4 mt-lg-0 mt-md-0">
-          <FooterLinks :content="footerHome" title="About Us"/>
-        </div>
-        <div class="col-lg-4 col-md-6 col-sm-6 mt-lg-0 mt-4">
+        <div class="col-lg-6 col-md-6 col-sm-6 mt-lg-0 mt-4">
           <FooterAddress :address-content="footerText" address-title="Contact us" class="iq-contact" />
         </div>
       </div>
@@ -30,8 +28,8 @@ import logoImg from '../../assets/images/logo_1.svg'
 
 export default {
   name: 'Footer',
-  components: { FooterLogo, FooterLinks, FooterAddress, FooterMain },
-  data () {
+  components: {FooterLogo, FooterLinks, FooterAddress, FooterMain},
+  data() {
     return {
       navLogo: logoImg,
       footerText: [
@@ -43,34 +41,34 @@ export default {
         {
           icon: true,
           iconClass: 'fas fa-envelope',
-          text: 'support@iqnonicthemes.com'
+          text: 'interact@wifione.co'
         },
         {
           icon: true,
           iconClass: 'fas fa-home',
-          text: '1234 North Luke Lane, South Bend, IN 360001'
+          text: '1 Keong Saik Road, Singapore'
         }
       ],
       footerHome: [
         {
-          href: 'javascript:void(0)',
+          href: '/landing-page-1',
           title: 'Home'
         },
         {
-          href: 'javascript:void(0)',
-          title: 'Blog'
+          href: '/about-1',
+          title: 'About'
         },
         {
-          href: 'javascript:void(0)',
-          title: 'Careers'
+          href: '/#',
+          title: 'Services'
         },
         {
-          href: 'javascript:void(0)',
-          title: 'Clients'
+          href: '/',
+          title: 'Customers'
         },
         {
-          href: 'javascript:void(0)',
-          title: 'Service'
+          href: '/contact-us',
+          title: 'Contact Us'
         }
       ]
     }

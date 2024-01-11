@@ -22,6 +22,7 @@ export default {
     background-image: url("../../assets/images/about-us/hero.png");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     height: 490px;
   }
   .about-us-top-text {

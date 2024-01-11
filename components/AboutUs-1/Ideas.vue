@@ -40,6 +40,6 @@ export default {
   }
   .ideas-man {
     position: absolute;
-    bottom: -150px;
+    bottom: -165px;
   }
 </style>
