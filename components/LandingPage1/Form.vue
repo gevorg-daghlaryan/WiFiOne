@@ -79,7 +79,7 @@ export default {
   data() {
     return {
       defaultValue: 200,
-      value: 200,
+      value: 0,
       coverageOptimized: false,
       performanceUpgrade: false,
       powerMonitoring: false,
