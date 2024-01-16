@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import { menu, services, pages, landing1About, ourCases , blog } from '../config/constant.js'
+import { menu, services, pages, landing1About, ourCases , blog, contacts } from '../config/constant.js'
 import logoImg from '../assets/images/logo_1.svg'
 export default {
   name: 'Services',
@@ -29,7 +29,8 @@ export default {
         // eslint-disable-next-line standard/object-curly-even-spacing
         // { href: '/our-team', title: 'Pages', children: false, child: pages, classname: ' '},
         // { href: '/our-team', title: 'Pages', children: true, child: pages, classname: ' ' },
-        { href: '/contact-us', title: 'Contact Us', children: false, child: pages, classname: ' ' }
+        { href: '/customers', title: 'Customers', active: true, children: false, child: pages, classname: ' '  },
+        { href: '/contact-us', title: 'Contact Us', children: false, child: contacts, classname: ' ' }
       ]
     }
   },

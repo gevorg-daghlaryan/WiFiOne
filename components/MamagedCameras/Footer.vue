@@ -45,7 +45,7 @@ export default {
         },
         {
           icon: true,
-          iconClass: 'fas fa-home',
+          iconClass: 'fas fa-location-dot',
           text: '1 Keong Saik Road, Singapore'
         }
       ],
@@ -59,11 +59,11 @@ export default {
           title: 'About'
         },
         {
-          href: '/#',
+          href: '/services',
           title: 'Services'
         },
         {
-          href: '/',
+          href: '/customers',
           title: 'Customers'
         },
         {

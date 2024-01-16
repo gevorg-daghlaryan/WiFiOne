@@ -40,17 +40,17 @@ export default {
 }
 </script>
 <style>
-.title {
-  color: #3F81D1;
-  font-size: 24px;
-  font-weight: 400;
-}
-.choose {
-  padding-top: 0px;
-}
-.choose-text {
-  color: #343E59;
-  font-size: 24px;
-  font-weight: 400;
-}
+  .title {
+    color: #3F81D1;
+    font-size: 24px;
+    font-weight: 400;
+  }
+  .choose {
+    padding-top: 0px;
+  }
+  .choose-text {
+    color: #343E59;
+    font-size: 24px;
+    font-weight: 400;
+  }
 </style>

@@ -22,7 +22,7 @@ import Support from "~/components/ContactUs/Support.vue";
 import SupportTitle from "~/components/ContactUs/SupportTitle.vue";
 import Map from "~/components/ContactUs/Map.vue";
 export default {
-  layout: 'Pages',
+  layout: 'ContactUs',
   components: {
     Map,
     SupportTitle,

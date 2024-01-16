@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import { menu, services, pages, landing1About, ourCases, blog } from '../config/constant.js'
+import { menu, services, pages, landing1About, contacts, ourCases, blog } from '../config/constant.js'
 import logoImg from '../assets/images/logo_1.svg'
 export default {
   name: 'AboutUs',
@@ -27,7 +27,8 @@ export default {
         // { href: '/masonry-2', title: 'Our Cases', children: true, child: ourCases, classname: ' ' },
         // { href: '/blog', title: 'Blog', children: true, child: blog, classname: ' ' },
         // { href: '/our-team', title: 'Pages', children: true, child: pages, classname: ' ' },
-        { href: '/contact-us', title: 'Contact Us', children: false, child: pages, classname: ' ' }
+        { href: '/customers', title: 'Customers', active: true, children: false, child: pages, classname: ' '  },
+        { href: '/contact-us', title: 'Contact Us', children: false, child: contacts, classname: ' ' }
       ]
     }
   },
