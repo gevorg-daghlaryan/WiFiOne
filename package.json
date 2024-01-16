@@ -1,7 +1,7 @@
 {
-  "name": "xamin-vue",
+  "name": "WiFiOne",
   "version": "1.0.0",
-  "description": "Xamin - Data Science & Analytics HTML Template",
+  "description": "WiFiOne",
   "author": "goldenmace",
   "private": true,
   "scripts": {
@@ -53,12 +53,12 @@
   },
   "main": ".eslintrc.js",
   "repository": {
-    "type": "git",
-    "url": "git+https://gitlab.com/Goldenmace/xamin-vue.git"
+    "type": "",
+    "url": ""
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://gitlab.com/Goldenmace/xamin-vue/issues"
+    "url": ""
   },
-  "homepage": "https://gitlab.com/Goldenmace/xamin-vue#readme"
+  "homepage": ""
 }
