@@ -24,11 +24,6 @@ export default {
         },
         { href: '/about-1', title: 'About Us', children: false , child: landing1About, classname: ' ' },
         { href: '/services', title: 'Services', active: true , children: true, child: services, classname: ' ' },
-        // { href: '/masonry-2', title: 'Our Cases', children: false , child: ourCases, classname: ' ' },
-        // { href: '/blog', title: 'Blog', children: false , child: blog, classname: ' ' },
-        // eslint-disable-next-line standard/object-curly-even-spacing
-        // { href: '/our-team', title: 'Pages', children: false, child: pages, classname: ' '},
-        // { href: '/our-team', title: 'Pages', children: true, child: pages, classname: ' ' },
         { href: '/customers', title: 'Customers', active: true, children: false, child: pages, classname: ' '  },
         { href: '/contact-us', title: 'Contact Us', children: false, child: contacts, classname: ' ' }
       ]
