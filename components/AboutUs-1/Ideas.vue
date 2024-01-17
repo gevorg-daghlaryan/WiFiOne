@@ -6,9 +6,12 @@
       <img src="../../assets/images/about-us/man.png" alt="man" class="ideas-man">
     </div>
     <div class="mt-5 col-sm-8">
-      <h1 class="ideas-title mb-3">We’re in The Business of Hosting Great Ideas.</h1>
+      <h1 class="ideas-title mb-0">We’re in The Business of Hosting Great Ideas.</h1>
       <p class="ideas-text">"To empower businesses with performant, secure, and affordable <br> managed WiFi and network solutions, enabling them to thrive in the
-        <br> connected world"</p>
+        <br>
+        connected world"
+      </p>
+      <p class="author text-center mt-0">Daniel Blueman</p>
     </div>
   </div>
 </div>
@@ -40,6 +43,14 @@ export default {
   }
   .ideas-man {
     position: absolute;
-    bottom: -165px;
+    bottom: -180px;
+  }
+  .author {
+    color: #3F81D1;
+    text-align: center;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
   }
 </style>

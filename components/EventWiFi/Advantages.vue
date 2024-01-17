@@ -1,45 +1,60 @@
 <template>
-  <section class="event-section">
+  <section>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-sm-12 sidebar-service-left">
-          <h1 class="advantages-title mb-3">Unique Advantages</h1>
-          <ul class="advantages-list">
-            <li>Unwavering Network Performance</li>
-            <li>Enterprise-Grade Security</li>
-            <li>Adaptability and Versatility</li>
-            <li>Proactive Monitoring and Management</li>
-            <li>Detailed Reporting and Analytics</li>
-            <li>24/7 Expert Support</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-sm-12 pt-5 pt-lg-0">
-          <img src="../../assets/images/services/event-wifi.png" alt="">
+        <div class="col-lg-6 col-md-12 h-100" v-for="(list,index) in items" :key="index">
+          <CardStyle1>
+            <div slot="cardMedia" class="mb-2">
+              <img :src="list.src" alt="fancy-list" class="mx-auto">
+            </div>
+            <div slot="cardTitle">
+              <h5 class="mb-2">{{ list.title }}</h5>
+            </div>
+            <div slot="cardBody">
+              <p class="">{{ list.description }}</p>
+            </div>
+          </CardStyle1>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script >
+import CardStyle1 from "~/components/themes/Card/CardStyle1.vue";
+
 export default {
   name: 'Advantages',
+  components: { CardStyle1 },
+  data() {
+    return{
+      items : [
+        {
+          title: 'Smart Business Value',
+          description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
+          src: require('../../assets/images/home/services/08.png')
+        },
+        {
+          title: 'Secure by Design',
+          description: 'WPA3 wireless security, multi-level IP firewalling, and Zero Trust options for maximum wired security.',
+          src: require('../../assets/images/home/services/09.png')
+        },
+        {
+          title: '5G SIM-Based Instant Deployment',
+          description: 'Harnessing 5G tech for wire-free equipment placement. Optimize event support with strategic equipment locations in wifiONE\'s system.',
+          src: require('../../assets/images/home/services/02.png')
+        },
+        {
+          title: 'Captive Portal Option',
+          description: 'Customized portal reflecting your brand, mindshare, or advertising upon network connection.',
+          src: require('../../assets/images/home/services/01.png')
+        },
+      ]
+    }
+  }
 }
 </script>
 
 <style>
-  .advantages-title {
-    color: rgba(52, 62, 89, 0.75);
-    font-size: 40px;
-    font-weight: 600;
-  }
-  .advantages-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .event-section {
-    background-color: #EFF1FD;
-    margin: 0;
-  }
+
 </style>
 

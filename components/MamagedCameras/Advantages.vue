@@ -1,45 +1,55 @@
 <template>
-  <section class="advantages-section">
+  <section>
     <div class="container">
       <div class="row">
-        <div class="col-lg-8 col-sm-12 sidebar-service-left">
-          <h1 class="advantages-title mb-3">Unique Advantages</h1>
-          <ul class="advantages-list">
-            <li>Enhanced security</li>
-            <li>Streamlined access control</li>
-            <li>Real-time visibility and monitoring</li>
-            <li>Expert installation and ongoing support</li>
-            <li>Dedicated mobile app</li>
-            <li>Smart business value</li>
-          </ul>
-        </div>
-        <div class="col-lg-4 col-sm-12 pt-5 pt-lg-0">
-          <img src="../../assets/images/services/manag-cam.png" alt="">
+        <div class="col-lg-4 col-md-12 h-100" v-for="(list,index) in items" :key="index">
+          <CardStyle1>
+            <div slot="cardMedia" class="mb-2">
+              <img :src="list.src" alt="fancy-list" class="mx-auto">
+            </div>
+            <div slot="cardTitle">
+              <h5 class="mb-2">{{ list.title }}</h5>
+            </div>
+            <div slot="cardBody">
+              <p class="">{{ list.description }}</p>
+            </div>
+          </CardStyle1>
         </div>
       </div>
     </div>
   </section>
 </template>
 <script >
+import CardStyle1 from "~/components/themes/Card/CardStyle1.vue";
+
 export default {
   name: 'Advantages',
+  components: { CardStyle1 },
+  data() {
+    return{
+      items : [
+        {
+          title: 'Smart Business Value',
+          description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
+          src: require('../../assets/images/home/services/08.png')
+        },
+        {
+          title: 'Dedicated Mobile App',
+          description: 'Provision of a specialized mobile application for convenient and efficient management of services and connectivity on the go.',
+          src: require('../../assets/images/home/services/01.png')
+        },
+        {
+          title: 'Off-Site Viewing and History',
+          description: 'Capability for remote viewing and access to historical data, allowing for comprehensive monitoring and analysis beyond on-site presence.',
+          src: require('../../assets/images/home/services/09.png')
+        },
+      ]
+    }
+  }
 }
 </script>
 
 <style>
-  .advantages-title {
-    color: rgba(52, 62, 89, 0.75);
-    font-size: 40px;
-    font-weight: 600;
-  }
-  .advantages-list {
-    display: flex;
-    flex-direction: column;
-    gap: 6px;
-  }
-  .advantages-section {
-    background-color: #EFF1FD;
-    margin: 0;
-  }
+
 </style>
 

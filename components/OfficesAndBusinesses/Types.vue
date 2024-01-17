@@ -22,7 +22,7 @@
 <script>
 import CardStyle1 from '../themes/Card/CardStyle1'
 export default {
-  name: 'Services',
+  name: 'Types',
   components: { CardStyle1 },
   data() {
     return{
