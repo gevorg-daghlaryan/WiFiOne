@@ -6,12 +6,12 @@
       <img src="../../assets/images/about-us/man.png" alt="man" class="ideas-man">
     </div>
     <div class="mt-5 col-sm-8">
-      <h1 class="ideas-title mb-0">We’re in The Business of Hosting Great Ideas.</h1>
-      <p class="ideas-text">"To empower businesses with performant, secure, and affordable <br> managed WiFi and network solutions, enabling them to thrive in the
+      <h1 class="ideas-title text-center mb-0">We’re in The Business of Hosting Great Ideas.</h1>
+      <p class="ideas-text text-center">"To empower businesses with performant, secure, and affordable <br> managed WiFi and network solutions, enabling them to thrive in the
         <br>
         connected world"
       </p>
-      <p class="author text-center mt-0">Daniel Blueman</p>
+      <p class="ideas-author text-center mt-0">Daniel Blueman</p>
     </div>
   </div>
 </div>
@@ -25,7 +25,6 @@ export default {
 <style>
   .ideas-title {
     color: #343E59;
-    text-align: center;
     font-size: 32px;
     font-weight: 400;
   }
@@ -37,7 +36,6 @@ export default {
   }
   .ideas-text {
     color: #343E59;
-    text-align: center;
     font-size: 19px;
     font-weight: 400;
   }
@@ -45,9 +43,8 @@ export default {
     position: absolute;
     bottom: -180px;
   }
-  .author {
+  .ideas-author {
     color: #3F81D1;
-    text-align: center;
     font-size: 20px;
     font-style: normal;
     font-weight: 600;
