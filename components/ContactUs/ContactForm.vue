@@ -33,7 +33,7 @@
         <div class="mt-5 col-sm-6 offset-lg-1 col-lg-5 offset-md-1 col-md-5">
           <div class="wrapper">
             <div class="contact-box d-flex">
-              <i aria-hidden="true" class="fas fa-envelope" />
+              <i aria-hidden="true" class="fa-regular fa-envelope"></i>
               <div class="service-detail">
                 <h4 class="mb-2">
                   Email us

@@ -35,22 +35,22 @@ export default {
     return {
       items: [
         {
-          title: 'Can you integrate with existing networks?'
+          title: 'Can You Integrate With Existing Networks?'
         },
         {
-          title: 'What are your support points of contact?'
+          title: 'What Are Your Support Points Of Contact?'
         },
         {
-          title: 'What differentiates you from the competitors?'
+          title: 'What Differentiates You From The Competitors?'
         },
         {
-          title: 'How can you achieve better pricing than the competition?'
+          title: 'How Can You Achieve Better Pricing Than The Competition?'
         },
         {
-          title: 'Can your networks be customised to integrate existing systems?'
+          title: 'Can Your Networks Be Customised To Integrate Existing Systems?'
         },
         {
-          title: 'How does your WiFi and networks improve my security?'
+          title: 'How Does Your WiFi And Networks Improve My Security?'
         },
       ],
       description: [
