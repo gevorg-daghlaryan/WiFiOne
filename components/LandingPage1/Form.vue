@@ -80,7 +80,7 @@ export default {
     return {
       defaultValue: 200,
       value: 0,
-      coverageOptimized: false,
+      coverageOptimized: true,
       performanceUpgrade: false,
       powerMonitoring: false,
       lteBackup: false,

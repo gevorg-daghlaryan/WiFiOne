@@ -1,5 +1,5 @@
 <template>
-  <section>
+  <section class="pt-0">
     <div class="container">
       <div class="row">
         <div class="col-lg-4 col-md-6 h-100" v-for="(list,index) in items" :key="index">

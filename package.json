@@ -1,7 +1,5 @@
 {
-  "name": "WiFiOne",
   "version": "1.0.0",
-  "description": "WiFiOne",
   "author": "goldenmace",
   "private": true,
   "scripts": {

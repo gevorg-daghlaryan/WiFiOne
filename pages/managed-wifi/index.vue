@@ -24,6 +24,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Managed WiFi and Networks | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'wifiOne provides seamless connectivity with managed WiFi and network solutions. High-quality, secure coverage and equipment layout for strong WiFi .'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

@@ -24,6 +24,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Managed Music Systems | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Create the perfect ambiance with managed multi-zone music speakers and get full control, monitoring and management and user-friendly interface.'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

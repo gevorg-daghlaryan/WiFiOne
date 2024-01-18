@@ -2,8 +2,8 @@
   <section class="about-us-top">
       <div class="container">
         <div class="about-us-top-wrapper">
-          <h1 class="text-white about-us-top-title"> Contact Us</h1>
-          <p class="text-white about-us-top-text">We welcome your inquiries—use the form below to get in touch.</p>
+          <h1 class="text-white about-us-top-title">About Us</h1>
+          <p class="text-white about-us-top-text">Beyond Connectivity: Get to Know WifiOne – Your Trusted Partner in Transformative Network Solutions.</p>
           <div class="text-left">
             <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
           </div>

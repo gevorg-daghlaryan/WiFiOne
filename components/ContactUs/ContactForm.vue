@@ -36,12 +36,12 @@
               <i aria-hidden="true" class="fa-regular fa-envelope"></i>
               <div class="service-detail">
                 <h4 class="mb-2">
-                  Email us
+                  Direct Email Contacts:
                 </h4>
                 <ul class="list-inline mb-0">
                   <li><a href="mailto:support@iqnonicthemes.com"> General Inquiries: interact@wifione.co  </a></li>
                   <li><a href="mailto:support@iqnonicthemes.com"> Technical Support: wifi-support@wifione.co</a></li>
-                  <li><a href="mailto:support@iqnonicthemes.com"> Sales and Partnerships: interact@wifione.co  </a></li>
+                  <li><a href="mailto:support@iqnonicthemes.com"> Sales and Partnerships: interact@wifione.co </a></li>
                 </ul>
               </div>
             </div>

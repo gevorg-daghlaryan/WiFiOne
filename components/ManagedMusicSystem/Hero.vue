@@ -5,18 +5,19 @@
         <div class="col-lg-10">
           <div class="managed-music-top-wrapper">
             <h1 class="text-white">Managed Music System</h1>
-            <p class="text-white managed-music-top-text">Welcome to Site Managed Cameras page Welcome to Site Managed Cameras page .</p>
+            <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
+              <br> experiences in various areas.</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
             </div>
           </div>
         </div>
-        <div class="col-lg-2 image">
+        <div class="col-lg-2 image d-none d-lg-block">
           <img src="../../assets/images/services/load.png" alt="">
         </div>
       </div>
       <div>
-        <div class="loader-container">
+        <div class="loader-container ">
           <div class="rectangle-1"></div>
           <div class="rectangle-2"></div>
           <div class="rectangle-3"></div>
@@ -49,7 +50,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  height: 490px;
+
 }
 .managed-music-top-text {
   font-size: 21px;

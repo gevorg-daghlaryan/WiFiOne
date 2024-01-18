@@ -9,7 +9,7 @@
         <br>solutions that "just work."<br>
         In 2019, wifiOne transitioned from a hobby project to a sole proprietorship, marking a significant step in our growth. Two years later, in
          2021, we incorporated, solidifying our commitment to providing enterprise-grade WiFi solutions to a wider audience.
-
+        <br>
         Today, wifiOne stands as a boutique solution provider, specializing in delivering performant and secure managed WiFi and networks at
          an affordable price point.
       </p>
@@ -27,7 +27,6 @@ export default {
     background-image: url("../../assets/images/about-us/story-bg.png");
     background-position: right;
     background-repeat: no-repeat;
-    height: 490px;
   }
   .story-title {
     color: #3F81D1;

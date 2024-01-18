@@ -57,6 +57,18 @@ export default {
       }]
     }
   },
+  head() {
+    return {
+      title: 'About Us | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'wifiOne is a boutique solution provider, specializing in delivering performant and secure managed WiFi and networks at an affordable price point.'
+        }
+      ],
+    }
+  },
   mounted () {
     // const layout = themes.getCookie('layout')
     // this.$nuxt.setLayout(layout)

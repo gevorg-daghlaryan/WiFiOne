@@ -5,7 +5,7 @@
     <div class="col-sm-4 d-none d-lg-block">
       <img src="../../assets/images/about-us/man.png" alt="man" class="ideas-man">
     </div>
-    <div class="mt-5 col-sm-8">
+    <div class="mt-5 col-sm-12 col-lg-8">
       <h1 class="ideas-title text-center mb-0">We’re in The Business of Hosting Great Ideas.</h1>
       <p class="ideas-text text-center">"To empower businesses with performant, secure, and affordable <br> managed WiFi and network solutions, enabling them to thrive in the
         <br>

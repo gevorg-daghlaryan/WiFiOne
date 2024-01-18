@@ -25,6 +25,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Event WiFi | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'wifiOne brings event WiFi solutions to events of all sizes. We specialize in providing secure, fast, and reliable connectivity-ideal or indoor and outdoor events.'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

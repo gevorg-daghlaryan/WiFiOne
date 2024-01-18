@@ -44,6 +44,18 @@ export default {
     ContactUs1,
     Footer
   },
+  head() {
+    return {
+      title: 'Managed WiFi and Network Solutions',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Reliable, high-performance networking tailored to your business needs. Experience seamless connectivity with our managed WiFi and network solutions'
+        }
+      ],
+    }
+  },
   mounted () {
     document.cookie = 'layout=LandingPage1'
     setTimeout(function () {

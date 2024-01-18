@@ -34,6 +34,18 @@ export default {
     Hero,
     Customer,
   },
+  head() {
+    return {
+      title: 'Clients | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'The spectrum of wifiOne clientele ranges from offices and businesses to event companies, hotels, restaurants, and more. We deliver seamless, reliable connectivity. '
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

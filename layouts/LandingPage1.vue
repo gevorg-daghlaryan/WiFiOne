@@ -1,10 +1,9 @@
 <template>
-  <div>
-<!--    <Loader />-->
-    <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" class-name="style-one" :styled-logo="styleLogo" />
-    <nuxt />
-    <ScrollTop />
-  </div>
+    <div>
+      <HeaderStyle1 :logo-img="logo" :nav-item-list="navItems" class-name="style-one" :styled-logo="styleLogo" />
+      <nuxt />
+      <ScrollTop />
+    </div>
 </template>
 <script>
 import {menu, services, pages, landing1About, ourCases, blog, contacts} from '../config/constant.js'

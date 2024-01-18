@@ -8,7 +8,7 @@
         </div>
       </div>
       <div class="row wow fadeInUp offset-lg-2">
-        <div v-for="(option,index) in images2" :key="index" class="col-lg-3 col-md-4">
+        <div v-for="(option,index) in images2" :key="index" class="col-lg-4 col-md-4">
           <div class="xamin-award wow fadeInUp text-center">
             <div class="award-img"> <img :src="option.src" alt="fancybox"> </div>
             <h5 class="mt-3">{{ option.title }}</h5>

@@ -31,6 +31,18 @@ export default {
     Footer,
     Hero,
   },
+  head() {
+    return {
+      title: 'Offices and Businesses | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Improve workplace productivity with wifiOne\'s services for offices and businesses. We offer high-performance WiFi solutions for your team.'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

@@ -46,7 +46,7 @@ export default {
         {
           icon: true,
           iconClass: 'fas fa-location-dot',
-          text: '1 Keong Saik Road, Singapore'
+          text: '1 Keong Saik Road, Singapore 089109'
         }
       ],
       footerHome: [

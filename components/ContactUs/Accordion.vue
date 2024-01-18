@@ -7,8 +7,8 @@
             <div v-for="(item,index) in items" :key="index" class="iq-accordion-block">
               <div class="active-faq clearfix">
                 <div class="container">
-                  <div class="row align-items-center">
-                    <div class="col-md-9 col-sm-12">
+                  <div class="row ">
+                    <div class="col-md-12 col-sm-12">
                       <a href="javascript:void(0)" class="accordion-title"><span>{{ item.title }}</span></a>
                     </div>
                   </div>

@@ -7,7 +7,7 @@
   </div>
 </template>
 <script>
-import {menu, services, pages, landing1About, ourCases, blog, contacts} from '../config/constant.js'
+import {menu, services, pages, landing1About,contacts} from '../config/constant.js'
 import logoImg from '../assets/images/logo_1.svg'
 export default {
   name: 'ContactUs',

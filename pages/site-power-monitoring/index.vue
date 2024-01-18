@@ -24,6 +24,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Site Power Monitoring | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Automated notifications for site power loss, active electromagnetic doors, access control systems, seamless work of  online camera systems, easy fixing failures'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

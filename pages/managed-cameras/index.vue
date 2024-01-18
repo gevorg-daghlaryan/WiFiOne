@@ -24,6 +24,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Managed Cameras | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Advanced security solutions with wifiOne managed cameras and access systems. High-definition cameras, access control, high security standards.'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

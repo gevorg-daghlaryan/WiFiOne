@@ -23,6 +23,18 @@ import SupportTitle from "~/components/ContactUs/SupportTitle.vue";
 import Map from "~/components/ContactUs/Map.vue";
 export default {
   layout: 'ContactUs',
+  head() {
+    return {
+      title: 'Contact us | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Reach out through our contact us page to explore collaboration, get answers to your queries, or share feedback. We\'re here to assist you on your journey.'
+        }
+      ],
+    }
+  },
   components: {
     Map,
     SupportTitle,

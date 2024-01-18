@@ -24,6 +24,18 @@ export default {
     Hero,
     Footer
   },
+  head() {
+    return {
+      title: 'Media Wall and Signage | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'wifiOne\'s Managed Media Wall and Signage service is designed to enhance communication through dynamic and effective message delivery.'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

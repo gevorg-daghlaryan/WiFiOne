@@ -38,6 +38,18 @@ export default {
     Support,
     Footer
   },
+  head() {
+    return {
+      title: 'High-performance WiFi Services | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'wifiOne services - managed WiFi and networks, event WiFi solutions, managed cameras and access systems, site power monitoring, managed media wall, etc'
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()

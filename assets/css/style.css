@@ -29,12 +29,12 @@ NOTE: This is main stylesheet of template, This file contains the styling for th
 *::-moz-selection { background: #437eeb; color: #ffffff; text-shadow: none; }
 ::-moz-selection { background: #437eeb; color: #ffffff; text-shadow: none; }
 ::selection { background: #437eeb; color: #ffffff; text-shadow: none; }
-body { font-family: 'Karla', sans-serif; font-weight: normal; font-style: normal; font-size: 1em; line-height: 30px; color: #525f81; overflow-x: hidden !important; overflow-y: inherit !important; }
+body { font-family: 'Proxima Nova', sans-serif; font-weight: normal; font-style: normal; font-size: 1em; line-height: 30px; color: #525f81; overflow-x: hidden !important; overflow-y: inherit !important; }
 a, .button { transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; color: #525f81; }
 a:focus { text-decoration: none !important; }
 a:hover { text-decoration: none; }
 a, .button, input { outline: medium none !important; color: #437eeb; }
-h1, h2, h3, h4, h5, h6 { font-family: 'Lato', sans-serif; color: #313e5b; margin: 0; -ms-word-wrap: break-word; word-wrap: break-word; line-height: 1.5em; font-weight: bold; }
+h1, h2, h3, h4, h5, h6 { font-family: 'Proxima Nova', sans-serif; color: #313e5b; margin: 0; -ms-word-wrap: break-word; word-wrap: break-word; line-height: 1.5em; font-weight: bold; }
 h1 a, h2 a, h3 a, h4 a, h5 a, h6 a { color: inherit; }
 a h1, a h2, a h3, a h4, a h5, a h6 { color: #313e5b; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 a:hover h1, a:hover h2, a:hover h3, a:hover h4, a:hover h5, a:hover h6 { color: #437eeb; }
@@ -89,7 +89,7 @@ label { color: #313e5b; margin-bottom: 0; }
 input, input[type=text], input[type=email], input[type=search], input[type=password], textarea { width: 100%; float: left; padding: 0 15px; height: 48px; line-height: 48px; background: #ffffff; border: 1px solid #eff1fe; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; color: #525f81; transition: all 0.5s ease-in-out; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 select { border: 1px solid rgba(36, 38, 43, 0.14); background: #ffffff; line-height: 48px; height: 48px; padding: 0 10px; width: 100%; color: #525f81; -webkit-border-radius: 0; -moz-border-radius: 0; border-radius: 0; transition: all 0.5s ease-in-out; -moz-transition: all 0.5s ease-in-out; -ms-transition: all 0.5s ease-in-out; -o-transition: all 0.5s ease-in-out; -webkit-transition: all 0.5s ease-in-out; }
 textarea { padding: 0 15px; height: 150px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; }
-input:focus, input[type=text]:focus, input[type=email]:focus, input[type=search]:focus, input[type=password]:focus, textarea:focus, select:focus { border-color: #437eeb; box-shadow: none; outline: none; }
+/*input:focus, input[type=text]:focus, input[type=email]:focus, input[type=search]:focus, input[type=password]:focus, textarea:focus, select:focus { border-color: #437eeb; box-shadow: none; outline: none; }*/
 input::-webkit-input-placeholder { color: inherit; }
 input::-moz-placeholder { color: inherit; }
 input:-ms-input-placeholder { color: inherit; }
@@ -429,7 +429,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 .title-box h2 { margin-bottom: 15px; }
 .title-box-space, .title-box.text-left.title-box-space { margin-bottom: 30px; }
 .title-box .title-design { font-family: 'Lato', sans-serif; font-weight: normal; color: #437eeb; display: inline-block; position: relative; text-transform: uppercase; }
-.title-box.text-left { margin-bottom: 30px; }
+.title-box.text-left { margin-bottom: 0px; }
 .title-box span.title-design.sub-title { color: #ffffff; }
 .title-box.text-white h2 { color: #ffffff; }
 .title-box span.title-design.sub-title:before { background: #ffffff; content: ""; }

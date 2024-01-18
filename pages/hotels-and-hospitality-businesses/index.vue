@@ -31,6 +31,18 @@ export default {
     Footer,
     Hero,
   },
+  head() {
+    return {
+      title: 'Hospitality | wifiOne',
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: 'Transform guest experiences in the hospitality industry with reliable WiFi solutions. Get seamless connectivity, guest satisfaction, and higher service standards. '
+        }
+      ],
+    }
+  },
   mounted () {
     setTimeout(function () {
       themes.index()
