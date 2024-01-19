@@ -24,10 +24,11 @@ export default {
 </script>
 <style>
   .support-section {
-    background-image: url("../../assets/images/home/bg1.png");
+    background-image: url("../../assets/images/home/bg1.svg");
     background-color: #EFF1FD;
-    background-size: contain;
+    background-size: 1201px 1139px;
     background-repeat: repeat-y;
+    background-position: 88px;
   }
   .support-text {
     color: #3F81D1;

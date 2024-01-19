@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-6 col-md-6" v-for="(list,index) in items" :key="index">
           <div>
-            <span class="title">{{list.title}}</span>
+            <span class="choose-title">{{list.title}}</span>
             <p class="choose-text">{{list.description}}</p>
           </div>
         </div>
@@ -40,7 +40,7 @@ export default {
 }
 </script>
 <style>
-.title {
+.choose-title {
   color: #3F81D1;
   font-size: 24px;
   font-weight: 400;
@@ -52,5 +52,6 @@ export default {
   color: #343E59;
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 50px;
 }
 </style>

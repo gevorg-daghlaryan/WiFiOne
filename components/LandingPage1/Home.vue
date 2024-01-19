@@ -17,8 +17,8 @@
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title mb-3">Your Premier WiFi Partner: <br>Tailored solutions <br>supporting your business</h2>
-            <p class="text-white text-left mb-5">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
+            <h2 class="text-white text-left slider-title ">Your Premier WiFi Partner: <br class="d-none d-lg-block">Tailored solutions <br class="d-none d-lg-block">supporting your business</h2>
+            <p class="text-white text-left ">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
             </div>
@@ -30,8 +30,8 @@
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title mb-3">Event WiFi</h2>
-            <p class="text-white text-left mb-5">Enterprice Access Point, LTE or existing <br> backhaul, cloud AP controllers </p>
+            <h2 class="text-white text-left slider-title ">Event WiFi</h2>
+            <p class="text-white text-left ">Enterprice Access Point, LTE or existing <br class="d-none d-lg-block"> backhaul, cloud AP controllers </p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
             </div>
@@ -43,8 +43,8 @@
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title mb-3">Service Industry WiFi </h2>
-            <p class="text-white text-left mb-5">Enterprise Access Points and routers, click through portal, <br> Quality of Service, customer and back-office/PoS WiFi</p>
+            <h2 class="text-white text-left slider-title ">Service Industry WiFi </h2>
+            <p class="text-white text-left ">Enterprise Access Points and routers, click through portal, <br class="d-none d-lg-block"> Quality of Service, customer and back-office/PoS WiFi</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
             </div>
@@ -56,8 +56,8 @@
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title mb-3">Integrated Hotel WiFi</h2>
-            <p class="text-white text-left mb-5">Customer portal, integration, enterprise Access Points</p>
+            <h2 class="text-white text-left slider-title ">Integrated Hotel WiFi</h2>
+            <p class="text-white text-left ">Customer portal, integration, enterprise Access Points</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
             </div>
@@ -91,9 +91,10 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: start;
+    gap: 35px;
   }
   .slider-title {
-    font-size: 3rem;
+    font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
@@ -109,4 +110,12 @@ export default {
   .carousel-caption {
     height: 100%;
   }
+  @media only screen and (max-width: 960px) {
+      .slider-title {
+        font-size: 20px;
+      }
+    .slider-content {
+      gap: 0;
+    }
+    }
 </style>

@@ -16,7 +16,7 @@
               </div>
               <div class="accordion-details">
                 <div class="container">
-                  <div class="row mt-4 w-50">
+                  <div class="row mt-4 w-50 ">
                     <p>Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred</p>
                   </div>
                 </div>
@@ -112,10 +112,8 @@ export default {
     jQuery('.iq-accordion .iq-accordion-block .accordion-details').hide()
     // jQuery('.iq-accordion .iq-accordion-block:first').addClass('accordion-active').children().slideDown('slow')
     jQuery('.iq-accordion .iq-accordion-block').on('click', function () {
-      if (jQuery(this).children('div.accordion-details ').is(':hidden')) {
-        jQuery('.iq-accordion .iq-accordion-block').removeClass('accordion-active').children('div.accordion-details ').slideUp('slow')
-        jQuery(this).toggleClass('accordion-active').children('div.accordion-details ').slideDown('slow')
-      }
+      jQuery('.iq-accordion .iq-accordion-block').not(this).removeClass('accordion-active').children('div.accordion-details ').slideUp('slow');
+      jQuery(this).toggleClass('accordion-active').children('div.accordion-details ').slideToggle('slow');
     })
   }
 }

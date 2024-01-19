@@ -1,5 +1,5 @@
 <template>
-  <section class="position-relative xamin-blue-bg overview-block-ptb contact-section">
+  <section class="position-relative xamin-blue-bg overview-block-ptb home-contact-section">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
@@ -25,9 +25,11 @@ export default {
 }
 </script>
 <style>
-.contact-section {
-  background-image: url("../../assets/images/home/bg1.png");
-  background-size: contain;
+.home-contact-section {
+  background-image: url("../../assets/images/home/bg2.svg");
   background-repeat: repeat-y;
+  background-size: 651px 787px;
+  background-position-y: center;
+  background-position-x: 91px;
 }
 </style>

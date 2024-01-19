@@ -1,11 +1,11 @@
 <template>
   <section class="pt-[120px]">
     <div class="container">
+      <h2 class="text-left mb-4">
+        Let's talk about  your business.
+      </h2>
       <div class="row align-items-center ">
         <div class="col-sm-6">
-          <h2 class="text-left mb-4">
-            Let's talk about for your<br> business.
-          </h2>
           <div class="response-output" />
           <form action="#" method="post">
             <div class="contact-form">

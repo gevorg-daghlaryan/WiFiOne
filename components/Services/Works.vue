@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="title-box wow fadeInUp text-center">
-            <span class="title-design font-weight-bold">HOW IT WORKS</span>
+            <span class="work-header">HOW IT WORKS</span>
             <h1 class="">How Does WiFiOne Work</h1>
           </div>
         </div>
@@ -70,3 +70,12 @@ export default {
   }
 }
 </script>
+<style>
+  .work-header {
+    color: #3F81D1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+</style>

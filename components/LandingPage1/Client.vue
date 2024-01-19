@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12 wow fadeInUp">
           <div class="title-box wow fadeInUp text-center">
-            <span class="title-design font-weight-bold">TRUSTED BY</span>
+            <span class="clients-header">TRUSTED BY</span>
           </div>
         </div>
         <div class="col-md-12">
@@ -77,3 +77,12 @@ export default {
   }
 }
 </script>
+<style>
+ .clients-header {
+   color: #3F81D1;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+ }
+</style>

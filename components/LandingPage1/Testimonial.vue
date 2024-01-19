@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-sm-12 wow fadeInUp">
           <div class="title-box wow fadeInUp text-center">
-            <span class="title-design">TESTIMONIAL</span>
+            <span class=" testimonial-title">TESTIMONIAL</span>
             <h3>100+ people are benefiting from wifiOne's solutions</h3>
             <span>“Unparalleled WiFi Solutions, Praised by Our Customers"</span>
           </div>
@@ -71,3 +71,13 @@ export default {
   }
 }
 </script>
+<style>
+ .testimonial-title {
+   color: #3F81D1;
+   text-align: center;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+ }
+</style>

@@ -1,11 +1,11 @@
 <template>
   <section class="choose">
     <div class="container">
-      <h2  class="text-center choose-title mb-5">WHY CHOOSE US</h2>
+      <h2  class="text-center choose-header mb-5">WHY CHOOSE US</h2>
       <div class="row">
         <div class="col-lg-6 col-md-6" v-for="(list,index) in items" :key="index">
           <div>
-            <span class="title">{{list.title}}</span>
+            <span class="choose-title">{{list.title}}</span>
             <p class="choose-text">{{list.description}}</p>
           </div>
         </div>
@@ -41,23 +41,29 @@ export default {
 }
 </script>
 <style>
-.title {
+.choose-title {
   color: #3F81D1;
   font-size: 24px;
   font-weight: 400;
+  margin-bottom: 10px;
 }
 .choose {
   padding-top: 0px;
 }
-.choose-title {
-  color:#3F81D1;
+.choose-header {
+  color: #3F81D1;
   font-size: 30px;
   font-style: normal;
   font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
 }
 .choose-text {
   color: #343E59;
   font-size: 24px;
+  font-style: normal;
   font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
 }
 </style>

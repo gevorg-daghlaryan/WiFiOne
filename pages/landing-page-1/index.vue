@@ -6,9 +6,9 @@
       <ChooseUs />
       <Counter />
       <Services />
+      <ContactUs />
       <Testimonial />
       <Client />
-      <ContactUs />
       <Form />
       <ContactUs1/>
     </div>

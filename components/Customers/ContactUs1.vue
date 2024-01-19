@@ -23,9 +23,10 @@ export default {
 </script>
 <style>
 .contact-section-customer{
-  background-image: url("../../assets/images/home/bg1.png");
-  background-size: contain;
+  background-image: url("../../assets/images/home/bg1.svg");
+  background-size: 1201px 1139px;
   background-repeat: repeat-y;
+  background-position: 88px;
   background-color: #EFF1FD;
 }
 .contact-title {

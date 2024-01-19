@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row">
         <div class="col-md-12 wow fadeInUp title-box text-center">
-          <span class="title-design">Awards</span>
+          <span class="awards-title">Awards</span>
           <h2>Awards &amp; Accreditations</h2>
         </div>
       </div>
@@ -41,3 +41,14 @@ export default {
   }
 }
 </script>
+<style>
+  .awards-title {
+    color: #3F81D1;
+    text-align: right;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+</style>

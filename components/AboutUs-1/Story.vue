@@ -30,8 +30,10 @@ export default {
   }
   .story-title {
     color: #3F81D1;
-    font-size: 19px;
+    font-size: 30px;
+    font-style: normal;
     font-weight: 600;
+    line-height: normal;
   }
   .story-text {
     color: #343E59;

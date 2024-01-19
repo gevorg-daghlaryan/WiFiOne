@@ -1,5 +1,5 @@
 <template>
-  <section class="position-relative  overview-block-ptb contactus-section">
+  <section class="position-relative  overview-block-ptb contactus-section-2">
     <div class="container">
       <div class="row">
         <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
@@ -22,11 +22,11 @@ export default {
 }
 </script>
 <style>
-.contactus-section {
-  background-image: url("../../assets/images/home/bg1.png");
-  background-size: contain;
+.contactus-section-2 {
+  background-image: url("../../assets/images/home/bg1.svg");
+  background-size: 1201px 1139px;
   background-repeat: repeat-y;
-  background-position: 103px;
+  background-position: 88px;
 }
 
 </style>

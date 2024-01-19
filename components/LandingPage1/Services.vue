@@ -4,12 +4,12 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="title-box wow fadeInUp text-center">
-            <span class="title-design font-weight-bold">Services</span>
+            <span class="about-services-header">Services</span>
           </div>
         </div>
       </div>
       <div class="row">
-        <div class="col-lg-4 col-md-6" v-for="(list,index) in items" :key="index">
+        <div class="col-lg-4 col-md-6 mb-5" v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia">
               <img :src="list.src" alt="fancy-list">
@@ -83,3 +83,12 @@ export default {
   }
 }
 </script>
+<style>
+ .about-services-header {
+   color:#3F81D1;
+   font-size: 30px;
+   font-style: normal;
+   font-weight: 600;
+   line-height: normal;
+ }
+</style>
