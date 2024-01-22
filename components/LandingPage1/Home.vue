@@ -110,6 +110,10 @@ export default {
   .carousel-caption {
     height: 100%;
   }
+  .carousel-item img {
+    height: 490px;
+    object-fit: cover;
+  }
   @media only screen and (max-width: 960px) {
       .slider-title {
         font-size: 20px;

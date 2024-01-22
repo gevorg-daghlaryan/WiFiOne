@@ -490,7 +490,7 @@ article.hentry .iq-blog-detail .blog-content .page-links a:hover { color: #fff; 
 .service-box i { font-size: 50px; margin-right: 30px; line-height: 70px; display: inline-block; color: #437eeb; }
 .service-box .iq-list li i { font-size: 18px; position: absolute; top: 8px; left: 0; display: inline-block; line-height: initial; }
 .service-box .iq-list li span { color: #313e5b; }
-.service-detail { flex: 1; }
+/*.service-detail { flex: 1; }*/
 .service-box .service-detail p { margin-bottom: 0px }
 .services-advanced .service-detail h4 { color: #313e5b; font-size: 24px; }
 .service-box  .service-detail .iq-list { margin-top: 15px; }

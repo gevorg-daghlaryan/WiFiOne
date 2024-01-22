@@ -16,7 +16,7 @@
               </div>
               <div class="accordion-details">
                 <div class="container">
-                  <div class="row mt-4 w-50">
+                  <div class="row mt-4 w-100">
                     <p>Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred</p>
                   </div>
                 </div>

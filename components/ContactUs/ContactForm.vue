@@ -2,10 +2,10 @@
   <section class="pt-[120px]">
     <div class="container">
       <h2 class="text-left mb-4">
-        Let's talk about  your business.
+        Let's talk about  your business
       </h2>
-      <div class="row align-items-center ">
-        <div class="col-sm-6">
+      <div class="row align-items-start ">
+        <div class="col-sm-7">
           <div class="response-output" />
           <form action="#" method="post">
             <div class="contact-form">
@@ -30,40 +30,28 @@
             </div>
           </form>
         </div>
-        <div class="mt-5 col-sm-6 offset-lg-1 col-lg-5 offset-md-1 col-md-5">
+        <div class="mt-5  mx-0 col-sm-5 offset-lg-1 col-lg-5 offset-md-1 col-md-5">
           <div class="wrapper">
-            <div class="contact-box d-flex">
+            <div class="contact-box d-flex justify-content-start align-items-start">
               <i aria-hidden="true" class="fa-regular fa-envelope"></i>
               <div class="service-detail">
-                <h4 class="mb-2">
+                <h4 class="mb-2 contact-us-title">
                   Direct Email Contacts:
                 </h4>
-                <ul class="list-inline mb-0">
+                <ul class="list-inline mb-0 contact-links">
                   <li><a href="mailto:support@iqnonicthemes.com"> General Inquiries: interact@wifione.co  </a></li>
                   <li><a href="mailto:support@iqnonicthemes.com"> Technical Support: wifi-support@wifione.co</a></li>
                   <li><a href="mailto:support@iqnonicthemes.com"> Sales and Partnerships: interact@wifione.co </a></li>
                 </ul>
               </div>
             </div>
-<!--            <div class="contact-box d-flex">-->
-<!--              <i aria-hidden="true" class="ion ion-android-call" />-->
-<!--              <div class="service-detail">-->
-<!--                <h4 class="mb-2">-->
-<!--                  Phone support-->
-<!--                </h4>-->
-<!--                <ul class="list-inline mb-0">-->
-<!--                  <li> <a href="tel:+0123456789"> +0123456789</a> </li>-->
-<!--                  <li> <a href="tel:+0123456789"> +0123456789</a> </li>-->
-<!--                </ul>-->
-<!--              </div>-->
-<!--            </div>-->
-            <div class="contact-box d-flex">
+            <div class="contact-box d-flex justify-content-start  align-items-start">
               <i aria-hidden="true" class="ion ion-android-share-alt" />
               <div class="service-detail">
-                <h4 class="mb-2">
+                <h4 class="mb-2 contact-us-title">
                   Social media
                 </h4>
-                <ul>
+                <ul class="contact-links">
                   <li class="d-inline">
                     <a href="#"><i class="fa fa-facebook-f" /></a>
                   </li>
@@ -90,6 +78,18 @@ export default {
 <style>
   .form-button {
     font-size: 14px;
-    width: 100%;
+  }
+  .contact-us-title {
+    color: #313E5B;
+    font-size: 23px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
+  .contact-links {
+    color: #515F81;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
   }
 </style>

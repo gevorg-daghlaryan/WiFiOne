@@ -3,8 +3,8 @@
     <div class="container">
       <div class="row">
         <div class="col-lg-12">
-          <div class="title-box wow fadeInUp text-center">
-            <span class="about-services-header">Services</span>
+          <div class="wow fadeInUp text-center mb-4">
+            <span class="about-services-header">SERVICES</span>
           </div>
         </div>
       </div>
@@ -89,6 +89,5 @@ export default {
    font-size: 30px;
    font-style: normal;
    font-weight: 600;
-   line-height: normal;
  }
 </style>
