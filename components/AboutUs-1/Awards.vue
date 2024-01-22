@@ -7,7 +7,7 @@
           <h2>Awards &amp; Accreditations</h2>
         </div>
       </div>
-      <div class="row wow fadeInUp offset-lg-2">
+      <div class="row wow fadeInUp offset-lg-2 mx-auto">
         <div v-for="(option,index) in images2" :key="index" class="col-lg-4 col-md-4">
           <div class="xamin-award wow fadeInUp text-center">
             <div class="award-img"> <img :src="option.src" alt="fancybox"> </div>

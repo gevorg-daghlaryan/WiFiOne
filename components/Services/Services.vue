@@ -2,7 +2,7 @@
   <section class="aboutus-two-service">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-6 h-100" v-for="(list,index) in items" :key="index">
+        <div class="col-lg-4 col-md-6 mb-5" v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia">
               <img :src="list.src" alt="fancy-list">
