@@ -1,15 +1,15 @@
 <template>
   <section>
     <div class="container">
-      <div class="row">
-        <div class="col-lg-4 col-sm-12 sidebar-service-left">
+      <div class="row ">
+        <div class="col-lg-4 col-sm-6 sidebar-service-left ">
           <CardStyle5 :card-menu="menu_item" />
         </div>
         <div class="col-lg-8 col-sm-12 pt-5 pt-lg-0">
           <h1 class="service-title">Why do you need this service?</h1>
-          <p>Your current WiFi is slow with dead zones, buffering and occasional network failures. You need full coverage, high speed and enterprise-grade reliability.</p>
+          <p>You've experienced the shortcomings of inadequate security solutions in the past, leading to costly incidents and disruptions. Today, you seek a trusted partner who can deliver a robust and smoothly integrated system that enhances security, improves operational efficiency, and provides peace of mind.</p>
           <h1 class="service-title">our solution</h1>
-          <p>Coverage is carefully planned according to your office layout, tailored to your specific needs. Our qualified technicians handle setup, installation and ongoing support using equipment from a leading US enterprise brand without the steep up-front investment; no hidden fees or unexpected charges.</p>
+          <p>WifiOne Managed Cameras and Access Systems provide comprehensive security solutions with high-definition cameras, advanced access control, and 24/7 monitoring. These features simplify access management and improve operational efficiency. Real-time video feeds and alerts offer real-time insights into activity and enable quick response to incidents.</p>
         </div>
       </div>
     </div>

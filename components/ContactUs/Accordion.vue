@@ -16,8 +16,8 @@
               </div>
               <div class="accordion-details">
                 <div class="container">
-                  <div class="row mt-4 w-100 ">
-                    <p class="accordion-description">Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred</p>
+                  <div class="row mt-4 w-100  ml-4">
+                    <p class="accordion-description">{{item.description}}</p>
                   </div>
                 </div>
               </div>
@@ -35,76 +35,30 @@ export default {
     return {
       items: [
         {
-          title: 'Can You Integrate With Existing Networks?'
+          title: 'Can You Integrate With Existing Networks?',
+          description: 'Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred',
         },
         {
-          title: 'What Are Your Support Points Of Contact?'
+          title: 'What Are Your Support Points Of Contact?',
+          description: 'We offer realtime support via WhatsApp messaging and calling, as well as form submission and email',
         },
         {
-          title: 'What Differentiates You From The Competitors?'
+          title: 'What Differentiates You From The Competitors?',
+          description: 'wifiOne uses best-in-class enterprise equipment to offer optimal reliability and performance for cost-senstive markets',
         },
         {
-          title: 'How Can You Achieve Better Pricing Than The Competition?'
+          title: 'How Can You Achieve Better Pricing Than The Competition?',
+          description: 'wifiOne has a lean structure of experts, enabled by cloud automation and proven configurations; this allows attention to be spent where it makes the most difference',
         },
         {
-          title: 'Can Your Networks Be Customised To Integrate Existing Systems?'
+          title: 'Can Your Networks Be Customised To Integrate Existing Systems?',
+          description: 'Yes, during early consultation, network experts will identify any existing equipment requirements and design this into the final solution',
         },
         {
-          title: 'How Does Your WiFi And Networks Improve My Security?'
+          title: 'How Does Your WiFi And Networks Improve My Security?',
+          description: 'How does your WiFi and networks improve my security?',
         },
       ],
-      description: [
-        {
-          class: 'fa fa-check-square-o',
-          title: 'It is a long established fact that a reader will be distracted.'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'The point of using Lorem Ipsum is that.'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'Many desktop publishing packages and web page.'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'There are many variations of passages.'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'All the Lorem Ipsum generators on the Internet.'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'It uses a dictionary of over 200 Latin words.'
-        }
-      ],
-      qualifications: [
-        {
-          class: 'fa fa-check-square-o',
-          title: 'Advance Advisory Team'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'Professional Consulting Services'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: '24/7 Support Help Center'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'Advance Advisory Team'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: 'Professional Consulting Services'
-        },
-        {
-          class: 'fa fa-check-square-o',
-          title: '24/7 Support Help Center'
-        }
-      ]
     }
   },
   mounted () {
@@ -123,10 +77,11 @@ export default {
     background: transparent !important;
     color: #3F81D1 !important;
     box-shadow: none !important;
+    font-size: 30px;
   }
   .accordion-description {
     color: #343E59;
-    font-size: 20px;
+    font-size: 18px;
     font-style: normal;
     font-weight: 400;
     text-transform: capitalize;

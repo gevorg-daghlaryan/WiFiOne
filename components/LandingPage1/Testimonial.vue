@@ -1,5 +1,5 @@
 <template>
-  <section class="position-relative overview-block-ptb iq-pb-70 xamin-custom-bg">
+  <section class="position-relative overview-block-ptb iq-pb-70 xamin-custom-bg pb-0">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 wow fadeInUp">

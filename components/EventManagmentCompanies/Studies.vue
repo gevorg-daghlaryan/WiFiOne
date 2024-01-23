@@ -78,4 +78,9 @@ name:'Studies'
    font-weight: 600;
    line-height: normal;
  }
+ @media (max-width: 600px) {
+   .customer-studies-container {
+     padding: 50px 10px;
+   }
+ }
 </style>

@@ -1285,7 +1285,7 @@ Careers
 .iq-accordion.career-style .iq-accordion-block .accordion-title span { font-size: 24px; font-weight: bold; font-family: 'Lato', sans-serif; display: table-cell; }
 .iq-accordion.career-style .iq-accordion-block:last-child { margin-bottom: 0px; }
 .iq-accordion.career-style .iq-accordion-block.accordion-active .accordion-title:before { content: "\f209"; }
-.iq-accordion.career-style .accordion-title:before { -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); cursor: pointer; content: "\f218"; font-family: "Ionicons"; position: absolute; top: -6px; left: 6px; display: block; padding: 14px 18px; color: #ffffff; font-size: 16px; line-height: 20px; font-weight: normal; -webkit-transition: all 0.25s ease-in-out 0s; -moz-transition: all 0.25s ease-in-out 0s; transition: all 0.25s ease-in-out 0s; background: #313e5b; border-radius: 4px; width: 45px; height: 45px; }
+.iq-accordion.career-style .accordion-title:before { -webkit-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); -moz-box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); box-shadow: 0px 5px 15px 0px rgba(0, 0, 0, 0.06); cursor: pointer; content: "\f218"; font-family: "Ionicons"; position: absolute; top: -6px; left: 6px; display: block; padding: 14px 18px; color: #ffffff; font-size: 25px; line-height: 20px; font-weight: normal; -webkit-transition: all 0.25s ease-in-out 0s; -moz-transition: all 0.25s ease-in-out 0s; transition: all 0.25s ease-in-out 0s; background: #313e5b; border-radius: 4px; width: 45px; height: 45px; }
 .iq-accordion.career-style .active-faq .button { float: right; font-family: 'Lato', sans-serif; border-radius: 90px; overflow: hidden; }
 .iq-accordion.about-style .accordion-title:before {background-color: red}
 
@@ -1672,7 +1672,7 @@ Testimonial Circle
 .iq-pb-40 { padding-bottom: 40px; }
 .iq-pb-30 { padding-bottom: 30px; }
 .iq-ptb-80 { padding: 80px 0; }
-.xamin-blue-bg { background-color: #679cff !important; }
+.xamin-blue-bg { background-color: #3F81D1 !important; }
 .xamin-primary-bg { background-color: #3f7be7 !important; }
 .primary-color { color: #3f7be7 !important; }
 

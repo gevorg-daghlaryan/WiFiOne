@@ -37,8 +37,8 @@ export default {
   }
   .story-text {
     color: #343E59;
-    text-align: center;
     font-size: 19px;
     font-style: normal;
+    font-weight: 400;
   }
 </style>

@@ -8,7 +8,7 @@
             <img src="../../assets/images/customers/office-1.png" alt="">
           </div>
           <div class="col-lg-8 col-sm-12 customer-info">
-            <h1 class="text-left customers-title">Customers</h1>
+            <h1 class="text-left customers-title">CUSTOMERS</h1>
             <h2 class="customer-title">Office-Based Businesses</h2>
             <p>Transform your office into a hub of productivity and seamless communication with wifiOne. Our tailored solutions ensure reliable and high-performance WiFi, empowering your team to collaborate efficiently and drive success.</p>
             <div class="text-left">
@@ -41,7 +41,7 @@
             <img src="../../assets/images/customers/htel-1.png" alt="">
           </div>
           <div class="col-lg-8 col-sm-12 customer-info">
-            <h2 class="customer-title">Hotels and Hospitality Businesses:</h2>
+            <h2 class="customer-title">Hotels and Hospitality Businesses</h2>
             <p>From hotels to restaurants and cafes, elevate guest satisfaction in hospitality establishments with wifiOne. Our solutions provide guests with uninterrupted and secure connectivity, enhancing their overall experience and ensuring your business stands out in the competitive hospitality landscape.</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/hotels-and-hospitality-businesses"><span class="btn-effect">Learn More</span></a>

@@ -36,7 +36,7 @@ export default {
     Services,
     Works,
     Support,
-    Footer
+    Footer,
   },
   head() {
     return {

@@ -11,7 +11,11 @@
         <br>
         connected world"
       </p>
-      <p class="ideas-author text-center mt-0">Daniel Blueman</p>
+      <div class="d-flex align-items-center justify-content-center">
+        <img src="../../assets/images/about-us/man-mini.png" alt="Man-mini" class="man-mini d-block d-lg-none">
+        <p class="ideas-author text-center mt-0">Daniel Blueman</p>
+      </div>
+
     </div>
   </div>
 </div>
@@ -49,5 +53,10 @@ export default {
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+    margin-bottom: 0;
+  }
+  .man-mini {
+    border-radius: 50px;
+    margin-right: 10px;
   }
 </style>

@@ -51,8 +51,9 @@ export default {
   }
   .choose-text {
     color: #343E59;
-    font-size: 24px;
+    font-size: 20px;
     font-weight: 400;
     margin-bottom: 50px;
   }
+
 </style>

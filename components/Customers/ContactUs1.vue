@@ -4,12 +4,12 @@
       <div class="row">
         <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
           <div class="title-box wow fadeInUp  text-center">
-            <h2 class="title-design contact-title ">
+            <h2 class="contact-title ">
               Contact our team for assistance
             </h2>
           </div>
           <div class=" text-center mt-5 ">
-            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
           </div>
         </div>
       </div>
@@ -30,8 +30,9 @@ export default {
   background-color: #EFF1FD;
 }
 .contact-title {
+  color: #3F81D1;
   text-align: center;
-  font-size: 35px;
+  font-size: 40px;
   font-style: normal;
   font-weight: 400;
   line-height: normal;

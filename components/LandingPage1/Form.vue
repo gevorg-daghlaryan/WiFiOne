@@ -8,30 +8,31 @@
               <h2 class="text-center text-md-left mb-3">Get a Quote Instantly</h2>
               <div>
                 <div class="types">
-                  <b-form-checkbox v-model="coverageOptimized">
-                    Coverage-optimised WiFi +$1/sqm/mo
-                  </b-form-checkbox>
-
-                  <b-form-checkbox v-model="performanceUpgrade">
-                    Performance WiFi upgrade +$1/sqm/mo
-                  </b-form-checkbox>
-
-                  <b-form-checkbox v-model="powerMonitoring">
-                    Automatic power outage monitoring +$20/mo
-                  </b-form-checkbox>
-
-                  <b-form-checkbox v-model="lteBackup">
-                    LTE internet backup +$50/mo
-                  </b-form-checkbox>
+                  <label class="checkbox-wrapper">Coverage-optimised WiFi +$1/sqm/mo
+                    <input type="checkbox" v-model="coverageOptimized">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-wrapper">Performance WiFi upgrade +$1/sqm/mo
+                    <input type="checkbox" v-model="performanceUpgrade">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-wrapper">Automatic power outage monitoring +$20/mo
+                    <input type="checkbox" v-model="powerMonitoring">
+                    <span class="checkmark"></span>
+                  </label>
+                  <label class="checkbox-wrapper">LTE internet backup +$50/mo
+                    <input type="checkbox" v-model="lteBackup">
+                    <span class="checkmark"></span>
+                  </label>
                 </div>
-                <p>Square Meter</p>
+                <p class="square-meter">Square Meter</p>
                 <div class="square">
                   <div class="square-number">{{ value }}</div>
                   <span>m<sup>2</sup></span>
                 </div>
                 <div class="ranges">
                   <div class="range-wrapper">
-                    <b-form-input v-model="value" type="range" min="0" max="1000"></b-form-input>
+                    <b-form-input v-model="value" type="range" min="0" max="1000" size="lg"></b-form-input>
                   </div>
                   <div class="ranges-limits">
                     <div>0 m <sup>2</sup></div>
@@ -94,6 +95,72 @@ export default {
 }
 </script>
 <style>
+.checkbox-wrapper {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+}
+
+/* Hide the browser's default checkbox */
+.checkbox-wrapper input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+/* Create a custom checkbox */
+.checkmark {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 30px;
+  width: 30px;
+  background-color: #eee;
+  border-radius: 15px;
+}
+
+/* On mouse-over, add a grey background color */
+.checkbox-wrapper:hover input ~ .checkmark {
+  background-color: #ccc;
+}
+
+/* When the checkbox is checked, add a blue background */
+.checkbox-wrapper input:checked ~ .checkmark {
+  background-color: #3F81D1;
+}
+
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark:after {
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+/* Show the checkmark when checked */
+.checkbox-wrapper input:checked ~ .checkmark:after {
+  display: block;
+}
+
+/* Style the checkmark/indicator */
+.checkbox-wrapper .checkmark:after {
+  left: 13px;
+  top: 8px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
   .price {
     display: block;
     width: 100%;
@@ -140,7 +207,19 @@ export default {
     font-weight: 600;
     margin-bottom: 40px;
   }
-  .range-wrapper {
-
+  .square-meter {
+    font-size: 20px;
+  }
+  @media (max-width: 601px) {
+    .types {
+      font-size: 18px;
+      font-weight: 400;
+    }
+    .square-number {
+      padding: 3px 50px;
+    }
+    .ranges {
+      margin-top: 30px;
+    }
   }
 </style>

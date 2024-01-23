@@ -224,7 +224,7 @@
 	.our-feedback .xamin-contact.style-three
 	.xamin-contact.style-three { margin-left: 15px; }
 	.unique-bg { padding: 75px 0 !important; }
-	.sidebar-service-left { padding-right: 15px; }
+	.sidebar-service-left { padding-right: 15px;  margin: 0 auto;}
 	.sidebar-service-right { padding-left: 15px; }
 	.vertical-center.slider { margin-bottom: 60px; }
 	.iq-timer { margin-bottom: 30px; }
@@ -297,7 +297,7 @@
 	.timeline-article .content-box {width: 45%;}
 	.data-science .owl-carousel.testimonial-style .iq-boxslider-detail .boxslider-content {width: 100%;padding-right: 10px;}
 	.data-science .owl-carousel.testimonial-style .iq-boxslider-detail .box-gpa {width: 100%;}
-  .iq-accordion.career-style .iq-accordion-block .accordion-title span { display: flex; flex-wrap: nowrap; font-size: 18px;}
+  .iq-accordion.career-style .iq-accordion-block .accordion-title span { display: flex; flex-wrap: nowrap; font-size: 22px; line-height: normal;}
   .iq-accordion.career-style .iq-accordion-block .accordion-title { display: block;  font-size: 18px;}
 }
 @media(max-width:777px) {

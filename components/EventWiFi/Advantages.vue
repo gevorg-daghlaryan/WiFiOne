@@ -2,7 +2,7 @@
   <section class="pt-0">
     <div class="container">
       <div class="row">
-        <div class="col-lg-6 col-md-12" v-for="(list,index) in items" :key="index">
+        <div class="col-lg-6 col-md-12 mb-3" v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia" class="mb-2">
               <img :src="list.src" alt="fancy-list" class="mx-auto">
