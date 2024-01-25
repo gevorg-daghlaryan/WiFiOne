@@ -5,7 +5,7 @@
         <h1 class="text-white">Our Clients</h1>
         <p class="text-white customers-top-text">Crafting Connectivity for Diverse Businesses</p>
         <div class="text-left">
-          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
       </div>
     </div>

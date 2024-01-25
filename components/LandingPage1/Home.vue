@@ -20,7 +20,7 @@
             <h2 class="text-white text-left slider-title ">Your Premier WiFi Partner: <br class="d-none d-lg-block">Tailored solutions <br class="d-none d-lg-block">supporting your business</h2>
             <p class="text-white text-left ">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
         </div>
@@ -33,7 +33,7 @@
             <h2 class="text-white text-left slider-title ">Event WiFi</h2>
             <p class="text-white text-left ">Enterprice Access Point, LTE or existing <br class="d-none d-lg-block"> backhaul, cloud AP controllers </p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
         </div>
@@ -46,7 +46,7 @@
             <h2 class="text-white text-left slider-title ">Service Industry WiFi </h2>
             <p class="text-white text-left ">Enterprise Access Points and routers, click through portal, <br class="d-none d-lg-block"> Quality of Service, customer and back-office/PoS WiFi</p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
         </div>
@@ -59,7 +59,7 @@
             <h2 class="text-white text-left slider-title ">Integrated Hotel WiFi</h2>
             <p class="text-white text-left ">Customer portal, integration, enterprise Access Points</p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
         </div>

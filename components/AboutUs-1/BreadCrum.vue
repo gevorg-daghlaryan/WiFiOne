@@ -5,7 +5,7 @@
           <h1 class="text-white about-us-top-title">About Us</h1>
           <p class="text-white about-us-top-text">Beyond Connectivity: Get to Know WifiOne – Your Trusted Partner in Transformative Network Solutions.</p>
           <div class="text-left">
-            <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+            <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
           </div>
         </div>
     </div>

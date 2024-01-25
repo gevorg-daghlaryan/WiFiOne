@@ -9,7 +9,7 @@
             <p class="mb-2 business-text">At wifiOne, we are more than just a boutique service provider; we are your partners in delivering performant and secure managed WiFi<br> and networks at an affordable price point. Our mission is to offer you an exceptional service where you never have to think about your<br> network – it just works.</p>
             <p class="mb-2 business-text">We currently manage 20 sites, overseeing 145 infrastructure devices that collectively power WiFi for approximately 1,000 customer <br> devices.</p>
             <p class="mb-4 business-text">Discover how wifiOne can redefine your experience with connectivity and help you stay connected with the forefront of US and EU <br> wireless technology.</p>
-            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
           </div>
         </div>
       </div>

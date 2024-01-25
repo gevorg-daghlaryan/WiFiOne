@@ -8,7 +8,7 @@
             <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
               <br> experiences in various areas.</p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
         </div>

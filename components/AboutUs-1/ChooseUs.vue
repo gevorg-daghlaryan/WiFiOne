@@ -40,20 +40,48 @@ export default {
 }
 </script>
 <style>
-  .choose-title {
-    color: #3F81D1;
-    font-size: 24px;
-    font-weight: 400;
-    margin-bottom: 10px;
+.choose-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.choose-item {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  flex-direction: column;
+}
+.choose-title {
+  color: #3F81D1;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.choose {
+  padding-top: 0px;
+}
+.choose-header {
+  color: #3F81D1;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+  text-transform: uppercase;
+}
+.choose-text {
+  color: #343E59;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  margin-bottom: 50px;
+}
+@media only screen and (max-width: 600px) {
+  .choose-wrapper {
+    flex-direction: column;
   }
-  .choose-section {
-    padding-top: 117px;
-  }
-  .choose-text {
-    color: #343E59;
-    font-size: 20px;
-    font-weight: 400;
-    margin-bottom: 50px;
-  }
+}
 
 </style>

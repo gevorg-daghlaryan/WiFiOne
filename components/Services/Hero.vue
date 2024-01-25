@@ -6,7 +6,7 @@
         <p class="text-white service-top-text">From scalable connectivity solutions to proactive security measures, we deliver performance and
           <br> reliability, empowering your business operations</p>
         <div class="text-left">
-          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
       </div>
     </div>

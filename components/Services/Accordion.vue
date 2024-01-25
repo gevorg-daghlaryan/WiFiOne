@@ -35,28 +35,32 @@ export default {
     return {
       items: [
         {
-          title: 'Can You Integrate With Existing Networks?',
-          description: 'Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred',
+          title: 'Why is my WiFi/internet slow?',
+          description: 'Your slow experience may stem from WiFi congestion or limited Access Point coverage. Alternatively, the service you are using may be overloaded, in a different geographic region, or there is congestion in the internet service provider or international links.',
         },
         {
-          title: 'What Are Your Support Points Of Contact?',
-          description: 'We offer realtime support via WhatsApp messaging and calling, as well as form submission and email',
+          title: 'How can I improve WiFi/internet speed?',
+          description: 'To optimize your WiFi, move your device and Access Point nearer, or add Access Points to increase strong-signal coverage.',
         },
         {
-          title: 'What Differentiates You From The Competitors?',
-          description: 'wifiOne uses best-in-class enterprise equipment to offer optimal reliability and performance for cost-senstive markets',
+          title: 'What differentiates wifiOne’s site WiFi design?',
+          description: 'wifiOne tailors site WiFi to match customer objectives—whether it\'s providing seamless coverage for video calls, high capacity for media tasks, or optimizing for cost-efficiency. We then apply specialized algorithms to select the most suitable enterprise equipment and locations, deploying our bespoke mounting solution for a clearer signal.',
         },
         {
-          title: 'How Can You Achieve Better Pricing Than The Competition?',
-          description: 'wifiOne has a lean structure of experts, enabled by cloud automation and proven configurations; this allows attention to be spent where it makes the most difference',
+          title: 'What equipment does wifiOne use?',
+          description: 'wifiOne uses only US and EU enterprise-grade equipment for active network elements. Where possible, we incorporate a capacity overprovision, ensuring redundancy against device failures and ample performance during peak times.\n All equipment is validated for enterprise use for continuous, heavy operation.',
         },
         {
-          title: 'Can Your Networks Be Customised To Integrate Existing Systems?',
-          description: 'Yes, during early consultation, network experts will identify any existing equipment requirements and design this into the final solution',
+          title: 'How do you secure these networks?',
+          description: 'Distinct networks are allocated for specific purposes, embracing the principle of \'separation of concerns\'. These networks grant internet access only, restricting local access unless explicitly required. All equipment receives monthly security and stability updates and supports the ‘best practise’ WPA3 security standard.',
         },
         {
-          title: 'How Does Your WiFi And Networks Improve My Security?',
-          description: 'How does your WiFi and networks improve my security?',
+          title: 'Can your networks be customized to integrate existing systems?',
+          description: 'In the preliminary consultation phase, our network experts understand any existing equipment and configuration to ensure seamless integration.',
+        },
+        {
+          title: 'How do you keep costs this low for the end-user?',
+          description: 'wifiOne leverages cutting-edge enterprise equipment with cloud management; this means no additional on-premises management equipment. Equipment is highly integrated, reducing the number of devices, licensing and management burden.',
         },
       ],
     }

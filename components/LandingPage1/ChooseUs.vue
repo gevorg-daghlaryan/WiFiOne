@@ -2,8 +2,8 @@
   <section class="choose">
     <div class="container">
       <h2  class="text-center choose-header mb-5">WHY CHOOSE US</h2>
-      <div class="row d-flex">
-        <div class="col-lg-6 col-md-6" v-for="(list,index) in items" :key="index">
+      <div class="choose-wrapper">
+        <div class="choose-item" v-for="(list,index) in items" :key="index">
           <div class="">
             <span class="choose-title">{{list.title}}</span>
             <p class="choose-text">{{list.description}}</p>
@@ -41,6 +41,19 @@ export default {
 }
 </script>
 <style>
+.choose-wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.choose-item {
+  display: flex;
+  flex-basis: 40%;
+  justify-content: center;
+  flex-direction: column;
+}
 .choose-title {
   color: #3F81D1;
   font-size: 24px;
@@ -66,4 +79,10 @@ export default {
   line-height: normal;
   margin-bottom: 50px;
 }
+@media only screen and (max-width: 600px) {
+  .choose-wrapper {
+    flex-direction: column;
+  }
+}
+
 </style>

@@ -5,7 +5,7 @@
         <h1 class="text-white">Event WiFi</h1>
         <p class="text-white event-wifi-top-text">FLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
         <div class="text-left">
-          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact US</span></a>
+          <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
       </div>
     </div>

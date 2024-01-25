@@ -35,28 +35,20 @@ export default {
     return {
       items: [
         {
-          title: 'Can You Integrate With Existing Networks?',
-          description: 'Yes, either we can place our network equipment upstream of yours, or integrate to your existing network if preferred',
+          title: 'What differentiates you from the competitors?',
+          description: 'wifiOne prioritizes reliability and performance for cost-sensitive markets by employing top-tier enterprise equipment. This ensures optimal connectivity, meeting high standards without compromising affordability, delivering a seamless experience for our clients.',
         },
         {
-          title: 'What Are Your Support Points Of Contact?',
-          description: 'We offer realtime support via WhatsApp messaging and calling, as well as form submission and email',
+          title: 'How do you ensure fair sharing of a single internet connection among multiple networks?',
+          description: 'wifiOne implements a tiered Quality of Service approach, allocating bandwidth to prioritize mission-critical network services. This guarantees smooth and lag-free real-time conferencing and VoIP/Skype/Teams calling',
         },
         {
-          title: 'What Differentiates You From The Competitors?',
-          description: 'wifiOne uses best-in-class enterprise equipment to offer optimal reliability and performance for cost-senstive markets',
+          title: 'How does wifiOne safeguard my business or event from cyber threats?',
+          description: 'wifiOne keeps each network isolated from one another; devices on each network are isolated from each other by default also. Finally, infrastructure devices receive monthly security and bugfix updates to prevent intrusion.',
         },
         {
-          title: 'How Can You Achieve Better Pricing Than The Competition?',
-          description: 'wifiOne has a lean structure of experts, enabled by cloud automation and proven configurations; this allows attention to be spent where it makes the most difference',
-        },
-        {
-          title: 'Can Your Networks Be Customised To Integrate Existing Systems?',
-          description: 'Yes, during early consultation, network experts will identify any existing equipment requirements and design this into the final solution',
-        },
-        {
-          title: 'How Does Your WiFi And Networks Improve My Security?',
-          description: 'How does your WiFi and networks improve my security?',
+          title: 'Can you integrate with existing networks?',
+          description: 'You can choose between a “no changes” approach on your existing network, where wifiOne’s equipment will be put on a separate upstream or downstream network, or “maximum quality” approach for the highest performance, security and reliability where we change out the infrastructure equipment for the managed service, keeping all the other devices connected.',
         },
       ],
     }
