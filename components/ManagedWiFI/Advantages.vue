@@ -56,7 +56,7 @@ export default {
         {
           title: '5G Backup Internet Option',
           description: 'Guarantees uninterrupted connectivity with a reliable backup option.',
-          src: require('../../assets/images/home/services/09.png')
+          src: require('../../assets/images/home/services/02.png')
         },
         {
           title: 'Managed VPN Option',

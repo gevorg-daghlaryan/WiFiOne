@@ -89,6 +89,5 @@ export default {
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
-  text-transform: capitalize;
 }
 </style>
