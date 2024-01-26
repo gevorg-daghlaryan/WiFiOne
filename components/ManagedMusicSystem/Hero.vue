@@ -64,7 +64,7 @@ export default {
   height: 100%;
 }
 .loader-container {
-  gap: 23px;
+  gap: 15px;
   justify-content: center;
   display: flex;
   height: 40px;
