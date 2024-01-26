@@ -1,10 +1,10 @@
 <template>
   <section class="managed-wifi-top py-0">
-    <img class="as" src="../../assets/images/services/wifi.png" alt="">
-<!--    <img class="video" src="../../assets/videos/services/manag-wifi.gif" alt="">-->
-    <video  autoplay loop>
+    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.png">
       <source src="/videos/manag-wifi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
     </video>
+    <img class="image-foreground" src="../../assets/images/services/wifi.png" alt="hero">
     <div class="container">
       <div class="managed-wifi-top-wrapper">
         <h1 class="text-whit managed-wifi-top-title"> Managed WiFi</h1>
@@ -45,18 +45,19 @@ export default {
   gap: 31px;
   height: 100%;
 }
-.as {
+.image-foreground {
   position: absolute;
   object-fit: cover;
   height: 100%;
   width: 100%;
   mix-blend-mode: lighten;
-  z-index: 1;
+  z-index: 2;
 }
-video{
+.video-background{
   position: absolute;
   height: 100%;
   width: 100%;
   object-fit: cover;
+  z-index: 1;
 }
 </style>

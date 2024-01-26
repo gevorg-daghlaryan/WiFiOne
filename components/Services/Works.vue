@@ -5,7 +5,7 @@
         <div class="col-lg-12">
           <div class="title-box wow fadeInUp text-center">
             <span class="work-header">HOW IT WORKS</span>
-            <h1 class="">How Does WiFiOne Work</h1>
+            <h1 class="">How Does WifiOne Work</h1>
           </div>
         </div>
       </div>

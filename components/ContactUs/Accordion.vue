@@ -40,7 +40,7 @@ export default {
         },
         {
           title: 'How do you ensure fair sharing of a single internet connection among multiple networks?',
-          description: 'wifiOne implements a tiered Quality of Service approach, allocating bandwidth to prioritize mission-critical network services. This guarantees smooth and lag-free real-time conferencing and VoIP/Skype/Teams calling',
+          description: 'wifiOne implements a tiered Quality of Service approach, allocating bandwidth to prioritize mission-critical network services. This guarantees smooth and lag-free real-time conferencing and VoIP/Skype/Teams calling.',
         },
         {
           title: 'How does wifiOne safeguard my business or event from cyber threats?',
