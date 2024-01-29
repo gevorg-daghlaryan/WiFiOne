@@ -201,6 +201,7 @@ export default {
 
 .image {
   position: relative;
+  max-width: 30%;
 }
 
 .image img {
