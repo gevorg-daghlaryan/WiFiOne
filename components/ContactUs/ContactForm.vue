@@ -7,7 +7,7 @@
       <div class="row align-items-start ">
         <div class="col-sm-7">
           <div class="response-output" />
-          <form action="#" method="post">
+          <form action="/" method="post">
             <div class="contact-form">
               <div> <input type="text" name="your-name" class="form-control text " placeholder="Your Name"> </div>
               <div> <input type="text" name="your-email" class="form-control text " placeholder="Your Email"> </div>
