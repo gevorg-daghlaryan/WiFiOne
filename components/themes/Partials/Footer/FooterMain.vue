@@ -5,7 +5,7 @@
       <div class="copyright-footer">
         <div class="pt-3 pb-3">
           <div class="row flex-row-reverse justify-content-between">
-            <div class="col-lg-12 col-md-12 text-lg-center text-md-center text-center"> <span class="copyright">Copyright 2019 <a href="/landing-page-1">WifiOne</a> All Rights Reserved.</span> </div>
+            <div class="col-lg-12 col-md-12 text-lg-center text-md-center text-center"> <span class="copyright">Copyright 2024 <a href="/landing-page-1">WifiOne</a> All Rights Reserved.</span> </div>
           </div>
         </div>
       </div>
