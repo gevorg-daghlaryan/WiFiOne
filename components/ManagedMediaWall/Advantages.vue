@@ -31,12 +31,12 @@ export default {
         {
           title: 'Updates In-House or via Digital Content Partner',
           description: 'Flexibility in managing updates for systems, allowing either in-house control or collaboration with a digital content partner for dynamic content updates.',
-          src: require('../../assets/images/home/services/14.png')
+          src: require('../../assets/images/home/services/11.png')
         },
         {
           title: 'Managed VPN Option',
           description: 'Integration of a Virtual Private Network (VPN) with management services, ensuring secure and efficient communication across networks.',
-          src: require('../../assets/images/home/services/10.png')
+          src: require('../../assets/images/home/services/06.png')
         },
       ]
     }
