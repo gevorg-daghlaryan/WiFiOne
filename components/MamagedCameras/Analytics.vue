@@ -2,7 +2,7 @@
   <section>
     <div class="container">
       <div class="row ">
-        <div class="col-lg-4 col-sm-6 sidebar-service-left ">
+        <div class="col-lg-4 col-sm-12 sidebar-service-left ">
           <CardStyle5 :card-menu="menu_item" />
         </div>
         <div class="col-lg-8 col-sm-12 pt-5 pt-lg-0">
