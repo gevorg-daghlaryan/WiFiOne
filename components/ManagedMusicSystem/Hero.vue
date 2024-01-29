@@ -1,19 +1,21 @@
 <template>
   <section class="managed-music-top">
     <div class="container">
-      <div class="row">
+      <div class="row flex-nowrap">
         <div class="col-lg-10">
           <div class="managed-music-top-wrapper">
+            <div class="wrapper-managed-music-title">
             <h1 class="text-white">Managed Music System</h1>
+              <div class="col-lg-2 image ">
+                <img src="../../assets/images/services/load.png" alt="">
+              </div>
+            </div>
             <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
               <br> experiences in various areas.</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
           </div>
-        </div>
-        <div class="col-lg-2 image d-none d-lg-block">
-          <img src="../../assets/images/services/load.png" alt="">
         </div>
       </div>
       <div>
@@ -50,7 +52,6 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-
 }
 .managed-music-top-text {
   font-size: 21px;
@@ -70,8 +71,13 @@ export default {
   height: 40px;
   width: 100%;
   margin: 0px auto 0;
+  mix-blend-mode: lighten;
 }
-
+.wrapper-managed-music-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .loader-container > div {
   position: relative;
   display: inline-block;

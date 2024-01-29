@@ -78,7 +78,7 @@
                       />
                     </nuxt-link>
                     <ul v-if="option.children" :class="'sub-menu '+ option.classname" style="display: none;">
-                      <li v-for="(child,chilIndex) in option.child" :key="chilIndex" class="menu-item" :class="{'current-menu-item': isRouteActive(child.href) }">
+                      <li v-for="(child,chilIndex) in option.child" :key="chilIndex" class="menu-item sub-menu-item" :class="{'current-menu-item': isRouteActive(child.href) }">
                         <nuxt-link :to="child.href">
                           <span>{{ child.title }}</span>
                         </nuxt-link>
@@ -156,7 +156,13 @@ export default {
           },
           1500
         )
-    }
+    },
+  },
+  mounted() {
+    const jquery = window.$
+    jQuery('.sub-menu-item').on('click', function () {
+      jQuery('#navbarSupportedContent').removeClass('show');
+    })
   }
 }
 </script>
