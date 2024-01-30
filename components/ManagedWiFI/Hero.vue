@@ -1,6 +1,6 @@
 <template>
   <section class="managed-wifi-top py-0">
-    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.webp">
+    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.webp" rel="preload">
       <source src="/videos/manag-wifi.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
