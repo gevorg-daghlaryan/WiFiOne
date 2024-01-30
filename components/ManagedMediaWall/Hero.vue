@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .managed-media-wall-top {
-  background-image: url("../../assets/images/services/managed-media-wall-hero.png");
+  background-image: url("../../assets/images/services/managed-media-wall-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -5,7 +5,7 @@
       <div class="container">
         <div class="row ">
           <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
-            <img src="../../assets/images/customers/office-1.png" alt="">
+            <img src="../../assets/images/customers/office-1.webp" alt="">
           </div>
           <div class="col-lg-8 col-sm-12 customer-info">
             <h1 class="text-left customers-title">CUSTOMERS</h1>
@@ -29,7 +29,7 @@
             </div>
           </div>
           <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
-            <img src="../../assets/images/customers/company-1.png" alt="">
+            <img src="../../assets/images/customers/company-1.webp" alt="">
           </div>
         </div>
       </div>
@@ -38,7 +38,7 @@
       <div class="container">
         <div class="row ">
           <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
-            <img src="../../assets/images/customers/htel-1.png" alt="">
+            <img src="../../assets/images/customers/htel-1.webp" alt="">
           </div>
           <div class="col-lg-8 col-sm-12 customer-info">
             <h2 class="customer-title">Hotels and Hospitality Businesses</h2>

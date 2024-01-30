@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .customers-top {
-  background-image: url("../../assets/images/customers/customers-hero.png");
+  background-image: url("../../assets/images/customers/customers-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

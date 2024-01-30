@@ -19,7 +19,7 @@ export default {
 </script>
 <style>
   .about-us-top {
-    background-image: url("../../assets/images/about-us/hero.png");
+    background-image: url("../../assets/images/about-us/hero.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

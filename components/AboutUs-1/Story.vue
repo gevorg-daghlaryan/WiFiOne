@@ -24,7 +24,7 @@ export default {
 </script>
 <style>
   .story {
-    background-image: url("../../assets/images/about-us/story-bg.png");
+    background-image: url("../../assets/images/about-us/story-bg.webp");
     background-position: right;
     background-repeat: no-repeat;
   }

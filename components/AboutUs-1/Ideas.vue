@@ -3,7 +3,7 @@
 <div class="container">
   <div class="row align-items-center ">
     <div class="col-sm-4 d-none d-lg-block">
-      <img src="../../assets/images/about-us/man.png" alt="man" class="ideas-man">
+      <img src="../../assets/images/about-us/man.webp" alt="man" class="ideas-man">
     </div>
     <div class="mt-5 col-sm-12 col-lg-8">
       <h1 class="ideas-title text-center mb-0">We’re in The Business of Hosting Great Ideas.</h1>
@@ -12,7 +12,7 @@
         connected world"
       </p>
       <div class="d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/about-us/man-mini.png" alt="Man-mini" class="man-mini d-block d-lg-none">
+        <img src="../../assets/images/about-us/man-mini.webp" alt="Man-mini" class="man-mini d-block d-lg-none">
         <p class="ideas-author text-center mt-0">Daniel Blueman</p>
       </div>
 

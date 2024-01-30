@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .event-management-companies-top{
-  background-image: url("../../assets/images/customers/event-management-companies-hero.png");
+  background-image: url("../../assets/images/customers/event-management-companies-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

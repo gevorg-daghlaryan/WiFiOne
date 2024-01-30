@@ -16,7 +16,7 @@ export default {
 </script>
 <style>
   .contact-us-top {
-    background-image: url("../../assets/images/contact-us/contact-us.png");
+    background-image: url("../../assets/images/contact-us/contact-us.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;

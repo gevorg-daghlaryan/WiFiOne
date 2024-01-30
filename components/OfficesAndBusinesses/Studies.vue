@@ -2,7 +2,7 @@
   <section>
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
-      <img src="../../assets/images/customers/company-logo.png" alt="logo">
+      <img src="../../assets/images/customers/company-logo.webp" alt="logo">
       <h2 class="text-center text-white studies-title">Company Name</h2>
       <p class="text-center text-white studies-text">
         In 2019, a major co-working space player in central Singapore was looking to modernize their communications infrastructure, at the same time reduce the Total Cost of Ownership.
@@ -12,7 +12,7 @@
         Want to collaborate or have a partnership proposal? Let’s discuss it!
       </p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.png" alt="avatar">
+        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
         <div class="text-white">
           <h4 class="text-white author-name">Marc Blair</h4>
           <p class="author-text">Group Head of Information <br> Management & Strategy</p>
@@ -37,7 +37,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.png");
+   background-image: url("../../assets/images/customers/base-bg.webp");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;

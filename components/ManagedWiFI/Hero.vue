@@ -1,10 +1,10 @@
 <template>
   <section class="managed-wifi-top py-0">
-    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.png">
+    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.webp">
       <source src="/videos/manag-wifi.mp4" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <img class="image-foreground" src="../../assets/images/services/wifi.png" alt="hero">
+    <img class="image-foreground" src="../../assets/images/services/wifi.webp" alt="hero">
     <div class="container">
       <div class="managed-wifi-top-wrapper">
         <h1 class="text-whit managed-wifi-top-title"> Managed WiFi</h1>

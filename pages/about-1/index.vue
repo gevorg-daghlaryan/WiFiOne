@@ -9,9 +9,6 @@
           <Awards/>
           <ContactUs/>
           <Testimonial/>
-<!--      <AboutUs />-->
-<!--      <History />-->
-<!--      <Team />-->
       <Footer />
     </div>
   </div>
@@ -40,7 +37,6 @@ export default {
     ContactUs,
     Awards,
     ChooseUs,
-    AboutUs,
     History,
     Team,
     Footer,
@@ -50,7 +46,6 @@ export default {
   },
   data () {
     return {
-      image: require('../../assets/images/about-us/04.png'),
       links: [{
         title: 'Home',
         href: 'landing-page-1'

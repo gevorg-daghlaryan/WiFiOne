@@ -13,7 +13,7 @@
       @sliding-end="onSlideEnd"
     >
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-1.png"
+        img-src="../../assets/images/home/slides/slide-1.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -26,7 +26,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-3.png"
+        img-src="../../assets/images/home/slides/slide-3.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -39,7 +39,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-4.png"
+        img-src="../../assets/images/home/slides/slide-4.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -52,7 +52,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-2.png"
+        img-src="../../assets/images/home/slides/slide-2.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">

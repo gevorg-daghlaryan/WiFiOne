@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .site-monitoring-top {
-  background-image: url("../../assets/images/services/site-pwer-monitoring-hero.png");
+  background-image: url("../../assets/images/services/site-pwer-monitoring-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

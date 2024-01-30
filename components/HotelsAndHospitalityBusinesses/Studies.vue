@@ -2,7 +2,7 @@
   <section>
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
-      <img src="../../assets/images/customers/hotel-xoai.png" alt="logo">
+      <img src="../../assets/images/customers/hotel-xoai.webp" alt="logo">
       <h2 class="text-center text-white studies-title">Hotel Xoai</h2>
       <p class="text-center text-white studies-text">
         Hotel Xoai, Can Tho, Vietnam
@@ -20,7 +20,7 @@
         This enabled the hotel to focus on business operations with no downtime.
       </p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.png" alt="avatar">
+        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
         <div class="text-white">
           <h4 class="text-white author-name">John Milligan</h4>
           <p class="author-text">CEO</p>
@@ -45,7 +45,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.png");
+   background-image: url("../../assets/images/customers/base-bg.webp");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;

@@ -29,27 +29,27 @@ export default {
         {
           title: 'Anna Mull',
           subtitle: 'COO',
-          media: require('../../assets/images/team/1.jpg')
+          media: require('../../assets/images/team/1.png')
         },
         {
           title: 'Petey Cruiser',
           subtitle: 'Project Manager',
-          media: require('../../assets/images/team/2.jpg')
+          media: require('../../assets/images/team/1.png')
         },
         {
           title: 'Greta Life',
           subtitle: 'CFO',
-          media: require('../../assets/images/team/3.jpg')
+          media: require('../../assets/images/team/1.png')
         },
         {
           title: 'Marcash Dane',
           subtitle: 'Project Manager',
-          media: require('../../assets/images/team/4.jpg')
+          media: require('../../assets/images/team/1.png')
         },
         {
           title: 'Handry White',
           subtitle: 'Project Manager',
-          media: require('../../assets/images/team/5.jpg')
+          media: require('../../assets/images/team/1.png')
         }
       ]
     }

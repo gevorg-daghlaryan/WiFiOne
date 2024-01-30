@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .hotels-and-hospitality-businesses-top{
-  background-image: url("../../assets/images/customers/hotels-and-hospitality-businesses-hero.png");
+  background-image: url("../../assets/images/customers/hotels-and-hospitality-businesses-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

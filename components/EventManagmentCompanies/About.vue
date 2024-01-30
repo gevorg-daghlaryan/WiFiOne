@@ -3,7 +3,7 @@
     <div class="container">
       <div class="row ">
         <div class="col-lg-4 col-sm-12 d-flex justify-content-center">
-          <img src="../../assets/images/customers/company-1.png" alt="">
+          <img src="../../assets/images/customers/company-1.webp" alt="">
         </div>
         <div class="col-lg-8 col-sm-12">
           <p class="customers-office-and-business-about-text">

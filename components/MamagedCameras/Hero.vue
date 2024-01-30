@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .managed-cameras-top {
-  background-image: url("../../assets/images/services/manag-cam-hero.png");
+  background-image: url("../../assets/images/services/manag-cam-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

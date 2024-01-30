@@ -18,7 +18,7 @@ export default {
 </script>
 <style>
 .customers-office-and-business-top{
-  background-image: url("../../assets/images/customers/office-and-business-hero.png");
+  background-image: url("../../assets/images/customers/office-and-business-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

@@ -19,7 +19,7 @@ export default {
 </script>
 <style>
 .service-top {
-  background-image: url("../../assets/images/services/hero.png");
+  background-image: url("../../assets/images/services/hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

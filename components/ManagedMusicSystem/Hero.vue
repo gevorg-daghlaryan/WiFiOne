@@ -7,7 +7,7 @@
             <div class="wrapper-managed-music-title">
             <h1 class="text-white">Managed Music System</h1>
               <div class="col-lg-2 image ">
-                <img src="../../assets/images/services/load.png" alt="">
+                <img src="../../assets/images/services/load.webp" alt="">
               </div>
             </div>
             <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
@@ -48,7 +48,7 @@ export default {
 </script>
 <style>
 .managed-music-top {
-  background-image: url("../../assets/images/services/manag-music-hero.png");
+  background-image: url("../../assets/images/services/manag-music-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
