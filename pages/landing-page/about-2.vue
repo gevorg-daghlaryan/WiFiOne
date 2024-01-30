@@ -30,7 +30,7 @@ export default {
       image: require('../../assets/images/about-us/04.png'),
       links: [{
         title: 'Home',
-        href: 'landing-page-1'
+        href: 'landing-page'
       }]
     }
   },

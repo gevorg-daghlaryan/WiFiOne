@@ -16,13 +16,13 @@ export default {
       styleLogo: false,
       logo: logoImg,
       navItems: [
-        { href: '/landing-page-1',
+        { href: '/landing-page',
           title: 'Home',
           children: false,
           child: menu,
           classname: 'menu'
         },
-        { href: '/about-1', title: 'About Us', children: false , child: landing1About, classname: ' ' },
+        { href: '/about', title: 'About Us', children: false , child: landing1About, classname: ' ' },
         { href: '/services', title: 'Services', children: true, child: services, classname: ' ' },
         { href: '/customers', title: 'Customers', active: true, children: false, child: pages, classname: ' '  },
         { href: '/contact-us', title: 'Contact Us', children: false, child: contacts, classname: ' '  }

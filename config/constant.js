@@ -1,6 +1,6 @@
 export const menu = [
   {
-    href: '/landing-page-1',
+    href: '/landing-page',
     title: 'Home One '
   },
   // {
@@ -169,7 +169,7 @@ export const contacts = [
 ]
 export const landing1About = [
   {
-    href: '/about-1',
+    href: '/about',
     title: 'About-1'
   },
   // {
@@ -179,7 +179,7 @@ export const landing1About = [
 ]
 export const landing2About = [
   {
-    href: '/about-1',
+    href: '/about',
     title: 'About-1'
   }
 ]

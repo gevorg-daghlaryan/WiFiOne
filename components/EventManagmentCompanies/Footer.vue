@@ -51,11 +51,11 @@ export default {
       ],
       footerHome: [
         {
-          href: '/landing-page-1',
+          href: '/landing-page',
           title: 'Home'
         },
         {
-          href: '/about-1',
+          href: '/about',
           title: 'About'
         },
         {

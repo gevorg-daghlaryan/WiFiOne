@@ -17,18 +17,18 @@
 </template>
 
 <script>
-import Counter from '../../components/LandingPage1/Counter.vue';
-import Home from '../../components/LandingPage1/Home.vue';
-import Testimonial from '../../components/LandingPage1/Testimonial';
-import ContactUs from '../../components/LandingPage1/ContactUs.vue';
-import ContactUs1 from '../../components/LandingPage1/ContactUs1.vue';
-import Services from '../../components/LandingPage1/Services.vue';
-import Footer from '../../components/LandingPage1/Footer';
+import Counter from '../../components/LandingPage/Counter.vue';
+import Home from '../../components/LandingPage/Home.vue';
+import Testimonial from '../../components/LandingPage/Testimonial';
+import ContactUs from '../../components/LandingPage/ContactUs.vue';
+import ContactUs1 from '../../components/LandingPage/ContactUs1.vue';
+import Services from '../../components/LandingPage/Services.vue';
+import Footer from '../../components/LandingPage/Footer';
 import { themes } from '../../assets/app/app';
-import Business from "~/components/LandingPage1/Business.vue";
-import ChooseUs from "~/components/LandingPage1/ChooseUs.vue";
-import Client from "~/components/LandingPage1/Client.vue";
-import Form from "~/components/LandingPage1/Form.vue";
+import Business from "~/components/LandingPage/Business.vue";
+import ChooseUs from "~/components/LandingPage/ChooseUs.vue";
+import Client from "~/components/LandingPage/Client.vue";
+import Form from "~/components/LandingPage/Form.vue";
 export default {
   layout: 'LandingPage1',
   components: {

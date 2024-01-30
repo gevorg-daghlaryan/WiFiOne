@@ -30,7 +30,7 @@ export default {
       links: [
         {
           title: 'Home',
-          href: 'landing-page-1'
+          href: 'landing-page'
         }
       ]
     }
