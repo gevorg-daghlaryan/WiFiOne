@@ -34,6 +34,10 @@ export default {
           content: 'wifiOne provides seamless connectivity with managed WiFi and network solutions. High-quality, secure coverage and equipment layout for strong WiFi .'
         }
       ],
+      link: [
+        {rel: "preload", href: "../static/videos/manag-wifi.mp4", as: "video"},
+        {rel: "preload", href: "../assets/images/services/wifi.webp", as: "image"}
+      ]
     }
   },
   mounted () {
