@@ -1,7 +1,7 @@
 <template>
-  <section class="managed-wifi-top py-0">
-    <video  autoplay loop class="video-background" poster="../../assets/images/services/wifi.webp" rel="preload">
-      <source src="/videos/manag-wifi.mp4" type="video/mp4">
+  <section  class="managed-wifi-top py-0">
+    <video muted autoplay loop class="video-background" poster="/images/wifi.webp" rel="preload" >
+      <source src="/videos/manag-wifi.webm" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <img class="image-foreground" src="../../assets/images/services/wifi.webp" alt="hero">
