@@ -54,6 +54,9 @@ export default {
           content: 'Reliable, high-performance networking tailored to your business needs. Experience seamless connectivity with our managed WiFi and network solutions'
         }
       ],
+      link: [
+        {rel: "preload", as: "image", href: './assets/images/home/bg2.svg'}
+      ]
     }
   },
   mounted () {

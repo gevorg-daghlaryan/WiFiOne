@@ -33,6 +33,9 @@ export default {
           content: 'Reach out through our contact us page to explore collaboration, get answers to your queries, or share feedback. We\'re here to assist you on your journey.'
         }
       ],
+      link: [
+        {rel: "preload", as: "image", href: './assets/images/home/bg2.svg'}
+      ]
     }
   },
   components: {
