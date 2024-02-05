@@ -2,7 +2,6 @@
   <div class="image-loading">
     <div class="image-loading-center">
       <img :src="require('../../assets/images/loader.gif')" alt="loader">
-<!--      <h1>Loading...</h1>-->
     </div>
   </div>
 </template>
@@ -24,5 +23,7 @@ export default {
   }
   .image-loading-center {
     background-color: inherit;
+    height: 50px;
+    width: 50px;
   }
 </style>
