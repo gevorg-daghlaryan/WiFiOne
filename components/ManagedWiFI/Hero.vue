@@ -1,6 +1,7 @@
 <template>
   <section  class="managed-wifi-top py-0">
-    <video muted autoplay loop class="video-background" poster="/images/wifi.webp" rel="preload" >
+    <ImageLoader v-if="isLoading"/>
+    <video muted autoplay loop class="video-background"  rel="preload" @loadeddata="handleLoad">
       <source src="/videos/manag-wifi.webm" type="video/mp4">
       Your browser does not support the video tag.
     </video>
@@ -17,8 +18,21 @@
   </section>
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
 export default {
-  name:'Hero'
+  name:'Hero',
+  components: { ImageLoader },
+  data() {
+    return {
+      isLoading: true, // Initially set to true
+    }
+  },
+  methods: {
+    handleLoad() {
+      this.isLoading = false;
+    },
+  },
+
 }
 </script>
 <style>
@@ -27,7 +41,8 @@ export default {
   display: flex;
   align-items: center;
   height: 500px;
-  background-color: #dedede;
+  z-index: 1000;
+  background-color: white;
 }
 .managed-wifi-top-text {
   font-size: 21px;
