@@ -21,6 +21,7 @@ export default {
     background-repeat: no-repeat;
     background-size:cover;
     height: 490px;
+    background-color: #dedede;
   }
   .contact-us-top-text {
     font-size: 21px;

@@ -22,6 +22,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #dedede;
   height: 490px;
 }
 .managed-cameras-top-text {

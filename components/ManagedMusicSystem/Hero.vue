@@ -52,6 +52,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
+  background-color: #dedede;
 }
 .managed-music-top-text {
   font-size: 21px;

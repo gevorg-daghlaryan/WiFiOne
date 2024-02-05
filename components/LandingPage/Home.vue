@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div class="carousel-wrapper">
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -87,6 +87,12 @@ export default {
 }
 </script>
 <style>
+  .carousel-wrapper {
+    min-height: 490px;
+    background-color: #dedede;
+    //opacity: 0.5;
+    z-index: -1;
+  }
   .slider-content {
     display: flex;
     flex-direction: column;

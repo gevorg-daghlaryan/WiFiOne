@@ -27,6 +27,7 @@ export default {
   display: flex;
   align-items: center;
   height: 500px;
+  background-color: #dedede;
 }
 .managed-wifi-top-text {
   font-size: 21px;

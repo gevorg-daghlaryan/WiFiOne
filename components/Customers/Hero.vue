@@ -22,7 +22,7 @@ export default {
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
-  //height: 490px;
+  background-color: #dedede;
 }
 .customers-top-text {
   font-size: 21px;
