@@ -1,8 +1,8 @@
 <template>
   <div class="image-loading">
     <div class="image-loading-center">
-<!--      <img :src="require('../../assets/images/loader.gif')" alt="loader">-->
-      <h1>Loading...</h1>
+      <img :src="require('../../assets/images/loader.gif')" alt="loader">
+<!--      <h1>Loading...</h1>-->
     </div>
   </div>
 </template>
@@ -19,6 +19,8 @@ export default {
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: white;
+    z-index: 1000;
   }
   .image-loading-center {
     background-color: inherit;

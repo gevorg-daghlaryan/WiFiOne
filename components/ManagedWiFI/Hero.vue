@@ -1,6 +1,5 @@
 <template>
   <section  class="managed-wifi-top py-0">
-    <ImageLoader v-if="isLoading"/>
     <video muted autoplay loop class="video-background"  rel="preload" @loadeddata="handleLoad">
       <source src="/videos/manag-wifi.webm" type="video/mp4">
       Your browser does not support the video tag.
@@ -15,6 +14,7 @@
         </div>
       </div>
     </div>
+    <ImageLoader v-if="isLoading"/>
   </section>
 </template>
 <script>
@@ -24,15 +24,18 @@ export default {
   components: { ImageLoader },
   data() {
     return {
-      isLoading: true, // Initially set to true
+      isLoading: false, // Initially set to true
     }
   },
   methods: {
     handleLoad() {
+      console.log(123)
       this.isLoading = false;
     },
   },
-
+  mounted() {
+    this.isLoading = true;
+  }
 }
 </script>
 <style>
