@@ -1,5 +1,6 @@
 <template>
-  <section class="event-wifi-top">
+  <section class="event-wifi-top" id="EventWiFiTopSection">
+    <ImageLoader v-if="loading" />
     <div class="container">
       <div class="event-wifi-top-wrapper">
         <h1 class="text-white">Event WiFi</h1>
@@ -12,12 +13,34 @@
   </section>
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'Hero'
+  name:'Hero',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('EventWiFiTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/services/event-wifi-hero.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('event-wifi-top-image-loaded');
+      this.loading = false;
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('event-wifi-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
 .event-wifi-top {
+  position: relative;
   background-image: url("../../assets/images/services/event-wifi-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +50,9 @@ export default {
 }
 .event-wifi-top-text {
   font-size: 21px;
+}
+.event-wifi-top-image-loaded {
+  background-image: url("../../assets/images/services/event-wifi-hero.webp");
 }
 .event-wifi-top-wrapper {
   display: flex;

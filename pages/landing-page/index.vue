@@ -55,14 +55,15 @@ export default {
         }
       ],
       link: [
-        {rel: "preload", as: "image", href: '/assets/images/home/bg2.svg'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/site-pwer-monitoring-hero.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/hero.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/wifi.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/event-wifi-hero.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/manag-cam-hero.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/manag-music-hero.webp'},
-        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/assets/images/services/managed-media-wall-hero.webp'},
+        {rel: "preload", as: "image", href: '/images/home/bg2.svg'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/site-pwer-monitoring-hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/wifi.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/event-wifi-hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/manag-cam-hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/manag-music-hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'image/webp', as: "image", href: '/images/services/managed-media-wall-hero.webp'},
+        {rel: "preload", fetchpriority: 'high', type: 'video/webm', as: "video", href: '/videos/manag-wifi.webm'},
       ]
     }
   },

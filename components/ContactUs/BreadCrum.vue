@@ -1,5 +1,6 @@
 <template>
-  <section class="contact-us-top">
+  <section class="contact-us-top" id="contactUsTopSection">
+    <ImageLoader v-if="loading" />
       <div class="container">
         <div class="contact-us-top-wrapper">
           <h1 class="text-white contact-us-top-title"> Contact Us</h1>
@@ -10,12 +11,36 @@
 
 </template>
 <script>
+
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'BreadCrump'
+  name:'BreadCrump',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('contactUsTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/contact-us/contact-us.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('contact-us-top-image-loaded');
+      this.loading = false;
+
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('contact-us-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
   .contact-us-top {
+    position: relative;
     background-image: url("../../assets/images/contact-us/contact-us.webp");
     background-position: center;
     background-repeat: no-repeat;
@@ -25,6 +50,9 @@ export default {
   }
   .contact-us-top-text {
     font-size: 21px;
+  }
+  .contact-us-top-image-loaded {
+    background-image: url("../../assets/images/contact-us/contact-us.webp");
   }
   .contact-us-top-wrapper {
     display: flex;

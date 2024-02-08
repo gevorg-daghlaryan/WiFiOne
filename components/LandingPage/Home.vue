@@ -1,5 +1,6 @@
 <template>
   <div class="carousel-wrapper">
+    <ImageLoader v-if="loading" />
     <b-carousel
       id="carousel-1"
       v-model="slide"
@@ -13,7 +14,9 @@
       @sliding-end="onSlideEnd"
     >
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-1.webp"
+        id="slide1"
+        img-src="/images/home/slides/slide-1.webp"
+
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -26,7 +29,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-3.webp"
+        img-src="/images/home/slides/slide-3.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -39,7 +42,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-4.webp"
+        img-src="/images/home/slides/slide-4.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -52,7 +55,7 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="../../assets/images/home/slides/slide-2.webp"
+        img-src="/images/home/slides/slide-2.webp"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
@@ -69,11 +72,15 @@
 </template>
 
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
+  components: {ImageLoader},
   data() {
     return {
       slide: 0,
-      sliding: null
+      sliding: null,
+      loading: true,
     }
   },
   methods: {
@@ -83,15 +90,25 @@ export default {
     onSlideEnd(slide) {
       this.sliding = false
     }
-  }
+  },
+  mounted() {
+    const backgroundImage = new Image();
+    backgroundImage.src = "/images/home/slides/slide-1.webp";
+    backgroundImage.onload = () => {
+      this.loading = false;
+    };
+    backgroundImage.onerror = () => {
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
   .carousel-wrapper {
+    position: relative;
     min-height: 490px;
     background-color: #dedede;
     //opacity: 0.5;
-    z-index: -1;
   }
   .slider-content {
     display: flex;

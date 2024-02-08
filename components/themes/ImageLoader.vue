@@ -20,6 +20,7 @@ export default {
     justify-content: center;
     background-color: white;
     z-index: 1000;
+    top:0;
   }
   .image-loading-center {
     background-color: inherit;

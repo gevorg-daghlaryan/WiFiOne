@@ -1,7 +1,9 @@
 <template>
   <section  class="managed-wifi-top py-0">
-    <video muted autoplay loop class="video-background"  rel="preload" @loadeddata="handleLoad">
-      <source src="/videos/manag-wifi.webm" type="video/mp4">
+    <ImageLoader v-if="loading" />
+    <video muted autoplay loop class="video-background"  id="video" rel="preload" >
+
+      <source id="videoSrc" src="/videos/manag-wifi.webm" type="video/mp4">
       Your browser does not support the video tag.
     </video>
     <img class="image-foreground" src="../../assets/images/services/wifi.webp" alt="hero">
@@ -20,23 +22,25 @@
 <script>
 import ImageLoader from "~/components/themes/ImageLoader.vue";
 export default {
-  name:'Hero',
-  components: { ImageLoader },
+  name: 'Hero',
+  components: {ImageLoader},
   data() {
     return {
-      isLoading: false, // Initially set to true
-    }
-  },
-  methods: {
-    handleLoad() {
-      console.log(123)
-      this.isLoading = false;
-    },
+      loading: true,
+    };
   },
   mounted() {
-    this.isLoading = true;
-  }
+    document.addEventListener('DOMContentLoaded', function() {
+      const video = document.getElementById('video');
+      video.play();
+    });
+
+    const videoSrc = document.getElementById('videoSrc');
+    videoSrc.src = "/videos/manag-wifi.webm";
+    this.loading = false;
+  },
 }
+
 </script>
 <style>
 .managed-wifi-top {
@@ -44,7 +48,6 @@ export default {
   display: flex;
   align-items: center;
   height: 500px;
-  z-index: 1000;
   background-color: white;
 }
 .managed-wifi-top-text {

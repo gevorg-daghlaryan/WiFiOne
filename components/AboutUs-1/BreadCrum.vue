@@ -1,5 +1,6 @@
 <template>
-  <section class="about-us-top">
+  <section class="about-us-top" id="aboutUsTopSection">
+    <ImageLoader v-if="loading" />
       <div class="container">
         <div class="about-us-top-wrapper">
           <h1 class="text-white about-us-top-title">About Us</h1>
@@ -13,13 +14,36 @@
 
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'BreadCrump'
+  name:'BreadCrump',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('aboutUsTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/about-us/hero.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('about-us-top-image-loaded');
+      this.loading = false;
+
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('about-us-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
   .about-us-top {
     background-image: url("../../assets/images/about-us/hero.webp");
+    position: relative;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -27,6 +51,9 @@ export default {
   }
   .about-us-top-text {
     font-size: 21px;
+  }
+  .about-us-top-image-loaded {
+    background-image: url("../../assets/images/about-us/hero.webp");
   }
   .about-us-top-wrapper {
     display: flex;

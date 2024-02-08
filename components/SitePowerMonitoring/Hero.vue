@@ -1,5 +1,6 @@
 <template>
-  <section class="site-monitoring-top">
+  <section class="site-monitoring-top" id="siteMonitoringTopSection">
+    <ImageLoader v-if="loading" />
     <div class="container">
       <div class="site-monitoring-top-wrapper">
         <h1 class="text-white"> Site Power Monitoring</h1>
@@ -12,12 +13,34 @@
   </section>
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'Hero'
+  name:'Hero',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('siteMonitoringTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/services/site-pwer-monitoring-hero.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('site-power-monitoring-top-image-loaded');
+      this.loading = false;
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('site-power-monitoring-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
 .site-monitoring-top {
+  position: relative;
   background-image: url("../../assets/images/services/site-pwer-monitoring-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -27,6 +50,9 @@ export default {
 }
 .site-monitoring-top-text {
   font-size: 21px;
+}
+.site-power-monitoring-top-image-loaded {
+  background-image: url("../../assets/images/services/site-pwer-monitoring-hero.webp");
 }
 .site-monitoring-top-wrapper {
   display: flex;

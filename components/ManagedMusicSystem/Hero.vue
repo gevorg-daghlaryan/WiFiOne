@@ -1,5 +1,6 @@
 <template>
-  <section class="managed-music-top">
+  <section class="managed-music-top" id="managedMusicSystemTopSection">
+    <ImageLoader v-if="loading" />
     <div class="container">
       <div class="row flex-nowrap">
         <div class="col-lg-10">
@@ -42,12 +43,34 @@
   </section>
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'Hero'
+  name:'Hero',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('managedMusicSystemTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/services/manag-music-hero.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('managed-music-system-top-image-loaded');
+      this.loading = false;
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('managed-music-system-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
 .managed-music-top {
+  position: relative;
   background-image: url("../../assets/images/services/manag-music-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -56,6 +79,9 @@ export default {
 }
 .managed-music-top-text {
   font-size: 21px;
+}
+.managed-music-system-top-image-loaded {
+  background-image: url("../../assets/images/services/manag-music-hero.webp");
 }
 .managed-music-top-wrapper {
   display: flex;

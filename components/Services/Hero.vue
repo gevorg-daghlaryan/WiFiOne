@@ -1,5 +1,6 @@
 <template>
-  <section class="service-top">
+  <section class="service-top" id="serviceTopSection">
+    <ImageLoader v-if="loading" />
     <div class="container">
       <div class="service-top-wrapper">
         <h1 class="text-white"> Services</h1>
@@ -13,12 +14,35 @@
   </section>
 </template>
 <script>
+import ImageLoader from "~/components/themes/ImageLoader.vue";
+
 export default {
-  name:'Hero'
+  name:'Hero',
+  components: {ImageLoader},
+  data() {
+    return {
+      loading: true,
+    };
+  },
+  mounted() {
+    const section = document.getElementById('serviceTopSection');
+    const backgroundImage = new Image();
+    backgroundImage.src = "../../assets/images/services/hero.webp";
+    backgroundImage.onload = () => {
+      section.classList.add('service-top-image-loaded');
+      this.loading = false;
+
+    };
+    backgroundImage.onerror = () => {
+      section.classList.add('service-top-image-loaded');
+      this.loading = false;
+    };
+  },
 }
 </script>
 <style>
 .service-top {
+  position: relative;
   background-image: url("../../assets/images/services/hero.webp");
   background-position: center;
   background-repeat: no-repeat;
@@ -26,6 +50,9 @@ export default {
 }
 .service-top-text {
   font-size: 21px;
+}
+.service-top-image-loaded {
+  background-image: url("../../assets/images/services/hero.webp");
 }
 .service-top-wrapper {
   display: flex;

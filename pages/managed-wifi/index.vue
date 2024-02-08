@@ -35,8 +35,9 @@ export default {
         }
       ],
       link: [
-        {rel: "preload", href: "../static/videos/manag-wifi.mp4", as: "video"},
-        {rel: "preload", href: "../assets/images/services/wifi.webp", as: "image"}
+        {rel: "preload", href: "../static/videos/manag-wifi.webp", as: "video"},
+        {rel: "preload", href: "../assets/images/services/wifi.webp", as: "image"},
+        {rel: "preload", fetchpriority: 'high', type: 'video/webm', as: "video", href: '/static/videos/manag-wifi.webm'},
       ]
     }
   },
