@@ -15,13 +15,13 @@
     >
       <b-carousel-slide
         id="slide1"
-        img-src="/images/home/slides/slide-1.webp"
+        img-src="/images/home/slides/slide-1.avif"
 
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title ">Your Premier WiFi Partner: <br class="d-none d-lg-block">Tailored solutions <br class="d-none d-lg-block">supporting your business</h2>
-            <p class="text-white text-left ">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
+            <h2 class="text-white text-left slider-title ">Office-based Businesses</h2>
+            <p class="text-white text-left slider-text">Enhance productivity and communication within corporate environments</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
@@ -29,12 +29,38 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="/images/home/slides/slide-3.webp"
+        img-src="/images/home/slides/slide-2.avif"
+      >
+        <div class="slider-wrapper">
+          <div class="slider-content">
+            <h2 class="text-white text-left slider-title ">Event Management Companies</h2>
+            <p class="text-white text-left slider-text">Providing reliable WiFi solutions during events and conferences</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
+            </div>
+          </div>
+        </div>
+      </b-carousel-slide>
+      <b-carousel-slide
+        img-src="/images/home/slides/slide-3.avif"
+      >
+        <div class="slider-wrapper">
+          <div class="slider-content">
+            <h2 class="text-white text-left slider-title ">Hotels and Hospitality Businesses</h2>
+            <p class="text-white text-left slider-text">Elevate your guest experience with seamless and secure connectivity</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
+            </div>
+          </div>
+        </div>
+      </b-carousel-slide>
+      <b-carousel-slide
+        img-src="/images/home/slides/slide-4.avif"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
             <h2 class="text-white text-left slider-title ">Event WiFi</h2>
-            <p class="text-white text-left ">Enterprice Access Point, LTE or existing <br class="d-none d-lg-block"> backhaul, cloud AP controllers </p>
+            <p class="text-white text-left slider-text">Tailored WiFi solutions for events and conferences, providing reliable,  high-performance connectivity with optional on-site management</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
@@ -42,12 +68,12 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="/images/home/slides/slide-4.webp"
+        img-src="/images/home/slides/slide-5.avif"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title ">Service Industry WiFi </h2>
-            <p class="text-white text-left ">Enterprise Access Points and routers, click through portal, <br class="d-none d-lg-block"> Quality of Service, customer and back-office/PoS WiFi</p>
+            <h2 class="text-white text-left slider-title ">Managed Cameras</h2>
+            <p class="text-white text-left slider-text">Oversight and management of security cameras and access systems, enhancing safety and surveillance for businesses</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
@@ -55,12 +81,38 @@
         </div>
       </b-carousel-slide>
       <b-carousel-slide
-        img-src="/images/home/slides/slide-2.webp"
+        img-src="/images/home/slides/slide-6.avif"
       >
         <div class="slider-wrapper">
           <div class="slider-content">
-            <h2 class="text-white text-left slider-title ">Integrated Hotel WiFi</h2>
-            <p class="text-white text-left ">Customer portal, integration, enterprise Access Points</p>
+            <h2 class="text-white text-left slider-title ">Managed Music Systems</h2>
+            <p class="text-white text-left slider-text">Centralized control and management of multi-zone speaker systems for optimized audio experiences in various areas</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
+            </div>
+          </div>
+        </div>
+      </b-carousel-slide>
+      <b-carousel-slide
+        img-src="/images/home/slides/slide-7.avif"
+      >
+        <div class="slider-wrapper">
+          <div class="slider-content">
+            <h2 class="text-white text-left slider-title ">Site Power Monitoring</h2>
+            <p class="text-white text-left slider-text">Giving you immediate notification when power fails on one of your sites</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
+            </div>
+          </div>
+        </div>
+      </b-carousel-slide>
+      <b-carousel-slide
+        img-src="/images/home/slides/slide-8.avif"
+      >
+        <div class="slider-wrapper">
+          <div class="slider-content">
+            <h2 class="text-white text-left slider-title ">Managed Media Wall</h2>
+            <p class="text-white text-left slider-text">Get your message out with vivid and fluid graphics and video</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
@@ -114,13 +166,16 @@ export default {
     display: flex;
     flex-direction: column;
     justify-content: start;
-    gap: 35px;
+    gap: 20px;
   }
   .slider-title {
     font-size: 50px;
     font-style: normal;
     font-weight: 600;
     line-height: normal;
+  }
+  .slider-text {
+    font-size: 21px;
   }
   .slider-wrapper {
     display: flex;

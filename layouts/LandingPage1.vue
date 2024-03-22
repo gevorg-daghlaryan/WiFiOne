@@ -24,7 +24,7 @@ export default {
         },
         { href: '/about', title: 'About Us', children: false, child: landing1About, classname: ' ' },
         { href: '/services', title: 'Services', children: true, child: services, classname: ' ' },
-        { href: '/customers', title: 'Customers', active: true, children: false, child: pages, classname: ' '  },
+        { href: '/customers', title: 'Customers', active: true, children: true, child: pages, classname: ' '  },
         { href: '/contact-us', title: 'Contact Us', children: false, child: contacts, classname: ' ' }
       ]
     }

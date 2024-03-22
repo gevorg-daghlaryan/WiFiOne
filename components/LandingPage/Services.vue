@@ -4,7 +4,7 @@
       <div class="row">
         <div class="col-lg-12">
           <div class="wow fadeInUp text-center mb-4">
-            <span class="about-services-header">SERVICES</span>
+            <span class="about-services-header">OUR SERVICES</span>
           </div>
         </div>
       </div>
@@ -21,11 +21,11 @@
               <p>{{ list.description }}</p>
             </div>
             <div slot="cardInfo">
-              <p class=" font-weight-bold mt-4">{{ list.info }}</p>
+              <p class=" font-weight-bold mt-4 bg-light" >{{ list.info }}</p>
             </div>
             <div slot="cardLink">
-              <div class="blog-button w-100 d-flex justify-content-end mt-3">
-                  <a :href="list.link" class="button blue-btn button-icon text-left">Learn More</a>
+              <div class="blog-button w-100 d-flex justify-content-center mt-3">
+                  <a :href="list.link" class="button  button-icon text-center">Learn More</a>
               </div>
             </div>
           </CardStyle1>
@@ -79,6 +79,7 @@ export default {
         },
         {
           title: 'Managed media wall',
+          info:'For media advertising',
           description: 'Transform your communication with wifiOne\'s Managed Media Wall and Signage service. Whether you prefer in-house updates or collaborate with our trusted digital content partners, we provide dynamic solutions to convey your message effectively and captivate your audience.',
           src: require('../../assets/images/home/services/06.png'),
           link: '/managed-media-wall',

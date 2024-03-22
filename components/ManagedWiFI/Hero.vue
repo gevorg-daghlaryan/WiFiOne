@@ -6,7 +6,7 @@
       <source id="videoSrc" src="/videos/manag-wifi.webm" type="video/mp4">
       Your browser does not support the video tag.
     </video>
-    <img class="image-foreground" src="../../assets/images/services/wifi.webp" alt="hero">
+    <img class="image-foreground" src="/images/services/wifi.webp" alt="hero">
     <div class="container">
       <div class="managed-wifi-top-wrapper">
         <h1 class="text-whit managed-wifi-top-title"> Managed WiFi</h1>

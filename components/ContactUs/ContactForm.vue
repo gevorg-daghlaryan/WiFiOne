@@ -30,10 +30,11 @@
             </div>
           </form>
         </div>
-        <div class="mt-5  mx-0 col-sm-5 offset-lg-1 col-lg-5 offset-md-1 col-md-5">
+        <div class=" mx-0 col-sm-5 offset-lg-1 col-lg-5 offset-md-1 col-md-5">
           <div class="wrapper">
             <div class="contact-box d-flex justify-content-start align-items-start">
-              <i aria-hidden="true" class="fa-regular fa-envelope"></i>
+<!--              <i aria-hidden="true" class="fa-regular fa-envelope"></i>-->
+              <img src="../../assets/images/contact-us/Email.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
                   Direct Email Contacts:
@@ -45,22 +46,36 @@
                 </ul>
               </div>
             </div>
-            <div class="contact-box d-flex justify-content-start  align-items-start">
-              <i aria-hidden="true" class="ion ion-android-share-alt" />
+            <div class="contact-box d-flex justify-content-start  align-items-start mt-4">
+<!--              <i aria-hidden="true" class="ion ion-android-share-alt" style="color: #3f81D1;"></i>-->
+              <img src="../../assets/images/contact-us/Share.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
                   Social media
                 </h4>
                 <ul class="contact-links">
                   <li class="d-inline">
-                    <a href="#"><i class="fa fa-facebook-f" /></a>
+                    <a href="#"><i class=" fa fa-facebook" style="color: #3f81D1;"></i></a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"><i class="fa fa-twitter" /></a>
+                    <a href="#"><i class="fa fa-twitter" style="color: #3f81D1;" /></a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"><i class="fa fa-instagram" /></a>
+                    <a href="#"><i class="fa fa-square-instagram" style="color: #3f81D1;" /></a>
                   </li>
+                </ul>
+              </div>
+            </div>
+            <div class="contact-box d-flex justify-content-start  align-items-start mt-4">
+<!--              <i class=" fa fa-regular fa-location-dot" style="color: #2553a2;"></i>-->
+              <img src="../../assets/images/contact-us/Marker.svg" alt="email">
+              <div class="service-detail">
+                <h4 class="mb-2 contact-us-title">
+                  Address
+                </h4>
+                <ul class="list-inline mb-0 contact-links">
+                  <li>1 Keong Saik Road</li>
+                  <li> Singapore 089109</li>
                 </ul>
               </div>
             </div>

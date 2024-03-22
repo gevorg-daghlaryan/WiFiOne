@@ -8,7 +8,7 @@
             <div class="wrapper-managed-music-title">
             <h1 class="text-white">Managed Music System</h1>
               <div class="col-lg-2 image ">
-                <img src="../../assets/images/services/load.webp" alt="">
+                <img src="/images/services/load.webp" alt="">
               </div>
             </div>
             <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
@@ -56,7 +56,7 @@ export default {
   mounted() {
     const section = document.getElementById('managedMusicSystemTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/services/manag-music-hero.webp";
+    backgroundImage.src = "/images/services/manag-music-hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('managed-music-system-top-image-loaded');
       this.loading = false;
@@ -71,7 +71,7 @@ export default {
 <style>
 .managed-music-top {
   position: relative;
-  background-image: url("../../assets/images/services/manag-music-hero.webp");
+  background-image: url("/images/services/manag-music-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -81,7 +81,7 @@ export default {
   font-size: 21px;
 }
 .managed-music-system-top-image-loaded {
-  background-image: url("../../assets/images/services/manag-music-hero.webp");
+  background-image: url("/images/services/manag-music-hero.webp");
 }
 .managed-music-top-wrapper {
   display: flex;

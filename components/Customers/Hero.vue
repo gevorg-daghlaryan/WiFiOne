@@ -27,7 +27,7 @@ export default {
   mounted() {
     const section = document.getElementById('customersTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/customers/customers-hero.webp";
+    backgroundImage.src = "/images/customers/customers-hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('customers-top-image-loaded');
       this.loading = false;
@@ -42,7 +42,7 @@ export default {
 </script>
 <style>
 .customers-top {
-  background-image:  url("../../assets/images/customers/customers-hero.webp");
+  background-image:  url("/images/customers/customers-hero.webp");
   position: relative;
   background-position: center;
   background-repeat: no-repeat;
@@ -53,7 +53,7 @@ export default {
   font-size: 21px;
 }
 .customers-top-image-loaded {
-  background-image:  url("../../assets/images/customers/customers-hero.webp");
+  background-image:  url("/images/customers/customers-hero.webp");
 }
 .customers-top-wrapper {
   display: flex;

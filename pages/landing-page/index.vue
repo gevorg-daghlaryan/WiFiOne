@@ -6,10 +6,10 @@
       <ChooseUs />
       <Counter />
       <Services />
-      <ContactUs />
+      <Form />
       <Testimonial />
       <Client />
-      <Form />
+<!--      <ContactUs />-->
       <ContactUs1/>
     </div>
     <Footer />

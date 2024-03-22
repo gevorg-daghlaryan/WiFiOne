@@ -2,6 +2,13 @@
   <section class="aboutus-two-service pb-0">
     <div class="container">
       <div class="row">
+        <div class="col-lg-12">
+          <div class="wow fadeInUp text-center mb-4">
+            <span class="about-services-header">OUR SERVICES</span>
+          </div>
+        </div>
+      </div>
+      <div class="row">
         <div class="col-lg-4 col-md-6 mb-5" v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia">
@@ -17,8 +24,8 @@
               <p class=" font-weight-bold mt-4">{{ list.info }}</p>
             </div>
             <div slot="cardLink">
-              <div class="blog-button w-100 d-flex justify-content-end">
-                <a :href="list.link" class="button blue-btn button-icon text-left">Learn More</a>
+              <div class="blog-button w-100 d-flex justify-content-center">
+                <a :href="list.link" class="button  button-icon text-left">Learn More</a>
               </div>
             </div>
           </CardStyle1>

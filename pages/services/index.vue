@@ -1,16 +1,15 @@
 <template>
   <div class="main-content">
-<!--    <BreadCrum />-->
-<!--    <Services />-->
-<!--    <About />-->
-<!--    <Client />-->
     <Hero/>
-    <AboutUs/>
-    <ContactUs/>
+<!--    <AboutUs/>-->
+<!--    <ContactUs/>-->
     <Services/>
-    <Works/>
-    <Support/>
-    <Accordion/>
+    <ChooseUs/>
+    <Counter/>
+    <Testimonial/>
+<!--    <Works/>-->
+<!--    <Support/>-->
+<!--    <Accordion/>-->
     <Footer />
   </div>
 </template>
@@ -26,9 +25,15 @@ import Works from '../../components/Services/Works.vue';
 import Support from '../../components/Services/Support.vue';
 import { themes } from '../../assets/app/app';
 import Accordion from "~/components/Services/Accordion.vue";
+import ChooseUs from "~/components/Services/ChooseUs.vue";
+import Counter from "~/components/Services/Counter.vue";
+import Testimonial from "~/components/Services/Testimonial.vue";
 export default {
   layout: 'Services',
   components: {
+    Testimonial,
+    Counter,
+    ChooseUs,
     Accordion,
     AboutUs,
     Hero,

@@ -1,5 +1,5 @@
 <template>
-  <section class="pb-0">
+  <section class="clients">
     <div class="container">
       <div class="row">
         <div class="col-sm-12 wow fadeInUp">
@@ -78,11 +78,14 @@ export default {
 }
 </script>
 <style>
- .clients-header {
-   color: #3F81D1;
-   font-size: 30px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
- }
+  .clients {
+    background-color: #EFF1FD;
+  }
+  .clients-header {
+    color: #3F81D1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+  }
 </style>

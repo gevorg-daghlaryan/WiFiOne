@@ -26,7 +26,7 @@ export default {
   mounted() {
     const section = document.getElementById('managedMediaWallTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/services/managed-media-wall-hero.webp";
+    backgroundImage.src = "/images/services/managed-media-wall-hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('managed-media-wall-top-image-loaded');
       this.loading = false;
@@ -41,7 +41,7 @@ export default {
 <style>
 .managed-media-wall-top {
   position: relative;
-  background-image: url("../../assets/images/services/managed-media-wall-hero.webp");
+  background-image: url("/images/services/managed-media-wall-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ export default {
   font-size: 21px;
 }
 .managed-media-wall-top-image-loaded {
-  background-image: url("../../assets/images/services/managed-media-wall-hero.webp");
+  background-image: url("/images/services/managed-media-wall-hero.webp");
 }
 .managed-media-wall-top-wrapper {
   display: flex;

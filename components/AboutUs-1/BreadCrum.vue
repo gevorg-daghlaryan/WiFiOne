@@ -27,7 +27,7 @@ export default {
   mounted() {
     const section = document.getElementById('aboutUsTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/about-us/hero.webp";
+    backgroundImage.src = "/images/about-us/hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('about-us-top-image-loaded');
       this.loading = false;
@@ -42,7 +42,7 @@ export default {
 </script>
 <style>
   .about-us-top {
-    background-image: url("../../assets/images/about-us/hero.webp");
+    background-image: url("/images/about-us/hero.avif");
     position: relative;
     background-position: center;
     background-repeat: no-repeat;
@@ -53,7 +53,7 @@ export default {
     font-size: 21px;
   }
   .about-us-top-image-loaded {
-    background-image: url("../../assets/images/about-us/hero.webp");
+    background-image: url("/images/about-us/hero.avif");
   }
   .about-us-top-wrapper {
     display: flex;

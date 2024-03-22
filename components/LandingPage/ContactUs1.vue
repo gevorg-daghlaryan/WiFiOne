@@ -26,7 +26,6 @@ export default {
   background-image: url("../../assets/images/home/bg1.svg");
   background-size: 1201px 1139px;
   background-repeat: repeat-y;
-  background-position: 88px;
 }
 
 </style>

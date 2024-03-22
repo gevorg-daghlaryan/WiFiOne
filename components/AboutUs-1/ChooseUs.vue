@@ -1,8 +1,10 @@
 <template>
-  <section class="choose mt-5">
+  <section class="choose">
     <div class="container">
+      <h2  class="text-center choose-header mb-5">WHY CHOOSE US</h2>
       <div class="choose-wrapper">
         <div class="choose-item" v-for="(list,index) in items" :key="index">
+          <img :src="list.img" alt="" class="d-block">
           <div class="">
             <span class="choose-title">{{list.title}}</span>
             <p class="choose-text">{{list.description}}</p>
@@ -21,18 +23,23 @@ export default {
         {
           title: 'Zero upfront costs',
           description: 'Affordable running costs, aligned with your revenue model',
-        },
-        {
-          title: 'Deployment and configuration',
-          description: 'Most equipment wired, using professional equipment trusted by large enterprises',
+          img: '/images/home/choose-us/1.svg'
         },
         {
           title: 'Professional network design & service',
           description: 'Giving you increased security, reliability and performance the best network is one you never notice',
+          img: '/images/home/choose-us/2.svg'
+
+        },
+        {
+          title: 'Deployment and configuration',
+          description: 'Most equipment wired, using professional equipment trusted by large enterprises',
+          img: '/images/home/choose-us/3.svg'
         },
         {
           title: 'Single point of contact',
           description: 'Off-site and on-site top-down diagnosis in a timely manner system powered on, on-network, connection quality, actively transferring data, next steps',
+          img: '/images/home/choose-us/4.svg'
         },
       ]
     }
@@ -50,9 +57,10 @@ export default {
 
 .choose-item {
   display: flex;
-  flex-basis: 40%;
+  flex-basis: 45%;
   justify-content: center;
-  flex-direction: column;
+  align-items: start;
+  gap: 20px
 }
 
 .choose-title {
@@ -63,7 +71,7 @@ export default {
 }
 
 .choose {
-  padding-top: 0px;
+  background-color: #EFF1FD;
 }
 
 .choose-header {
@@ -79,8 +87,6 @@ export default {
   color: #343E59;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 50px;
 }
 

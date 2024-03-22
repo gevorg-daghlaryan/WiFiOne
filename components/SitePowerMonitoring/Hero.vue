@@ -26,7 +26,7 @@ export default {
   mounted() {
     const section = document.getElementById('siteMonitoringTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/services/site-pwer-monitoring-hero.webp";
+    backgroundImage.src = "/images/services/site-pwer-monitoring-hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('site-power-monitoring-top-image-loaded');
       this.loading = false;
@@ -41,7 +41,7 @@ export default {
 <style>
 .site-monitoring-top {
   position: relative;
-  background-image: url("../../assets/images/services/site-pwer-monitoring-hero.webp");
+  background-image: url("/images/services/site-pwer-monitoring-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ export default {
   font-size: 21px;
 }
 .site-power-monitoring-top-image-loaded {
-  background-image: url("../../assets/images/services/site-pwer-monitoring-hero.webp");
+  background-image: url("/images/services/site-pwer-monitoring-hero.webp");
 }
 .site-monitoring-top-wrapper {
   display: flex;

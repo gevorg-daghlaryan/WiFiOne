@@ -35,20 +35,32 @@ export default {
     return {
       items: [
         {
-          title: 'What differentiates you from the competitors?',
-          description: 'wifiOne prioritizes reliability and performance for cost-sensitive markets by employing top-tier enterprise equipment. This ensures optimal connectivity, meeting high standards without compromising affordability, delivering a seamless experience for our clients.',
+          title: 'Why is my WiFi/internet slow?',
+          description: 'Your slow experience may stem from WiFi congestion or limited Access Point coverage. Alternatively, the service you are using may be overloaded, in a different geographic region, or there is congestion in the internet service provider or international links.',
         },
         {
-          title: 'How do you ensure fair sharing of a single internet connection among multiple networks?',
-          description: 'wifiOne implements a tiered Quality of Service approach, allocating bandwidth to prioritize mission-critical network services. This guarantees smooth and lag-free real-time conferencing and VoIP/Skype/Teams calling.',
+          title: 'How can I improve WiFi/internet speed?',
+          description: 'To optimize your WiFi, move your device and Access Point nearer, or add Access Points to increase strong-signal coverage.',
         },
         {
-          title: 'How does wifiOne safeguard my business or event from cyber threats?',
-          description: 'wifiOne keeps each network isolated from one another; devices on each network are isolated from each other by default also. Finally, infrastructure devices receive monthly security and bugfix updates to prevent intrusion.',
+          title: 'What differentiates wifiOne’s site WiFi design?',
+          description: 'wifiOne tailors site WiFi to match customer objectives—whether it\'s providing seamless coverage for video calls, high capacity for media tasks, or optimizing for cost-efficiency. We then apply specialized algorithms to select the most suitable enterprise equipment and locations, deploying our bespoke mounting solution for a clearer signal.',
         },
         {
-          title: 'Can you integrate with existing networks?',
-          description: 'You can choose between a “no changes” approach on your existing network, where wifiOne’s equipment will be put on a separate upstream or downstream network, or “maximum quality” approach for the highest performance, security and reliability where we change out the infrastructure equipment for the managed service, keeping all the other devices connected.',
+          title: 'What equipment does wifiOne use?',
+          description: 'wifiOne uses only US and EU enterprise-grade equipment for active network elements. Where possible, we incorporate a capacity overprovision, ensuring redundancy against device failures and ample performance during peak times.\n All equipment is validated for enterprise use for continuous, heavy operation.',
+        },
+        {
+          title: 'How do you secure these networks?',
+          description: 'Distinct networks are allocated for specific purposes, embracing the principle of \'separation of concerns\'. These networks grant internet access only, restricting local access unless explicitly required. All equipment receives monthly security and stability updates and supports the ‘best practise’ WPA3 security standard.',
+        },
+        {
+          title: 'Can your networks be customized to integrate existing systems?',
+          description: 'In the preliminary consultation phase, our network experts understand any existing equipment and configuration to ensure seamless integration.',
+        },
+        {
+          title: 'How do you keep costs this low for the end-user?',
+          description: 'wifiOne leverages cutting-edge enterprise equipment with cloud management; this means no additional on-premises management equipment. Equipment is highly integrated, reducing the number of devices, licensing and management burden.',
         },
       ],
     }

@@ -50,9 +50,10 @@ export default {
 
 .choose-item {
   display: flex;
-  flex-basis: 40%;
+  flex-basis: 45%;
   justify-content: center;
-  flex-direction: column;
+  align-items: start;
+  gap: 20px
 }
 
 .choose-title {
@@ -63,7 +64,7 @@ export default {
 }
 
 .choose {
-  padding-top: 0px;
+  background-color: #EFF1FD ;
 }
 
 
@@ -71,8 +72,6 @@ export default {
   color: #343E59;
   font-size: 20px;
   font-style: normal;
-  font-weight: 400;
-  line-height: normal;
   margin-bottom: 50px;
 }
 

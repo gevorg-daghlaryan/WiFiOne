@@ -4,7 +4,7 @@
 <!--    <Address />-->
     <ContactForm />
     <Map/>
-    <SupportTitle/>
+<!--    <SupportTitle/>-->
     <Support/>
     <Accordion/>
     <Footer />
@@ -34,7 +34,7 @@ export default {
         }
       ],
       link: [
-        {rel: "preload", as: "image", href: './assets/images/home/bg2.svg'}
+        {rel: "preload", as: "image", href: '/images/home/bg2.svg'}
       ]
     }
   },

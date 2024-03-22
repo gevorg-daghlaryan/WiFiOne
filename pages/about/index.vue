@@ -2,13 +2,14 @@
   <div>
 <!--    <BreadCrumb crumb-title="About Us" :crumb-media="image" :crumb-links="links" />-->
     <div class="main-content">
-          <BreadCrump/>
-          <Story/>
-          <Ideas/>
-          <ChooseUs/>
-          <Awards/>
-          <ContactUs/>
-          <Testimonial/>
+      <BreadCrump/>
+      <Story/>
+      <Ideas/>
+      <ChooseUs/>
+      <Counter/>
+<!--          <Awards/>-->
+      <Testimonial/>
+      <ContactUs/>
       <Footer />
     </div>
   </div>
@@ -27,6 +28,7 @@ import Awards from "~/components/AboutUs-1/Awards.vue";
 import ContactUs from "~/components/AboutUs-1/ContactUs.vue";
 import Testimonial from "~/components/AboutUs-1/Testimonial.vue";
 import Ideas from "~/components/AboutUs-1/Ideas.vue";
+import Counter from "~/components/AboutUs-1/Counter.vue";
 
 
 export default {
@@ -42,6 +44,7 @@ export default {
     Footer,
     BreadCrump,
     Story,
+    Counter,
 
   },
   data () {

@@ -25,7 +25,7 @@ export default {
   mounted() {
     const section = document.getElementById('contactUsTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/contact-us/contact-us.webp";
+    backgroundImage.src = "/images/contact-us/contact-us.webp";
     backgroundImage.onload = () => {
       section.classList.add('contact-us-top-image-loaded');
       this.loading = false;
@@ -41,7 +41,7 @@ export default {
 <style>
   .contact-us-top {
     position: relative;
-    background-image: url("../../assets/images/contact-us/contact-us.webp");
+    background-image: url("/images/contact-us/contact-us.webp");
     background-position: center;
     background-repeat: no-repeat;
     background-size:cover;
@@ -52,7 +52,7 @@ export default {
     font-size: 21px;
   }
   .contact-us-top-image-loaded {
-    background-image: url("../../assets/images/contact-us/contact-us.webp");
+    background-image: url("/images/contact-us/contact-us.webp");
   }
   .contact-us-top-wrapper {
     display: flex;

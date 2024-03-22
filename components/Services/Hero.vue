@@ -27,7 +27,7 @@ export default {
   mounted() {
     const section = document.getElementById('serviceTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/services/hero.webp";
+    backgroundImage.src = "/images/services/hero.avif";
     backgroundImage.onload = () => {
       section.classList.add('service-top-image-loaded');
       this.loading = false;
@@ -43,7 +43,7 @@ export default {
 <style>
 .service-top {
   position: relative;
-  background-image: url("../../assets/images/services/hero.webp");
+  background-image: url("/images/services/hero.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ export default {
   font-size: 21px;
 }
 .service-top-image-loaded {
-  background-image: url("../../assets/images/services/hero.webp");
+  background-image: url("/images/services/hero.avif");
 }
 .service-top-wrapper {
   display: flex;

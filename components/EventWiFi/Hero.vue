@@ -26,7 +26,7 @@ export default {
   mounted() {
     const section = document.getElementById('EventWiFiTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "../../assets/images/services/event-wifi-hero.webp";
+    backgroundImage.src = "/images/services/event-wifi-hero.webp";
     backgroundImage.onload = () => {
       section.classList.add('event-wifi-top-image-loaded');
       this.loading = false;
@@ -41,7 +41,7 @@ export default {
 <style>
 .event-wifi-top {
   position: relative;
-  background-image: url("../../assets/images/services/event-wifi-hero.webp");
+  background-image: url("/images/services/event-wifi-hero.webp");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -52,7 +52,7 @@ export default {
   font-size: 21px;
 }
 .event-wifi-top-image-loaded {
-  background-image: url("../../assets/images/services/event-wifi-hero.webp");
+  background-image: url("/images/services/event-wifi-hero.webp");
 }
 .event-wifi-top-wrapper {
   display: flex;

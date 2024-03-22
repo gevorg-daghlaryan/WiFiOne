@@ -46,8 +46,7 @@ export default {
   .address-text {
     color: #343E59;
     font-size: 27px;
-    font-style: normal;
-    font-weight: 600;
+    font-weight: 400;
   }
 
 </style>
