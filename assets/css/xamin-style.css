@@ -315,7 +315,7 @@ header.style-one.style-two .navbar ul li .sub-menu li:hover, header.style-one.st
 #secondary  .widget.widget_categories  ul li a:hover { color: #437eeb; text-decoration: none; }
 .iq-widget-menu ul.iq-post li { border: none; }
 .iq-post-sidebar { height: 100%; }
-.widget { margin-bottom: 45px; padding: 30px; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; display: inline-block; width: 100%; float: left; position: relative; background: #eff1fe; }
+.widget {; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; display: inline-block; width: 100%; float: left; position: relative; background: #eff1fe; }
 .widget:last-child { margin-bottom: 0; }
 .widget .widget-title { font-size: 25px; position: relative; margin-bottom: 15px; padding-bottom: 0; }
 .testimonial-widget-menu.widget, .iq-widget-menu.widget { padding: 0; background: transparent; }

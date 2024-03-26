@@ -1,39 +1,41 @@
-<template>
-  <section class="position-relative overview-block-ptb support-section">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
-          <div class="title-box wow fadeInUp  text-center">
-            <h2 class="support-text text-center">
-              We prioritize your operational continuity, offering same-day equipment replacements to minimize downtime. Trust in wifiONE for swift and tailored solutions that keep your business running smoothly.
-            </h2>
 
-          </div>
-          <div class=" text-center mt-5 ">
-            <a class="button blue-btn button-icon" href="/contact-us"><span class="btn-effect">Submit support ticket</span></a>
-          </div>
+  <template>
+    <section  class="xamin-blue-bg pt-5 pb-5 service-support-section">
+      <div class="container">
+        <div class="service-support-wrapper">
+          <h6 class="support-description text-white text-center">We prioritize your operational continuity, offering same-day equipment replacement.
+            <br> Trust wifiOne for swift and tailored solutions that keep your business running smoothly.</h6>
+          <a
+            id="submit-4"
+            href="/contact-us"
+            class="button  white-btn mt-3 form-button mx-auto"
+          >
+            Contact Us
+          </a>
         </div>
       </div>
-    </div>
-  </section>
-</template>
+    </section>
+  </template>
 <script>
 export default {
   name: 'Support'
 }
 </script>
 <style>
-  .support-section {
-    background-image: url("../../assets/images/home/bg1.svg");
-    background-color: #EFF1FD;
-    background-size: 1201px 1139px;
+  .service-support-section {
+    background-image: url("../../assets/images/home/bg2.svg");
     background-repeat: repeat-y;
-    background-position: 88px;
+    background-size: 651px 787px;
+    background-position-y: center;
+    background-position-x: 91px;
   }
-  .support-text {
-    color: #3F81D1;
-    font-size: 30px;
-    font-style: normal;
+  .service-support-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .support-description {
     font-weight: 400;
+    font-size: 29px;
   }
 </style>

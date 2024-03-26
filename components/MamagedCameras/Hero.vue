@@ -26,7 +26,7 @@ export default {
   mounted() {
     const section = document.getElementById('managedCamerasTopSection');
     const backgroundImage = new Image();
-    backgroundImage.src = "/images/services/manag-cam-hero.webp";
+    backgroundImage.src = "/images/services/manag-cam-hero.avif";
     backgroundImage.onload = () => {
       section.classList.add('managed-cameras-top-image-loaded');
       this.loading = false;
@@ -41,7 +41,7 @@ export default {
 <style>
 .managed-cameras-top {
   position: relative;
-  background-image: url("/images/services/manag-cam-hero.webp");
+  background-image: url("/images/services/manag-cam-hero.avif");
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;

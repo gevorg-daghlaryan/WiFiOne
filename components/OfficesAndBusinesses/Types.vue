@@ -30,42 +30,42 @@ export default {
         {
           title: 'Smart Business Value',
           description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
-          src: require('../../assets/images/home/services/08.png')
+          src: require('../../assets/images/home/services/07.png')
         },
         {
           title: 'Secure by Design',
           description: 'WPA3 wireless security, multi-level IP firewalling, and Zero Trust options for maximum wired security.',
-          src: require('../../assets/images/home/services/09.png')
+          src: require('../../assets/images/home/services/08.png')
         },
         {
           title: 'Professional Network Design',
           description: 'Crafted with industry best practices, segmentation, and security for optimal performance.',
-          src: require('../../assets/images/home/services/10.png')
+          src: require('../../assets/images/home/services/18.png')
         },
         {
           title: 'Captive Portal Option',
           description: 'Customized portal reflecting your brand, mindshare, or advertising upon network connection.',
-          src: require('../../assets/images/home/services/01.png')
+          src: require('../../assets/images/home/services/10.png')
         },
         {
           title: 'Optimized Video Calling',
           description: 'Experience network fairness with Quality of Service. Prevent resource abuse and ensure smooth video calls during media traffic.',
-          src: require('../../assets/images/home/services/11.png')
+          src: require('../../assets/images/home/services/20.png')
         },
         {
           title: 'Per-Tenant Network',
           description: 'Distinct network for each tenant in shared offices. Ensures optimal security, separation, and secure one-way device access in wifiONE\'s system.',
-          src: require('../../assets/images/home/services/01.png')
+          src: require('../../assets/images/home/services/23.png')
         },
         {
           title: 'Managed VPN Option',
           description: 'Integration of a Virtual Private Network (VPN) with management services, ensuring secure and efficient communication across networks.',
-          src: require('../../assets/images/home/services/06.png')
+          src: require('../../assets/images/home/services/16.png')
         },
         {
           title: '5G Backup Internet Option',
           description: 'Guarantees uninterrupted connectivity with a reliable backup option.',
-          src: require('../../assets/images/home/services/02.png')
+          src: require('../../assets/images/home/services/21.png')
         }
       ]
     }

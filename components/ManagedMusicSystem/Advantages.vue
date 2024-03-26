@@ -2,7 +2,7 @@
   <section class="pt-0">
     <div class="container">
       <div class="row ">
-        <div class="col-lg-4 col-md-12 mx-auto" v-for="(list,index) in items" :key="index">
+        <div class="col-lg-4 col-md-12 " v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia" class="mb-2">
               <img :src="list.src" alt="fancy-list" class="mx-auto">
@@ -31,7 +31,12 @@ export default {
         {
           title: 'Multi-Zone Control',
           description: 'Centralized control and management of multiple zones, allowing for customized settings and operations in distinct areas.',
-          src: require('../../assets/images/home/services/04.png')
+          src: require('../../assets/images/home/services/12.png')
+        },
+        {
+          title: 'Streaming',
+          description: 'Broad support including AirPlay 2, Spotify, Apple Music, Deezer, Tidal, SoundCloud, TuneIn and more',
+          src: require('../../assets/images/home/services/13.png')
         },
       ]
     }

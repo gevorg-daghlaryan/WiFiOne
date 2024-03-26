@@ -2,7 +2,7 @@
   <section class="pt-0">
     <div class="container">
       <div class="row">
-        <div class="col-lg-4 col-md-12  mx-auto" v-for="(list,index) in items" :key="index">
+        <div class="col-lg-4 col-md-12" v-for="(list,index) in items" :key="index">
           <CardStyle1>
             <div slot="cardMedia" class="mb-2">
               <img :src="list.src" alt="fancy-list" class="mx-auto">
@@ -34,9 +34,9 @@ export default {
           src: require('../../assets/images/home/services/14.png')
         },
         {
-          title: 'Risk Management for Electromagnetic Doors',
+          title: 'Risk Management Services',
           description: 'Monitoring and risk management services for electromagnetic doors, ensuring secure operations and responsiveness in case of issues.',
-          src: require('../../assets/images/home/services/10.png')
+          src: require('../../assets/images/home/services/15.png')
         },
       ]
     }

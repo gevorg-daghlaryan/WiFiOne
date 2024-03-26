@@ -39,27 +39,24 @@ export default {
 }
 </script>
 <style>
-.event-wifi-top {
-  position: relative;
-  background-image: url("/images/services/event-wifi-hero.webp");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #dedede;
-  height: 490px;
-}
-.event-wifi-top-text {
-  font-size: 21px;
-}
-.event-wifi-top-image-loaded {
-  background-image: url("/images/services/event-wifi-hero.webp");
-}
-.event-wifi-top-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-  gap: 31px;
-  height: 100%;
-}
+  .event-wifi-top {
+    position: relative;
+    background-image: url("/images/services/event-wifi-hero.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dedede;
+    height: 490px;
+  }
+  .event-wifi-top-text {
+    font-size: 21px;
+  }
+  .event-wifi-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 31px;
+    height: 100%;
+  }
 </style>

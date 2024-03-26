@@ -8,7 +8,7 @@
     <Counter/>
     <Testimonial/>
 <!--    <Works/>-->
-<!--    <Support/>-->
+    <Support/>
 <!--    <Accordion/>-->
     <Footer />
   </div>

@@ -6,7 +6,7 @@
         <ul class="iq-contact">
           <li v-for="(option,index) in addressContent" :key="index">
             <a href="javascript:void(0)">
-              <i v-if="option.icon" :class="option.iconClass"></i>
+              <i v-if="option.icon" :class="option.iconClass" style="color: #3F81D1"></i>
               <span>{{ option.text }}</span>
             </a>
           </li>

@@ -3,6 +3,8 @@
     <Hero/>
     <Analytics />
     <Advantages/>
+    <Counter/>
+    <Testimonial />
     <ContactUs/>
     <Footer />
   </div>
@@ -15,9 +17,13 @@ import Hero from '~/components/MamagedCameras/Hero.vue'
 import { themes } from '../../assets/app/app'
 import ContactUs from "~/components/MamagedCameras/ContactUs.vue";
 import Advantages from "~/components/MamagedCameras/Advantages.vue";
+import Counter from "~/components/MamagedCameras/Counter.vue";
+import Testimonial from "~/components/MamagedCameras/Testimonial.vue";
 export default {
   layout: 'Services',
   components: {
+    Testimonial,
+    Counter,
     Advantages,
     ContactUs,
     Analytics,

@@ -1,47 +1,47 @@
 <template>
   <!-- Header -->
   <header id="main-header" :class="className">
-<!--    <div class="container-fluid sub-header">-->
-<!--      <div class="row">-->
-<!--        <div class="col-auto">-->
-<!--          <div class="number-info">-->
-<!--            <ul class="list-inline">-->
-<!--              <li class="list-inline-item">-->
-<!--                <a href="mailto:support@iqnonicthemes.com">-->
-<!--                  <i class="fas fa-envelope" />interact@wifione.co-->
-<!--                </a>-->
-<!--              </li>-->
+    <div class="container-fluid sub-header">
+      <div class="row">
+        <div class="col-auto">
+          <div class="number-info">
+            <ul class="list-inline">
+              <li class="list-inline-item">
+                <a href="mailto:support@iqnonicthemes.com">
+                  <i class="fas fa-envelope" />interact@wifione.co
+                </a>
+              </li>
 <!--              <li class="list-inline-item">-->
 <!--                <a href="tel:+0123456789">-->
 <!--                  <i class="fas fa-phone-alt" />+0123456789-->
 <!--                </a>-->
 <!--              </li>-->
-<!--            </ul>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--        <div class="col-auto col-auto ml-auto sub-main">-->
-<!--          <div class="social-icone">-->
-<!--            <ul class="list-inline">-->
-<!--              <li class="d-inline">-->
-<!--                <a href="#">-->
-<!--                  <i class="fa fa-facebook-f" />-->
-<!--                </a>-->
-<!--              </li>-->
-<!--              <li class="d-inline">-->
-<!--                <a href="#">-->
-<!--                  <i class="fa fa-twitter" />-->
-<!--                </a>-->
-<!--              </li>-->
-<!--              <li class="d-inline">-->
-<!--                <a href="#">-->
-<!--                  <i class="fa fa-instagram" />-->
-<!--                </a>-->
-<!--              </li>-->
-<!--            </ul>-->
-<!--          </div>-->
-<!--        </div>-->
-<!--      </div>-->
-<!--    </div>-->
+            </ul>
+          </div>
+        </div>
+        <div class="col-auto col-auto ml-auto sub-main">
+          <div class="social-icone">
+            <ul class="list-inline">
+              <li class="d-inline">
+                <a href="#">
+                  <i class="fa fa-facebook-f" />
+                </a>
+              </li>
+              <li class="d-inline">
+                <a href="#">
+                  <i class="fa fa-twitter" />
+                </a>
+              </li>
+              <li class="d-inline">
+                <a href="#">
+                  <i class="fa fa-instagram" />
+                </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
     <div class="container-fluid main-header">
       <div class="row">
         <div class="col-sm-12">
@@ -90,8 +90,9 @@
             </div>
             <div class="sub-main">
               <nav aria-label="breadcrumb">
-                <div class="blue-btn button">
-                  <a href="#">Get Started</a>
+                <div class="">
+
+                  <a href="#" class="button  button-icon text-center">Get Started</a>
                 </div>
               </nav>
             </div>

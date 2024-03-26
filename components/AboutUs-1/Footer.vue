@@ -35,18 +35,13 @@ export default {
       footerText: [
         {
           icon: true,
-          iconClass: 'fas fa-phone-alt',
-          text: '+0123 456 789'
-        },
-        {
-          icon: true,
           iconClass: 'fas fa-envelope',
           text: 'interact@wifione.co'
         },
         {
           icon: true,
           iconClass: 'fas fa-location-dot',
-          text: '1 Keong Saik Road, Singapore 089109 '
+          text: '1 Keong Saik Road, Singapore 089109'
         }
       ],
       footerHome: [

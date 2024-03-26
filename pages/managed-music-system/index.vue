@@ -3,6 +3,8 @@
     <Hero/>
     <Analytics />
     <Advantages/>
+    <Counter/>
+    <Testimonial/>
     <ContactUs/>
     <Footer />
   </div>
@@ -15,9 +17,13 @@ import Hero from '~/components/ManagedMusicSystem/Hero.vue'
 import { themes } from '../../assets/app/app'
 import ContactUs from "~/components/ManagedMusicSystem/ContactUs.vue";
 import Advantages from "~/components/ManagedMusicSystem/Advantages.vue";
+import Counter from "~/components/ManagedMusicSystem/Counter.vue";
+import Testimonial from "~/components/ManagedMusicSystem/Testimonial.vue";
 export default {
   layout: 'Services',
   components: {
+    Testimonial,
+    Counter,
     Advantages,
     ContactUs,
     Analytics,

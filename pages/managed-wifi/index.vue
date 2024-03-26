@@ -3,6 +3,9 @@
     <Hero/>
     <Analytics />
     <Advantages/>
+    <Counter/>
+    <Form/>
+    <Works/>
     <ContactUs/>
     <Footer />
   </div>
@@ -15,14 +18,20 @@ import Hero from '~/components/ManagedWiFI/Hero.vue'
 import { themes } from '../../assets/app/app'
 import ContactUs from "~/components/ManagedWiFI/ContactUs.vue";
 import Advantages from "~/components/ManagedWiFI/Advantages.vue";
+import Counter from "~/components/ManagedWiFI/Counter.vue";
+import Form from "~/components/ManagedWiFI/Form.vue";
+import Works from "~/components/ManagedWiFI/Works.vue";
 export default {
   layout: 'Services',
   components: {
+    Counter,
     Advantages,
     ContactUs,
     Analytics,
     Hero,
-    Footer
+    Footer,
+    Form,
+    Works
   },
   head() {
     return {

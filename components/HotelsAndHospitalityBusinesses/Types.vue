@@ -30,37 +30,37 @@ export default {
         {
           title: 'Captive Portal Option',
           description: 'Customized portal reflecting your brand, mindshare, or advertising upon network connection.',
-          src: require('../../assets/images/home/services/01.png')
+          src: require('../../assets/images/home/services/10.png')
         },
         {
           title: 'Secure by Design',
           description: 'WPA3 wireless security, multi-level IP firewalling, and Zero Trust options for maximum wired security.',
-          src: require('../../assets/images/home/services/09.png')
+          src: require('../../assets/images/home/services/08.png')
         },
         {
           title: 'Optimized Video Calling',
           description: 'Experience network fairness with Quality of Service. Prevent resource abuse and ensure smooth video calls during media traffic.',
-          src: require('../../assets/images/home/services/11.png')
+          src: require('../../assets/images/home/services/20.png')
         },
         {
           title: 'Usage-Based Pricing Option',
           description: 'Pricing aligned with seasonal patronage; wifiONE provides flexible, revenue-aligned options for usage-based pricing',
-          src: require('../../assets/images/home/services/14.png')
+          src: require('../../assets/images/home/services/25.png')
         },
         {
           title: 'Smart Business',
           description: 'Our service aligns with your revenue stream, eliminating upfront costs and providing financial flexibility.',
-          src: require('../../assets/images/home/services/08.png')
+          src: require('../../assets/images/home/services/07.png')
         },
         {
           title: 'Professional Network Design',
           description: 'Crafted with industry best practices, segmentation, and security for optimal performance.',
-          src: require('../../assets/images/home/services/10.png')
+          src: require('../../assets/images/home/services/18.png')
         },
         {
           title: '5G Backup Internet Option',
           description: 'Guarantees uninterrupted connectivity with a reliable backup option.',
-          src: require('../../assets/images/home/services/02.png')
+          src: require('../../assets/images/home/services/21.png')
         },
       ]
     }

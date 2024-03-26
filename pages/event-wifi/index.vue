@@ -1,9 +1,10 @@
 <template>
   <div class="main-content">
-<!--    <BreadCrum />-->
     <Hero/>
     <Analytics />
     <Advantages/>
+    <Counter/>
+    <Testimonial/>
     <ContactUs/>
     <Footer />
   </div>
@@ -14,11 +15,15 @@ import Analytics from '~/components/EventWiFi/Analytics'
 import Footer from '~/components/EventWiFi/Footer'
 import Hero from '~/components/EventWiFi/Hero.vue'
 import { themes } from '../../assets/app/app'
-import ContactUs from "~/components/EventWiFi/ContactUs.vue";
 import Advantages from "~/components/EventWiFi/Advantages.vue";
+import Counter from "~/components/EventWiFi/Counter.vue";
+import Testimonial from "~/components/EventWiFi/Testimonial.vue";
+import ContactUs from "~/components/EventWiFi/ContactUs.vue";
 export default {
   layout: 'Services',
   components: {
+    Testimonial,
+    Counter,
     Advantages,
     ContactUs,
     Analytics,

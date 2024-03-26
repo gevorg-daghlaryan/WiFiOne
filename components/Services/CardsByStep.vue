@@ -95,10 +95,12 @@ export default {
  }
  .arrow {
    position: absolute;
-   left: 72%;
+   left: 90%;
    display: block;
-   width: 60%;
+   //width: 60%;
    z-index: 10;;
+   height: 75px;
+   width: 75px;
  }
 
  .work-card-img-wrapper {
@@ -108,8 +110,6 @@ export default {
    border: 5px solid #EFF1FE;
    border-radius: 50px;
    box-shadow:  #FAFBFE ;
-
-
  }
  @media (max-width: 600px) {
     .arrow {

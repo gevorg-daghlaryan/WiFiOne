@@ -3,6 +3,8 @@
     <Hero/>
     <Analytics />
     <Advantages/>
+    <Counter/>
+    <Testimonial/>
     <ContactUs/>
     <Footer />
   </div>
@@ -15,9 +17,13 @@ import Hero from '~/components/SitePowerMonitoring/Hero.vue'
 import { themes } from '../../assets/app/app'
 import ContactUs from "~/components/SitePowerMonitoring/ContactUs.vue";
 import Advantages from "~/components/SitePowerMonitoring/Advantages.vue";
+import Counter from "~/components/SitePowerMonitoring/Counter.vue";
+import Testimonial from "~/components/SitePowerMonitoring/Testimonial.vue";
 export default {
   layout: 'Services',
   components: {
+    Testimonial,
+    Counter,
     Advantages,
     ContactUs,
     Analytics,

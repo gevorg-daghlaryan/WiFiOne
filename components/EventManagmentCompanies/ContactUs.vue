@@ -5,7 +5,7 @@
         <div class="col-lg-12 mb-5 mb-lg-0 wow fadeInUp align-self-center">
           <div class="title-box wow fadeInUp  text-center">
             <h2 class="text-white contact-title ">
-              Contact our team for assistance
+              Ready to Take the Next Step?
             </h2>
           </div>
           <div class=" text-center mt-5 ">

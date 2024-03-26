@@ -3,7 +3,7 @@
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
       <img src="../../assets/images/customers/fossasia.webp" alt="logo">
-      <h2 class="text-center text-white studies-title">Fossasia</h2>
+      <h2 class="text-center text-white studies-title">FOSSASIA</h2>
       <p class="text-center text-white studies-text">
         wifiOne has been supporting the FOSSASIA OpenTech conference in Singapore during its annual summit over the last 7 years. The conference spans multiple days, attracting over 1000 attendees per day.
         <br>
@@ -11,10 +11,10 @@
         The largest deployment was 18 access points with over 550 users spanning 13 rooms; this enabled attendees real-time communications, interactive workshops and seamless connectivity throughout over all their devices.
       </p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
+        <img src="../../assets/images/customers/avatar-3.png" alt="avatar">
         <div class="text-white">
-          <h4 class="text-white author-name">John Milligan</h4>
-          <p class="author-text">CEO</p>
+          <h4 class="text-white author-name">Mario Behling</h4>
+          <p class="author-text">Business Advisor</p>
         </div>
       </div>
     </div>
@@ -36,7 +36,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.webp");
+   background-image: url("../../assets/images/customers/base-bg.avif");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -61,8 +61,10 @@ name:'Studies'
  }
  .author {
    display: flex;
+   width: 100%;
    gap: 20px;
    align-items: start;
+   justify-content: end;
  }
  .author-name {
    color: #FFF;

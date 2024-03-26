@@ -28,16 +28,11 @@ import logoImg from '../../assets/images/logo_1.svg'
 
 export default {
   name: 'Footer',
-  components: {FooterLogo, FooterLinks, FooterAddress, FooterMain},
-  data() {
+  components: { FooterLogo, FooterLinks, FooterAddress, FooterMain },
+  data () {
     return {
       navLogo: logoImg,
       footerText: [
-        {
-          icon: true,
-          iconClass: 'fas fa-phone-alt',
-          text: '+0123 456 789'
-        },
         {
           icon: true,
           iconClass: 'fas fa-envelope',

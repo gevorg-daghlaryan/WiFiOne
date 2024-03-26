@@ -2,8 +2,8 @@
   <div class="main-content">
     <Hero/>
     <About/>
-    <ContactUs/>
     <Types/>
+    <ContactUs/>
     <Studies/>
     <ContactUs1/>
     <Footer/>

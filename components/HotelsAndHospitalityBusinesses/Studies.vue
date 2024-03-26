@@ -20,10 +20,10 @@
         This enabled the hotel to focus on business operations with no downtime.
       </p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
+        <img src="../../assets/images/customers/avatar-4.png" alt="avatar">
         <div class="text-white">
-          <h4 class="text-white author-name">John Milligan</h4>
-          <p class="author-text">CEO</p>
+          <h4 class="text-white author-name">Eden Dang</h4>
+          <p class="author-text">Hotel Manager</p>
         </div>
       </div>
     </div>
@@ -45,7 +45,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.webp");
+   background-image: url("../../assets/images/customers/base-bg.avif");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -70,8 +70,10 @@ name:'Studies'
  }
  .author {
    display: flex;
+   width: 100%;
    gap: 20px;
    align-items: start;
+   justify-content: end;
  }
  .author-name {
    color: #FFF;

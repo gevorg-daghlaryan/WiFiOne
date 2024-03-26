@@ -2,20 +2,19 @@
   <section>
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
-      <img src="../../assets/images/customers/company-logo.webp" alt="logo">
-      <h2 class="text-center text-white studies-title">Company Name</h2>
+      <img src="../../assets/images/customers/capitol.png" alt="logo">
+      <h2 class="text-center text-white studies-title">The Working Capitol</h2>
       <p class="text-center text-white studies-text">
         In 2019, a major co-working space player in central Singapore was looking to modernize their communications infrastructure, at the same time reduce the Total Cost of Ownership.
         <br>
         <br>
         After evaluating various solutions, wifiOne was selected as the partner. Due to the success, this was scaled to 20 sites, delivering robust and secure managed WiFi and networks to over 34 businesses 24/7.
-        Want to collaborate or have a partnership proposal? Let’s discuss it!
       </p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
+        <img src="../../assets/images/customers/avatar-2.png" alt="avatar">
         <div class="text-white">
-          <h4 class="text-white author-name">Marc Blair</h4>
-          <p class="author-text">Group Head of Information <br> Management & Strategy</p>
+          <h4 class="text-white author-name">Patrick Tayah</h4>
+          <p class="author-text">General Manager <br> The Working Capitol</p>
         </div>
       </div>
     </div>
@@ -37,7 +36,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.webp");
+   background-image: url("../../assets/images/customers/base-bg.avif");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -47,6 +46,7 @@ name:'Studies'
    align-items: center;
    justify-content: center;
    gap: 14px;
+   border-radius: 20px;
  }
  .studies-title {
    font-size: 35px;
@@ -62,8 +62,10 @@ name:'Studies'
  }
  .author {
    display: flex;
+   width: 100%;
    gap: 20px;
    align-items: start;
+   justify-content: end;
  }
  .author-name {
    color: #FFF;

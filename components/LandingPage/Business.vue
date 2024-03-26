@@ -23,5 +23,6 @@
     font-size: 20px;
     font-style: normal;
     font-weight: 400;
+    line-height: 35px;
   }
 </style>

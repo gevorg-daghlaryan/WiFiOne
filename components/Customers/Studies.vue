@@ -3,10 +3,10 @@
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
       <img src="../../assets/images/customers/pepper.webp" alt="pepper">
-      <h2 class="text-center text-white studies-title">Pepper</h2>
+      <h2 class="text-center text-white studies-title">Pepper Global</h2>
       <p class="text-center text-white studies-text">Daniel and the Wifione team made the process of establishing our Zero Trust environment incredibly seamless. They went above and beyond by being physically present on-site, meticulously addressing all of our unique use cases, and delivering a personalized, hands-on experience.</p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar.webp" alt="avatar">
+        <img src="../../assets/images/customers/avatar-1.png" alt="avatar">
         <div class="text-white">
           <h4 class="text-white author-name">Marc Blair</h4>
           <p class="author-text">Group Head of Information <br> Management & Strategy</p>
@@ -31,7 +31,7 @@ name:'Studies'
    margin-bottom: 50px;
  }
  .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.webp");
+   background-image: url("../../assets/images/customers/base-bg.avif");
    background-position: center;
    background-repeat: no-repeat;
    background-size: cover;
@@ -41,6 +41,7 @@ name:'Studies'
    align-items: center;
    justify-content: center;
    gap: 14px;
+   border-radius: 20px;
  }
  .studies-title {
    font-size: 35px;
@@ -55,9 +56,11 @@ name:'Studies'
    font-weight: 400;
  }
  .author {
+   width: 100%;
    display: flex;
    gap: 20px;
    align-items: start;
+   justify-content: end;
  }
  .author-name {
    color: #FFF;

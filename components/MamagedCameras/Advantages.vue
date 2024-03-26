@@ -31,12 +31,12 @@ export default {
         {
           title: 'Smart Business Value',
           description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
-          src: require('../../assets/images/home/services/08.png')
+          src: require('../../assets/images/home/services/07.png')
         },
         {
           title: 'Dedicated Mobile App',
           description: 'Provision of a specialized mobile application for convenient and efficient management of services and connectivity on the go.',
-          src: require('../../assets/images/home/services/01.png')
+          src: require('../../assets/images/home/services/11.png')
         },
         {
           title: 'Off-Site Viewing and History',
