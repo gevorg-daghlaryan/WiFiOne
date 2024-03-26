@@ -2,11 +2,11 @@
   <section>
     <h1 class="text-center studies">CASE STUDIES</h1>
     <div class="container customer-studies-container">
-      <img src="../../assets/images/customers/pepper.webp" alt="pepper">
+      <img src="/assets/images/customers/pepper.webp" alt="pepper">
       <h2 class="text-center text-white studies-title">Pepper Global</h2>
       <p class="text-center text-white studies-text">Daniel and the Wifione team made the process of establishing our Zero Trust environment incredibly seamless. They went above and beyond by being physically present on-site, meticulously addressing all of our unique use cases, and delivering a personalized, hands-on experience.</p>
       <div class="author">
-        <img src="../../assets/images/customers/avatar-1.png" alt="avatar">
+        <img src="/assets/images/customers/avatar-1.png" alt="avatar">
         <div class="text-white">
           <h4 class="text-white author-name">Marc Blair</h4>
           <p class="author-text">Group Head of Information <br> Management & Strategy</p>
