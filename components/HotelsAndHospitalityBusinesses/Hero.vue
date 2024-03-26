@@ -12,29 +12,29 @@
   </section>
 </template>
 <script>
-export default {
-  name:'Hero'
-}
+  export default {
+    name:'Hero'
+  }
 </script>
 <style>
-.hotels-and-hospitality-businesses-top{
-  background-image: url("/images/home/slides/slide-3.avif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #dedede;
-}
+  .hotels-and-hospitality-businesses-top{
+    background-image: url("/images/home/slides/slide-3.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dedede;
+  }
 
-.customers-top-text {
-  font-size: 21px;
-}
+  .customers-top-text {
+    font-size: 21px;
+  }
 
-.customers-top-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-  gap: 31px;
-  height: 100%;
-}
+  .customers-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 31px;
+    height: 100%;
+  }
 </style>

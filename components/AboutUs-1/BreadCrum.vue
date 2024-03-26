@@ -14,31 +14,31 @@
 
 </template>
 <script>
-import ImageLoader from "~/components/themes/ImageLoader.vue";
+  import ImageLoader from "~/components/themes/ImageLoader.vue";
 
-export default {
-  name:'BreadCrump',
-  components: {ImageLoader},
-  data() {
-    return {
-      loading: true,
-    };
-  },
-  mounted() {
-    const section = document.getElementById('aboutUsTopSection');
-    const backgroundImage = new Image();
-    backgroundImage.src = "/images/about-us/hero.webp";
-    backgroundImage.onload = () => {
-      section.classList.add('about-us-top-image-loaded');
-      this.loading = false;
+  export default {
+    name:'BreadCrump',
+    components: {ImageLoader},
+    data() {
+      return {
+        loading: true,
+      };
+    },
+    mounted() {
+      const section = document.getElementById('aboutUsTopSection');
+      const backgroundImage = new Image();
+      backgroundImage.src = "/images/about-us/hero.webp";
+      backgroundImage.onload = () => {
+        section.classList.add('about-us-top-image-loaded');
+        this.loading = false;
 
-    };
-    backgroundImage.onerror = () => {
-      section.classList.add('about-us-top-image-loaded');
-      this.loading = false;
-    };
-  },
-}
+      };
+      backgroundImage.onerror = () => {
+        section.classList.add('about-us-top-image-loaded');
+        this.loading = false;
+      };
+    },
+  }
 </script>
 <style>
   .about-us-top {

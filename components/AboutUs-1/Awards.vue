@@ -19,27 +19,27 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'Awards',
-  data () {
-    return {
-      images2: [
-        {
-          title: 'Microsoft Partner of the Year Award',
-          src: require('../../assets/images/awards/1.png')
-        },
-        {
-          title: 'Global Sourcing Awards 2018 Finalist',
-          src: require('../../assets/images/awards/2.png')
-        },
-        {
-          title: 'Gold Winner of 2013 Horizon Awards',
-          src: require('../../assets/images/awards/3.png')
-        }
-      ]
+  export default {
+    name: 'Awards',
+    data () {
+      return {
+        images2: [
+          {
+            title: 'Microsoft Partner of the Year Award',
+            src: require('../../assets/images/awards/1.png')
+          },
+          {
+            title: 'Global Sourcing Awards 2018 Finalist',
+            src: require('../../assets/images/awards/2.png')
+          },
+          {
+            title: 'Gold Winner of 2013 Horizon Awards',
+            src: require('../../assets/images/awards/3.png')
+          }
+        ]
+      }
     }
   }
-}
 </script>
 <style>
   .awards-title {

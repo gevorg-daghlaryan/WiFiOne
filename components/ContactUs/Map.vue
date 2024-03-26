@@ -24,9 +24,9 @@
   </section>
 </template>
 <script>
-export default {
-  name:'Map'
-}
+  export default {
+    name:'Map'
+  }
 </script>
 <style>
   .address{
@@ -48,5 +48,4 @@ export default {
     font-size: 27px;
     font-weight: 400;
   }
-
 </style>

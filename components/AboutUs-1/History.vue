@@ -26,35 +26,35 @@
   </section>
 </template>
 <script>
-export default {
-    name:'History',
-    data(){
-      return{
-        list:[
-          {
-            title: '2012 – 2013',
-            description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
-            image: require('../../assets/images/about-us/01.png'),
-            bgcolor: 'bg-gray',
-          },
-          {
-            title: '2013 – 2014',
-            description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
-            image: require('../../assets/images/about-us/07.png'),
-            bgcolor: 'border',
-          },{
-            title: '2014 – 2015',
-            description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
-            image: require('../../assets/images/about-us/03.png'),
-            bgcolor: 'bg-gray',
-          },{
-            title: '2015 – 2016',
-            description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
-            image: require('../../assets/images/about-us/02.png'),
-            bgcolor: 'border',
-          } 
-        ]
+  export default {
+      name:'History',
+      data(){
+        return{
+          list:[
+            {
+              title: '2012 – 2013',
+              description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
+              image: require('~/assets/images/about-us/01.png'),
+              bgcolor: 'bg-gray',
+            },
+            {
+              title: '2013 – 2014',
+              description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
+              image: require('~/assets/images/about-us/07.png'),
+              bgcolor: 'border',
+            },{
+              title: '2014 – 2015',
+              description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
+              image: require('~/assets/images/about-us/03.png'),
+              bgcolor: 'bg-gray',
+            },{
+              title: '2015 – 2016',
+              description: 'The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using ‘Content here, content here’, making it look like readable English. Many desktop publishing packages.',
+              image: require('~/assets/images/about-us/02.png'),
+              bgcolor: 'border',
+            }
+          ]
+        }
       }
-    }   
-}
+  }
 </script>

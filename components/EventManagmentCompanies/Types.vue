@@ -20,45 +20,45 @@
   </section>
 </template>
 <script>
-import CardStyle1 from '../themes/Card/CardStyle1'
-export default {
-  name: 'Services',
-  components: { CardStyle1 },
-  data() {
-    return{
-      items : [
-        {
-          title: 'Smart Business Value',
-          description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
-          src: require('../../assets/images/home/services/07.png')
-        },
-        {
-          title: 'Secure by Design',
-          description: 'WPA3 wireless security, multi-level IP firewalling, and Zero Trust options for maximum wired security.',
-          src: require('../../assets/images/home/services/08.png')
-        },
-        {
-          title: 'Captive Portal Option',
-          description: 'Customized portal reflecting your brand, mindshare, or advertising upon network connection.',
-          src: require('../../assets/images/home/services/10.png')
-        },
-        {
-          title: '5G SIM-Based Instant Deployment',
-          description: 'Harnessing 5G tech for wire-free equipment placement. Optimize event support with strategic equipment locations in wifiONE\'s system.',
-          src: require('../../assets/images/home/services/09.png')
-        },
-        {
-          title: 'Pre-Event and During-Event Support',
-          description: 'Comprehensive support services encompassing both pre-event preparations and on-site assistance during events. This offering ensures that clients receive assistance and guidance throughout the entire event lifecycle, from planning to execution.',
-          src: require('../../assets/images/home/services/24.png')
-        },
-        {
-          title: 'Managed VPN Event WiFi for Partners',
-          description: 'Tailored WiFi solutions designed specifically for event partners, ensuring seamless connectivity and support during events. This service focuses on providing dedicated and reliable connectivity for partners involved in events and conferences.',
-          src: require('../../assets/images/home/services/16.png')
-        },
-      ]
+  import CardStyle1 from '../themes/Card/CardStyle1'
+  export default {
+    name: 'Services',
+    components: { CardStyle1 },
+    data() {
+      return{
+        items : [
+          {
+            title: 'Smart Business Value',
+            description: 'Aligns with your revenue stream, ensuring a cost-effective solution.',
+            src: require('~/assets/images/home/services/07.png')
+          },
+          {
+            title: 'Secure by Design',
+            description: 'WPA3 wireless security, multi-level IP firewalling, and Zero Trust options for maximum wired security.',
+            src: require('~/assets/images/home/services/08.png')
+          },
+          {
+            title: 'Captive Portal Option',
+            description: 'Customized portal reflecting your brand, mindshare, or advertising upon network connection.',
+            src: require('~/assets/images/home/services/10.png')
+          },
+          {
+            title: '5G SIM-Based Instant Deployment',
+            description: 'Harnessing 5G tech for wire-free equipment placement. Optimize event support with strategic equipment locations in wifiONE\'s system.',
+            src: require('~/assets/images/home/services/09.png')
+          },
+          {
+            title: 'Pre-Event and During-Event Support',
+            description: 'Comprehensive support services encompassing both pre-event preparations and on-site assistance during events. This offering ensures that clients receive assistance and guidance throughout the entire event lifecycle, from planning to execution.',
+            src: require('~/assets/images/home/services/24.png')
+          },
+          {
+            title: 'Managed VPN Event WiFi for Partners',
+            description: 'Tailored WiFi solutions designed specifically for event partners, ensuring seamless connectivity and support during events. This service focuses on providing dedicated and reliable connectivity for partners involved in events and conferences.',
+            src: require('~/assets/images/home/services/16.png')
+          },
+        ]
+      }
     }
   }
-}
 </script>

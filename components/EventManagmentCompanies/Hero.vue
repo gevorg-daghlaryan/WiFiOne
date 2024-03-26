@@ -12,29 +12,29 @@
   </section>
 </template>
 <script>
-export default {
-  name:'Hero'
-}
+  export default {
+    name:'Hero'
+  }
 </script>
 <style>
-.event-management-companies-top{
-  background-image: url("../../assets/images/customers/event-management-companies-hero.avif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #dedede;
-}
+  .event-management-companies-top{
+    background-image: url("/assets/images/customers/event-management-companies-hero.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #dedede;
+  }
 
-.customers-top-text {
-  font-size: 21px;
-}
+  .customers-top-text {
+    font-size: 21px;
+  }
 
-.customers-top-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-  gap: 31px;
-  height: 100%;
-}
+  .customers-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 31px;
+    height: 100%;
+  }
 </style>

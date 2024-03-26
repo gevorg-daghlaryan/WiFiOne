@@ -17,42 +17,42 @@
   </section>
 </template>
 <script>
-import Client from '../../components/AboutUs-1/Client'
-export default {
-  name: 'Team',
-  components: {
-    Client
-  },
-  data () {
-    return {
-      list: [
-        {
-          title: 'Anna Mull',
-          subtitle: 'COO',
-          media: require('../../assets/images/team/1.png')
-        },
-        {
-          title: 'Petey Cruiser',
-          subtitle: 'Project Manager',
-          media: require('../../assets/images/team/1.png')
-        },
-        {
-          title: 'Greta Life',
-          subtitle: 'CFO',
-          media: require('../../assets/images/team/1.png')
-        },
-        {
-          title: 'Marcash Dane',
-          subtitle: 'Project Manager',
-          media: require('../../assets/images/team/1.png')
-        },
-        {
-          title: 'Handry White',
-          subtitle: 'Project Manager',
-          media: require('../../assets/images/team/1.png')
-        }
-      ]
+  import Client from "~/components/AboutUs-1/Client";
+  export default {
+    name: 'Team',
+    components: {
+      Client
+    },
+    data () {
+      return {
+        list: [
+          {
+            title: 'Anna Mull',
+            subtitle: 'COO',
+            media: require('~/assets/images/team/1.png')
+          },
+          {
+            title: 'Petey Cruiser',
+            subtitle: 'Project Manager',
+            media: require('~/assets/images/team/1.png')
+          },
+          {
+            title: 'Greta Life',
+            subtitle: 'CFO',
+            media: require('~/assets/images/team/1.png')
+          },
+          {
+            title: 'Marcash Dane',
+            subtitle: 'Project Manager',
+            media: require('~/assets/images/team/1.png')
+          },
+          {
+            title: 'Handry White',
+            subtitle: 'Project Manager',
+            media: require('../../assets/images/team/1.png')
+          }
+        ]
+      }
     }
   }
-}
 </script>

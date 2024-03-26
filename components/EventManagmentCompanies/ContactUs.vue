@@ -17,24 +17,23 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'ContactUs'
-}
+  export default {
+    name: 'ContactUs'
+  }
 </script>
 <style>
-.contact-section {
-  background-image: url("../../assets/images/home/bg2.svg");
-  background-repeat: repeat-y;
-  background-size: 651px 787px;
-  background-position-y: center;
-  background-position-x: 91px;
-}
-.contact-title {
-  text-align: center;
-  font-size: 35px;
-  font-style: normal;
-  font-weight: 400;
-  line-height: normal;
-}
-
+  .contact-section {
+    background-image: url("../../assets/images/home/bg2.svg");
+    background-repeat: repeat-y;
+    background-size: 651px 787px;
+    background-position-y: center;
+    background-position-x: 91px;
+  }
+  .contact-title {
+    text-align: center;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+  }
 </style>

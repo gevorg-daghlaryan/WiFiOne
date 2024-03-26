@@ -5,7 +5,7 @@
 </template>
 
 <script>
-export default {
-  middleware: 'redirect'
-}
+  export default {
+    middleware: 'redirect'
+  }
 </script>

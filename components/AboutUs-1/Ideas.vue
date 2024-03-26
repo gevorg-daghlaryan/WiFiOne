@@ -3,7 +3,7 @@
 <div class="container">
   <div class="d-flex align-items-start justify-content-between">
     <div class="col-sm-4 d-none d-lg-block">
-      <img src="../../assets/images/about-us/man.avif" alt="man" class="ideas-man">
+      <img src="~/assets/images/about-us/man.avif" alt="man" class="ideas-man">
     </div>
     <div class="mt-5 col-sm-12 col-lg-8">
       <h1 class="ideas-title text-center mb-0">We’re in The Business of Hosting Great Ideas.</h1>
@@ -12,21 +12,21 @@
         connected world"
       </p>
       <div class="d-flex align-items-center justify-content-center">
-        <img src="../../assets/images/about-us/man-mini.webp" alt="Man-mini" class="man-mini d-block d-lg-none">
+        <img src="~/assets/images/about-us/man-mini.webp" alt="Man-mini" class="man-mini d-block d-lg-none">
         <p class="ideas-author text-center mt-0">Daniel B</p>
       </div>
     </div>
     <div>
-      <img src="../../assets/images/testimonials/mark.png" alt="Mark" class="mark-icon">
+      <img src="~/assets/images/testimonials/mark.png" alt="Mark" class="mark-icon">
     </div>
   </div>
 </div>
 </section>
 </template>
 <script>
-export default {
-  name: 'Ideas'
-}
+  export default {
+    name: 'Ideas'
+  }
 </script>
 <style>
   .ideas-title {

@@ -34,7 +34,7 @@
           <div class="wrapper">
             <div class="contact-box d-flex justify-content-start align-items-start">
 <!--              <i aria-hidden="true" class="fa-regular fa-envelope"></i>-->
-              <img src="../../assets/images/contact-us/Email.svg" alt="email">
+              <img src="~/assets/images/contact-us/Email.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
                   Direct Email Contacts:
@@ -48,7 +48,7 @@
             </div>
             <div class="contact-box d-flex justify-content-start  align-items-start mt-4">
 <!--              <i aria-hidden="true" class="ion ion-android-share-alt" style="color: #3f81D1;"></i>-->
-              <img src="../../assets/images/contact-us/Share.svg" alt="email">
+              <img src="~/assets/images/contact-us/Share.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
                   Social media
@@ -68,7 +68,7 @@
             </div>
             <div class="contact-box d-flex justify-content-start  align-items-start mt-4">
 <!--              <i class=" fa fa-regular fa-location-dot" style="color: #2553a2;"></i>-->
-              <img src="../../assets/images/contact-us/Marker.svg" alt="email">
+              <img src="~/assets/images/contact-us/Marker.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
                   Address
