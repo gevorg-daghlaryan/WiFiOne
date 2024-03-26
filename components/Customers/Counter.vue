@@ -32,16 +32,16 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'Counter'
-}
+  export default {
+    name: 'Counter'
+  }
 </script>
 <style>
-.counter-section {
-  background-image: url("../../assets/images/home/bg2.svg");
-  background-repeat: repeat-y;
-  background-size: 651px 787px;
-  background-position-y: center;
-  background-position-x: 91px;
-}
+  .counter-section {
+      background-image: url("/assets/images/home/bg2.svg");
+      background-repeat: repeat-y;
+      background-size: 651px 787px;
+      background-position-y: center;
+      background-position-x: 91px;
+  }
 </style>

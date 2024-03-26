@@ -37,41 +37,41 @@ export default {
    justify-content: space-between;
    gap: 30px;
  }
- .customer-item {
-   display: flex;
-   align-items: center;
-   justify-content: space-between;
-   flex-direction: column;
-   background-color: #659ADA;
-   border-radius: 20px;
-   padding: 30px 25px;
-   min-height: 460px;
-   max-width: 362px;
-   gap: 15px;
-   box-shadow: 0px 8px 10px -5px #6CA3D9;
- }
- .customer-card-img {
-   display: block;
-   width: 70px;
-   height: 70px;
- }
- .customer-card-title {
-   font-size: 20px;
-   text-align: center;
-   font-weight: 600;
-   color: #343E59;
- }
- .customer-card-text {
-    font-size: 16px;
-    font-weight: 400;
-    color: white;
-    text-align: center;
- }
- .customers-title {
-   font-size: 30px;
-   font-weight: 600;
-   color: #3F81D1;
-   text-align: center;
-   margin-bottom: 30px;
- }
+   .customer-item {
+     display: flex;
+     align-items: center;
+     justify-content: space-between;
+     flex-direction: column;
+     background-color: #659ADA;
+     border-radius: 20px;
+     padding: 30px 25px;
+     min-height: 460px;
+     max-width: 362px;
+     gap: 15px;
+     box-shadow: 0px 8px 10px -5px #6CA3D9;
+   }
+   .customer-card-img {
+     display: block;
+     width: 70px;
+     height: 70px;
+   }
+   .customer-card-title {
+     font-size: 20px;
+     text-align: center;
+     font-weight: 600;
+     color: #343E59;
+   }
+   .customer-card-text {
+      font-size: 16px;
+      font-weight: 400;
+      color: white;
+      text-align: center;
+   }
+   .customers-title {
+     font-size: 30px;
+     font-weight: 600;
+     color: #3F81D1;
+     text-align: center;
+     margin-bottom: 30px;
+   }
 </style>

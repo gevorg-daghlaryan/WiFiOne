@@ -1,5 +1,4 @@
 <template>
-
   <section  class="pt-2 pb-5">
     <div class="container">
       <div class="w-100">
@@ -11,7 +10,7 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'SupportTitle',
-}
+  export default {
+    name: 'SupportTitle',
+  }
 </script>

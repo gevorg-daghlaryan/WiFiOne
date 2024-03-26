@@ -10,31 +10,31 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'Client',
-  data(){
-    return{
-      list:[
-        {
-           image : require('../../assets/images/partners/1.png')
-        },
-        {
-           image : require('../../assets/images/partners/2.png')
-        },
-        {
-           image : require('../../assets/images/partners/3.png')
-        },
-        {
-           image : require('../../assets/images/partners/4.png')
-        },
-        {
-           image : require('../../assets/images/partners/5.png')
-        },
-        {
-           image : require('../../assets/images/partners/1.png')
-        }
-      ]
+  export default {
+    name: 'Client',
+    data(){
+      return{
+        list:[
+          {
+             image : require('~/assets/images/partners/1.png')
+          },
+          {
+             image : require('~/assets/images/partners/2.png')
+          },
+          {
+             image : require('~/assets/images/partners/3.png')
+          },
+          {
+             image : require('~/assets/images/partners/4.png')
+          },
+          {
+             image : require('~/assets/images/partners/5.png')
+          },
+          {
+             image : require('~/assets/images/partners/1.png')
+          }
+        ]
+      }
     }
   }
-}
 </script>

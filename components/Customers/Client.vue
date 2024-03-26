@@ -34,48 +34,48 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'Client',
-  data () {
-    return {
-      list: [
-        {
-          image: require('../../assets/images/home/clients/1.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/2.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/3.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/4.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/5.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/6.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/7.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/8.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/9.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/10.png')
-        },
-        {
-          image: require('../../assets/images/home/clients/11.png')
-        },
-      ]
+  export default {
+    name: 'Client',
+    data () {
+      return {
+        list: [
+          {
+            image: require('~/assets/images/home/clients/1.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/2.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/3.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/4.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/5.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/6.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/7.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/8.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/9.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/10.png')
+          },
+          {
+            image: require('~/assets/images/home/clients/11.png')
+          },
+        ]
+      }
     }
   }
-}
 </script>
 <style>
   .clients {

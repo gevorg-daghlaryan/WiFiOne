@@ -21,68 +21,67 @@
   </section>
 </template>
 <script>
-export default {
-name:'Studies'
-}
+  export default {
+  name:'Studies'
+  }
 </script>
 <style>
-
- .studies {
-   color: #3F81D1;
-   font-size: 30px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
-   margin-bottom: 50px;
- }
- .customer-studies-container {
-   background-image: url("../../assets/images/customers/base-bg.avif");
-   background-position: center;
-   background-repeat: no-repeat;
-   background-size: cover;
-   padding: 100px;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-   justify-content: center;
-   gap: 14px;
- }
- .studies-title {
-   font-size: 35px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
- }
- .studies-text {
-   text-align: center;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 400;
- }
- .author {
-   display: flex;
-   width: 100%;
-   gap: 20px;
-   align-items: start;
-   justify-content: end;
- }
- .author-name {
-   color: #FFF;
-   font-size: 20px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
-   margin-bottom: 4px;
- }
- .author-text {
-   font-size: 17px;
-   font-style: normal;
-   font-weight: 600;
-   line-height: normal;
- }
- @media (max-width: 600px) {
-   .customer-studies-container {
-     padding: 50px 10px;
+   .studies {
+     color: #3F81D1;
+     font-size: 30px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin-bottom: 50px;
    }
- }
+   .customer-studies-container {
+     background-image: url("/assets/images/customers/base-bg.avif");
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+     padding: 100px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+     gap: 14px;
+   }
+   .studies-title {
+     font-size: 35px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+   }
+   .studies-text {
+     text-align: center;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 400;
+   }
+   .author {
+     display: flex;
+     width: 100%;
+     gap: 20px;
+     align-items: start;
+     justify-content: end;
+   }
+   .author-name {
+     color: #FFF;
+     font-size: 20px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+     margin-bottom: 4px;
+   }
+   .author-text {
+     font-size: 17px;
+     font-style: normal;
+     font-weight: 600;
+     line-height: normal;
+   }
+   @media (max-width: 600px) {
+     .customer-studies-container {
+       padding: 50px 10px;
+     }
+   }
 </style>

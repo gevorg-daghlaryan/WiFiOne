@@ -20,55 +20,55 @@
   </FooterMain>
 </template>
 <script>
-import FooterMain from '../themes/Partials/Footer/FooterMain'
-import FooterLogo from '../themes/Partials/FooterComponents/FooterLogo'
-import FooterAddress from '../themes/Partials/FooterComponents/FooterAddress'
-import FooterLinks from '../themes/Partials/FooterComponents/FooterLinks'
-import logoImg from '../../assets/images/logo_1.svg'
+  import FooterMain from '../themes/Partials/Footer/FooterMain';
+  import FooterLogo from '../themes/Partials/FooterComponents/FooterLogo';
+  import FooterAddress from '../themes/Partials/FooterComponents/FooterAddress';
+  import FooterLinks from '../themes/Partials/FooterComponents/FooterLinks';
+  import logoImg from '../../assets/images/logo_1.svg';
 
-export default {
-  name: 'Footer',
-  components: { FooterLogo, FooterLinks, FooterAddress, FooterMain },
-  data () {
-    return {
-      navLogo: logoImg,
-      footerText: [
-        {
-          icon: true,
-          iconClass: 'fas fa-envelope',
-          text: 'interact@wifione.co'
-        },
-        {
-          icon: true,
-          iconClass: 'fas fa-location-dot',
-          text: '1 Keong Saik Road, Singapore 089109'
-        }
-      ],
-      footerHome: [
-        {
-          href: '/landing-page',
-          title: 'Home'
-        },
-        {
-          href: '/about',
-          title: 'About'
-        },
-        {
-          href: '/services',
-          title: 'Services'
-        },
-        {
-          href: '/customers',
-          title: 'Customers'
-        },
-        {
-          href: '/contact-us',
-          title: 'Contact Us'
-        }
-      ]
+  export default {
+    name: 'Footer',
+    components: { FooterLogo, FooterLinks, FooterAddress, FooterMain },
+    data () {
+      return {
+        navLogo: logoImg,
+        footerText: [
+          {
+            icon: true,
+            iconClass: 'fas fa-envelope',
+            text: 'interact@wifione.co'
+          },
+          {
+            icon: true,
+            iconClass: 'fas fa-location-dot',
+            text: '1 Keong Saik Road, Singapore 089109'
+          }
+        ],
+        footerHome: [
+          {
+            href: '/landing-page',
+            title: 'Home'
+          },
+          {
+            href: '/about',
+            title: 'About'
+          },
+          {
+            href: '/services',
+            title: 'Services'
+          },
+          {
+            href: '/customers',
+            title: 'Customers'
+          },
+          {
+            href: '/contact-us',
+            title: 'Contact Us'
+          }
+        ]
+      }
     }
   }
-}
 </script>
 
 <style scoped></style>

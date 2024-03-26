@@ -45,25 +45,25 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'AboutUs',
-  data () {
-    return {
-      list: [
-        {
-          title: 'Data for all people',
-          description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-        },
-        {
-          title: 'A new breed of AI',
-          description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-        },
-        {
-          title: 'Analytics business',
-          description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
-        }
-      ]
+  export default {
+    name: 'AboutUs',
+    data () {
+      return {
+        list: [
+          {
+            title: 'Data for all people',
+            description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+          },
+          {
+            title: 'A new breed of AI',
+            description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+          },
+          {
+            title: 'Analytics business',
+            description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.'
+          }
+        ]
+      }
     }
   }
-}
 </script>

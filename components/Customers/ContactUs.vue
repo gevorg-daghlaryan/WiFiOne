@@ -19,25 +19,25 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'ContactUs'
-}
+  export default {
+    name: 'ContactUs'
+  }
 </script>
 <style>
-.contactus-section-2 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom:  0;
-  background-image: url("../../assets/images/home/bg2.jpeg");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  opacity: 0.2;
-}
-.contact-title-blue {
-  font-size: 30px;
-  font-weight: 600;
-  color: #3F81D1;
-}
+  .contactus-section-2 {
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom:  0;
+    background-image: url("/assets/images/home/bg2.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 0.2;
+  }
+  .contact-title-blue {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3F81D1;
+  }
 </style>

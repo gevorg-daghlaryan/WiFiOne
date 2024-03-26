@@ -20,9 +20,9 @@
 
 </template>
 <script>
-export default {
-  name:'Story'
-}
+  export default {
+    name:'Story'
+  }
 </script>
 <style>
   .story {

@@ -32,9 +32,9 @@
   </div>
 </template>
 <script>
-export default {
-  name: 'Counter'
-}
+  export default {
+    name: 'Counter'
+  }
 </script>
 <style>
   .counter-section {

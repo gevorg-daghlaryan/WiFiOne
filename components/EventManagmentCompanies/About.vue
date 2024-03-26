@@ -18,33 +18,33 @@
   </section>
 </template>
 <script>
-export default {
-  name: 'About'
-}
+  export default {
+    name: 'About'
+  }
 </script>
 <style>
-.event-management-about-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 20px;
-}
+  .event-management-about-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
 
-.event-management-about-text {
-  color: rgba(52, 62, 89, 0.75);
-  font-size: 19px;
-  line-height: 35px;
-  font-weight: 400;
-  text-align: center;
-}
+  .event-management-about-text {
+    color: rgba(52, 62, 89, 0.75);
+    font-size: 19px;
+    line-height: 35px;
+    font-weight: 400;
+    text-align: center;
+  }
 
-.event-management-about-title {
-  font-size: 30px;
-  font-weight: 600;
-  color: #3F81D1;
-}
+  .event-management-about-title {
+    font-size: 30px;
+    font-weight: 600;
+    color: #3F81D1;
+  }
 
-.event-management-about {
-  padding-bottom: 0;
-}
+  .event-management-about {
+    padding-bottom: 0;
+  }
 </style>

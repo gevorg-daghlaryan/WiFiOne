@@ -47,47 +47,46 @@ export default {
 }
 </script>
 <style>
-.choose-wrapper {
-  min-height: 100%;
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: space-between;
-}
-.choose-item {
-  display: flex;
-  flex-basis: 45%;
-  justify-content: center;
-  align-items: start;
-  gap: 20px
-}
-.choose-title {
-  color: #3F81D1;
-  font-size: 24px;
-  font-weight: 400;
-  margin-bottom: 10px;
-}
-.choose {
-  background-color: #EFF1FD ;
-}
-.choose-header {
-  color: #3F81D1;
-  font-size: 30px;
-  font-style: normal;
-  font-weight: 600;
-  line-height: normal;
-  text-transform: uppercase;
-}
-.choose-text {
-  color: #343E59;
-  font-size: 20px;
-  font-style: normal;
-  margin-bottom: 50px;
-}
-@media only screen and (max-width: 600px) {
   .choose-wrapper {
-    flex-direction: column;
+    min-height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
   }
-}
-
+  .choose-item {
+    display: flex;
+    flex-basis: 45%;
+    justify-content: center;
+    align-items: start;
+    gap: 20px
+  }
+  .choose-title {
+    color: #3F81D1;
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 10px;
+  }
+  .choose {
+    background-color: #EFF1FD ;
+  }
+  .choose-header {
+    color: #3F81D1;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+  }
+  .choose-text {
+    color: #343E59;
+    font-size: 20px;
+    font-style: normal;
+    margin-bottom: 50px;
+  }
+  @media only screen and (max-width: 600px) {
+    .choose-wrapper {
+      flex-direction: column;
+    }
+  }
 </style>
