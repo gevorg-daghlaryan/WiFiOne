@@ -1684,6 +1684,7 @@ Testimonial Circle
 background: rgb(255, 255, 255); background: linear-gradient(180deg, rgba(239, 241, 254, 1) 0%, rgba(255, 255, 255, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
 .sidebar-service-left .nav-pills a { background: #eff1fe; color: #313e5b; text-transform: capitalize; padding: 10px 10px 10px 15px; display: inline-block; width: 100%; border-bottom: 1px solid #ffffff; font-size: 0.9em; line-height: 30px; }
 .sidebar-service-left .nav-pills a.current-menu-item, .sidebar-service-left .nav-pills a:hover { color: #ffffff; background: #74A3DE;}
+.sidebar-service-left .nav-pills .current-menu-item img {display: inline-block !important;}
 .search-submit { height: 48px; }
 .vc_custom_1569913332442 {  /* background-image: url('../images/2019/09/01-2.jpg') !important;*/
 background: rgb(255, 255, 255); background: linear-gradient(0deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }

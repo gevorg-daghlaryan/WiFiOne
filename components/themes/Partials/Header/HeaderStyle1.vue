@@ -90,9 +90,8 @@
             </div>
             <div class="sub-main">
               <nav aria-label="breadcrumb">
-                <div class="">
-
-                  <a href="#" class="button  button-icon text-center">Get Started</a>
+                <div class="blue-btn button">
+                  <a href="#" class="">Get Started</a>
                 </div>
               </nav>
             </div>

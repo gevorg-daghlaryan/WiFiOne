@@ -1,8 +1,8 @@
 <template>
   <div class="card-wrapper">
-    <div class="service-box  p-4 my-3 wow fadeInUp text-center d-flex flex-column ">
-      <slot name="cardMedia" />
+    <div class="service-box  p-4 my-3 wow fadeInUp text-center d-flex flex-column justify-content-between">
       <div class="service-detail ">
+        <slot name="cardMedia" />
         <slot name="cardTitle" />
         <slot name="cardInfo" />
         <slot name="cardBody" />

@@ -4,7 +4,6 @@
     <b-carousel
       id="carousel-1"
       v-model="slide"
-      :interval="7000"
       controls
       fade
       img-width="1024"
@@ -13,6 +12,23 @@
       @sliding-start="onSlideStart"
       @sliding-end="onSlideEnd"
     >
+      <b-carousel-slide
+        id="slide9"
+        img-src="/images/home/slides/slide-9.avif"
+
+      >
+        <div class="slider-wrapper">
+          <div class="slider-content">
+            <img src="/images/home/slides/wifi.gif" alt="" class="wifi-gif">
+            <h2 class="text-white text-left slider-title ">Your Premier WiFi Partner:</h2>
+            <h3 class="text-white text-left slider-subtitle">Tailored solutions supporting <br> your business</h3>
+            <p class="text-white text-left slider-text">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
+            <div class="text-left">
+              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect">Find Your WiFi Plan</span></a>
+            </div>
+          </div>
+        </div>
+      </b-carousel-slide>
       <b-carousel-slide
         id="slide1"
         img-src="/images/home/slides/slide-1.avif"
@@ -171,11 +187,16 @@ export default {
   .slider-title {
     font-size: 50px;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 700;
     line-height: normal;
+  }
+  .slider-subtitle {
+    font-size: 50px;
+    font-weight: 400;
   }
   .slider-text {
     font-size: 21px;
+    font-weight: 600;
   }
   .slider-wrapper {
     display: flex;
@@ -189,15 +210,31 @@ export default {
     height: 100%;
   }
   .carousel-item img {
-    height: 490px;
+    height: 500px;
     object-fit: cover;
+  }
+  .wifi-gif {
+    position: absolute;
+    top: 175px;
+    width: 189px;
+    height: 179px !important;
+    left: 704px;
   }
   @media only screen and (max-width: 960px) {
       .slider-title {
         font-size: 20px;
       }
+      .slider-subtitle {
+        font-size: 20px;
+      }
+      .wifi-gif {
+        top:280px;
+        left: 200px;
+        width: 100px;
+        height: 100px !important;
+      }
     .slider-content {
       gap: 0;
     }
-    }
+  }
 </style>

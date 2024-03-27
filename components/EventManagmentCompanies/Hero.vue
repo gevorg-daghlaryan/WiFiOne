@@ -18,7 +18,7 @@
 </script>
 <style>
   .event-management-companies-top{
-    background-image: url("/assets/images/customers/event-management-companies-hero.avif");
+    background-image: url("../../assets/images/customers/event-management-companies-hero.avif");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;

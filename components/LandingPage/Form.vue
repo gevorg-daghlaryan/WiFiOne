@@ -44,7 +44,7 @@
 
             </div>
             <div class="col-md-4">
-              <div class="xamin-blue-bg text-white px-3 py-5">
+              <div class="xamin-blue-bg text-white px-3 py-5 radi">
                 <h3 class="text-white">Managed Network</h3>
                 <p class="text-white m-0 mb-2">Router and managment</p>
                 <span class="text-white price">${{total()}}/mo</span>
