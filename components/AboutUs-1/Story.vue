@@ -1,7 +1,7 @@
 <template>
   <section class="story">
     <div class="container">
-      <h2 class="story-title mb-3">OUR STORY</h2>
+      <h2 class="story-title mb-3">Our Story</h2>
       <p class="story-text">
         wifiOne's journey began in 2015 as a passion project, driven by a desire to deliver exceptional WiFi solutions at accessible prices.
         Founded by a team with extensive enterprise experience, we were acutely aware of the challenges businesses faced in achieving
