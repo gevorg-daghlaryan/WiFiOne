@@ -14,7 +14,7 @@
               <div> <input type="text" name="your-subject" class="form-control text " placeholder="Website"> </div>
               <div> <textarea name="your-message" cols="40" rows="10" class="form-control textarea " placeholder="Your Message" /> </div>
               <div class="row">
-                <div class="col-sm-12 col-md-4">
+                <div class="col-sm-12 col-md-4 mb-4">
                   <button
                     id="submit-4"
                     click="/contact-us"
@@ -37,7 +37,7 @@
               <img src="~/assets/images/contact-us/Email.svg" alt="email">
               <div class="service-detail">
                 <h4 class="mb-2 contact-us-title">
-                  Direct Email Contacts:
+                  Email us
                 </h4>
                 <ul class="list-inline mb-0 contact-links">
                   <li><a href="mailto:support@iqnonicthemes.com"> General Inquiries: interact@wifione.co  </a></li>

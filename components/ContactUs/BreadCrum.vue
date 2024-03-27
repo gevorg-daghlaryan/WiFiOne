@@ -4,7 +4,7 @@
       <div class="container">
         <div class="contact-us-top-wrapper">
           <h1 class="text-white contact-us-top-title"> Contact Us</h1>
-          <p class="text-white contact-us-top-text">We welcome your inquiries—use the form below to get in touch.</p>
+          <p class="text-white contact-us-top-text">We welcome your inquiries—use the form below to get in touch</p>
         </div>
     </div>
   </section>

@@ -4,7 +4,7 @@
       <div class="row align-items-center">
         <div class="col-lg-12 col-md-12 w-fill">
           <div class = "address">
-            <h2 class="address-text">For in-person visits or postal correspondence, you can find us at:</h2>
+            <h2 class="address-text">For meetings, you can find us at:</h2>
           </div>
           <div class = "address">
             <img src="../../assets/images/mark.png" alt="mark">

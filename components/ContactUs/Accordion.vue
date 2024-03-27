@@ -43,11 +43,11 @@
             description: 'To optimize your WiFi, move your device and Access Point nearer, or add Access Points to increase strong-signal coverage.',
           },
           {
-            title: 'What differentiates wifiOne’s site WiFi design?',
+            title: 'What Differentiates wifiOne’s Site WiFi Design?',
             description: 'wifiOne tailors site WiFi to match customer objectives—whether it\'s providing seamless coverage for video calls, high capacity for media tasks, or optimizing for cost-efficiency. We then apply specialized algorithms to select the most suitable enterprise equipment and locations, deploying our bespoke mounting solution for a clearer signal.',
           },
           {
-            title: 'What equipment does wifiOne use?',
+            title: 'What Equipment Does wifiOne Use?',
             description: 'wifiOne uses only US and EU enterprise-grade equipment for active network elements. Where possible, we incorporate a capacity overprovision, ensuring redundancy against device failures and ample performance during peak times.\n All equipment is validated for enterprise use for continuous, heavy operation.',
           },
           {
