@@ -79,8 +79,8 @@
 <style  scoped>
   .accordion-title:before {
     background: transparent !important;
-    color: #3F81D1 !important;
     box-shadow: none !important;
+    color: #3F81D1 !important;
     font-size: 30px;
   }
   .accordion-description {
