@@ -74,4 +74,15 @@ export default {
      text-align: center;
      margin-bottom: 30px;
    }
+
+ @media only screen and (max-width: 850px) {
+   .customers-wrapper {
+     flex-direction: column;
+     align-items: center;
+   }
+   ․customer-item {
+     margin: 0 auto;
+   }
+ }
+
 </style>
