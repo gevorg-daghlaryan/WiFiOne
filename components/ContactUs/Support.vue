@@ -13,7 +13,7 @@
         >
           Submit support ticket
         </a>
-    </div>
+      </div>
     </div>
   </section>
 </template>

@@ -499,7 +499,7 @@
 	.testimonial-box h4 span { display: inherit; margin: 0; }
 	.year-box { width: 140px; height: 120px; }
 	.consulting-blog .blog-details { padding: 15px 0 5px; }
-	header .navbar .sub-main .blue-btn.button { padding: 5px; font-size: 10px !important; margin-top: 4px }
+	header .navbar .sub-main .blue-btn.button { padding-left: 15px; padding-right: 15px; font-size: 10px !important; margin-top: 4px }
 	.year-box span { font-size: 36px; }
 	.iq-blog-box .blog-title a h4 { font-size: 22px; }
 	.custom-tab .nav.nav-pills li { width: 100%; }

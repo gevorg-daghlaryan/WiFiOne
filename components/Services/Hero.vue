@@ -11,7 +11,6 @@
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
       </div>
-      <img src="../../static/images/services/Wi-Fi.png" alt="wifi" class="service-wifi-hero">
     </div>
   </section>
 </template>
@@ -63,10 +62,5 @@ export default {
     justify-content: start;
     gap: 31px;
     height: 100%;
-  }
-  .service-wifi-hero {
-    position: absolute;
-    top: 210px;
-    right: 253px;
   }
 </style>
