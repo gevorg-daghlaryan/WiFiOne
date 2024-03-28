@@ -32,7 +32,7 @@
                 </div>
                 <div class="ranges">
                   <div class="range-wrapper">
-                    <b-form-input v-model="value" type="range" min="0" max="1000" size="lg"></b-form-input>
+                    <input type="range" min="0" max="1000" v-model="value">
                   </div>
                   <div class="ranges-limits">
                     <div>0 m <sup>2</sup></div>
@@ -209,6 +209,9 @@ export default {
   }
   .square-meter {
     font-size: 20px;
+  }
+  .range-wrapper input{
+    padding:0;
   }
   @media (max-width: 601px) {
     .types {

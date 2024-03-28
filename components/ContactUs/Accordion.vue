@@ -1,6 +1,7 @@
 <template>
   <section>
     <div class="container">
+      <h2 class="accordion-head">Frequently Asked Questions</h2>
       <div class="row">
         <div class="col-sm-12">
           <div class="iq-accordion career-style about-style">
@@ -88,5 +89,11 @@
     font-size: 18px;
     font-style: normal;
     font-weight: 400;
+  }
+  .accordion-head {
+    font-size: 40px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 30px;
   }
 </style>
