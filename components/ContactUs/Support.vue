@@ -5,16 +5,14 @@
       <div class="w-100 mt-3 d-flex  justify-content-center align-items-center flex-wrap support-wrapper">
         <img src="../../assets/images/contact-us/Time.svg" alt="">
         <h6 class="description text-white">Get same-day equipment replacement and easy <br> reconfiguration for your changing needs</h6>
-        <button
-          id="submit-4"
-          click="/contact-us"
-          name="submit"
+        <a
           type="submit"
-          value="Send"
           class="button  white-btn mt-3 form-button"
+          target="_blank"
+          href="https://airtable.com/shrdrZLuXUjimQucB"
         >
           Submit support ticket
-        </button>
+        </a>
     </div>
     </div>
   </section>

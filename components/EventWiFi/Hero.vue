@@ -4,7 +4,8 @@
     <div class="container">
       <div class="event-wifi-top-wrapper">
         <h1 class="text-white">Event WiFi</h1>
-        <p class="text-white event-wifi-top-text">Tailored WiFi solutions for events and conferences, providing reliable, high-performance connectivity with optional on-site management.</p>
+        <p class="text-white event-wifi-top-text">Tailored WiFi solutions for events and conferences, providing reliable,
+          <br> high-performance connectivity with optional on-site management.</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>

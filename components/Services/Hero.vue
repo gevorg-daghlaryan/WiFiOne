@@ -4,12 +4,14 @@
     <div class="container">
       <div class="service-top-wrapper">
         <h1 class="text-white"> Services</h1>
-        <p class="text-white service-top-text">From scalable connectivity solutions to proactive security measures, we deliver performance and
-          <br> reliability, empowering your business operations</p>
+        <p class="text-white service-top-text">From scalable connectivity solutions to proactive security measures, we deliver
+          <br> performance and
+          reliability, empowering your business operations</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
       </div>
+      <img src="../../static/images/services/Wi-Fi.png" alt="wifi" class="service-wifi-hero">
     </div>
   </section>
 </template>
@@ -41,25 +43,30 @@ export default {
 }
 </script>
 <style>
-.service-top {
-  position: relative;
-  background-image: url("/images/services/hero.avif");
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-}
-.service-top-text {
-  font-size: 21px;
-}
-.service-top-image-loaded {
-  background-image: url("/images/services/hero.avif");
-}
-.service-top-wrapper {
-  display: flex;
-  flex-direction: column;
-  align-items: start;
-  justify-content: start;
-  gap: 31px;
-  height: 100%;
-}
+  .service-top {
+    position: relative;
+    background-image: url("/images/services/hero.avif");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  .service-top-text {
+    font-size: 21px;
+  }
+  .service-top-image-loaded {
+    background-image: url("/images/services/hero.avif");
+  }
+  .service-top-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    justify-content: start;
+    gap: 31px;
+    height: 100%;
+  }
+  .service-wifi-hero {
+    position: absolute;
+    top: 210px;
+    right: 253px;
+  }
 </style>

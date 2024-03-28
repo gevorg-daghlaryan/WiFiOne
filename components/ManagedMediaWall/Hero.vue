@@ -4,7 +4,7 @@
     <div class="container">
       <div class="managed-media-wall-top-wrapper">
         <h1 class="text-white">Managed Media Wall</h1>
-        <p class="text-white managed-media-wall-top-text">Professional management of media walls and signage, delivering dynamic content for effective communication and branding.</p>
+        <p class="text-white managed-media-wall-top-text">Get your message out with vivid and fluid graphics and video</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>

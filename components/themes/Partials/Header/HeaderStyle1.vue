@@ -29,7 +29,7 @@
               </li>
               <li class="d-inline">
                 <a href="#">
-                  <i class="fa fa-twitter" />
+                  <i class="fa fa-x-twitter" />
                 </a>
               </li>
               <li class="d-inline">

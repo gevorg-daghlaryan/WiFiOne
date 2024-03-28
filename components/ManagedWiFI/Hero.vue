@@ -4,7 +4,7 @@
     <div class="container">
       <div class="managed-wifi-top-wrapper">
         <h1 class="text-white">Managed WiFi</h1>
-        <p class="text-white managed-media-wall-top-text">Comprehensive management of WiFi and network infrastructure</p>
+        <p class="text-white managed-wifi-top-text">Comprehensive management of WiFi and network infrastructure</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>
@@ -28,11 +28,11 @@ export default {
     const backgroundImage = new Image();
     backgroundImage.src = "/images/services/manag-wifi.avif";
     backgroundImage.onload = () => {
-      section.classList.add('managed-media-wall-top-image-loaded');
+      section.classList.add('managed-wifi-top-image-loaded');
       this.loading = false;
     };
     backgroundImage.onerror = () => {
-      section.classList.add('managed-media-wall-top-image-loaded');
+      section.classList.add('managed-wifi-top-image-loaded');
       this.loading = false;
     };
   },
@@ -48,10 +48,10 @@ export default {
   background-color: #dedede;
   height: 490px;
 }
-.managed-media-wall-top-text {
+.managed-wifi-top-text {
   font-size: 21px;
 }
-.managed-media-wall-top-image-loaded {
+.managed-wifi-top-image-loaded {
   background-image: url("/images/services/manag-wifi.avif");
 }
 .managed-wifi-top-wrapper {

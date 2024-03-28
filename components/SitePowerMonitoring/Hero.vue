@@ -4,7 +4,7 @@
     <div class="container">
       <div class="site-monitoring-top-wrapper">
         <h1 class="text-white"> Site Power Monitoring</h1>
-        <p class="text-white site-monitoring-top-text">Continuous monitoring of site power, ensuring uninterrupted operations and immediate response in case of power disruptions.</p>
+        <p class="text-white site-monitoring-top-text">Giving you immediate notification when power fails on one of your sites</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>

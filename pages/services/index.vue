@@ -11,7 +11,6 @@
 </template>
 
 <script>
-
   import Hero from "~/components/Services/Hero.vue";
   import Footer from "~/components/Services/Footer";
   import AboutUs from "~/components/Services/AboutUs.vue";

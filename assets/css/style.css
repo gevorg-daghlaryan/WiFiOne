@@ -315,7 +315,7 @@ header.style-one.style-two .navbar ul li .sub-menu li:hover, header.style-one.st
 #secondary  .widget.widget_categories  ul li a:hover { color: #437eeb; text-decoration: none; }
 .iq-widget-menu ul.iq-post li { border: none; }
 .iq-post-sidebar { height: 100%; }
-.widget { margin-bottom: 45px; padding: 30px 0; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; display: inline-block; width: 100%; float: left; position: relative; background: #eff1fe; }
+.widget { margin-bottom: 45px; padding: 20px 0; -webkit-border-radius: 20px; -moz-border-radius: 20px; border-radius: 20px; display: inline-block; width: 100%; float: left; position: relative; background: #eff1fe; }
 .widget:last-child { margin-bottom: 0; }
 .widget .widget-title { font-size: 25px; position: relative; margin-bottom: 15px; padding-bottom: 0; }
 .testimonial-widget-menu.widget, .iq-widget-menu.widget { padding: 0; background: transparent; }
@@ -1682,7 +1682,8 @@ Testimonial Circle
 .bg-with-image { background: rgb(255, 255, 255); background: linear-gradient(180deg, rgba(255, 255, 255, 1) 0%, rgba(239, 241, 254, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
 .bg-with-image-home2 {  /*background-image: url('../images/2019/09/bg-2.png') !important;*/
 background: rgb(255, 255, 255); background: linear-gradient(180deg, rgba(239, 241, 254, 1) 0%, rgba(255, 255, 255, 1) 100%); background-position: center !important; background-repeat: no-repeat !important; background-size: cover !important; }
-.sidebar-service-left .nav-pills a { background: #eff1fe; color: #313e5b; text-transform: capitalize; padding: 10px 10px 10px 15px; display: inline-block; width: 100%; border-bottom: 1px solid #ffffff; font-size: 0.9em; line-height: 30px; }
+.sidebar-service-left .nav-pills a { background: #eff1fe; color: #313e5b; text-transform: capitalize; padding: 10px 10px 10px 15px; display: inline-block; width: 100%; font-size: 0.9em; line-height: 30px; }
+.sidebar-service-left .nav-pills a:not(:last-child) { border-bottom: 1px solid #ffffff; }
 .sidebar-service-left .nav-pills a.current-menu-item, .sidebar-service-left .nav-pills a:hover { color: #ffffff; background: #74A3DE;}
 .sidebar-service-left .nav-pills .current-menu-item img {display: inline-block !important;}
 .search-submit { height: 48px; }
