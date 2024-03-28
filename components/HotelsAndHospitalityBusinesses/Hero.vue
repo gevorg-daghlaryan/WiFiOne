@@ -3,7 +3,7 @@
     <div class="container">
       <div class="customers-top-wrapper">
         <h1 class="text-white">Hotels and Hospitality Businesses</h1>
-        <p class="text-white customers-top-text">Elevate your guest experience with seamless and secure <br> connectivity.</p>
+        <p class="text-white customers-top-text">Elevate your guest experience with seamless and secure <br> connectivity</p>
         <div class="text-left">
           <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
         </div>

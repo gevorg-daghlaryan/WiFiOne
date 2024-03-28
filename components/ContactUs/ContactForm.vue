@@ -55,13 +55,13 @@
                 </h4>
                 <ul class="contact-links">
                   <li class="d-inline">
-                    <a href="#"><i class=" fa fa-facebook" style="color: #3f81D1;"></i></a>
+                    <a href="https://sg.linkedin.com/in/danielblueman" target="_blank"><i class=" fa fa-facebook" style="color: #3f81D1;"></i></a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"><i class="fa fa-x-twitter" style="color: #3f81D1;" /></a>
+                    <a href="https://sg.linkedin.com/in/danielblueman" target="_blank"><i class="fa fa-x-twitter" style="color: #3f81D1;" /></a>
                   </li>
                   <li class="d-inline">
-                    <a href="#"><i class="fa fa-square-instagram" style="color: #3f81D1;" /></a>
+                    <a href="https://sg.linkedin.com/in/danielblueman" target="_blank"><i class="fa fa-square-instagram" style="color: #3f81D1;" /></a>
                   </li>
                 </ul>
               </div>

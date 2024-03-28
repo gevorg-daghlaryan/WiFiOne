@@ -39,7 +39,7 @@
             description: 'Your slow experience may stem from WiFi congestion or limited Access Point coverage. Alternatively, the service you are using may be overloaded, in a different geographic region, or there is congestion in the internet service provider or international links.',
           },
           {
-            title: 'How can I improve WiFi/internet speed?',
+            title: 'How Can I Improve WiFi/internet Speed?',
             description: 'To optimize your WiFi, move your device and Access Point nearer, or add Access Points to increase strong-signal coverage.',
           },
           {
@@ -51,15 +51,15 @@
             description: 'wifiOne uses only US and EU enterprise-grade equipment for active network elements. Where possible, we incorporate a capacity overprovision, ensuring redundancy against device failures and ample performance during peak times.\n All equipment is validated for enterprise use for continuous, heavy operation.',
           },
           {
-            title: 'How do you secure these networks?',
+            title: 'How Do You Secure These Networks?',
             description: 'Distinct networks are allocated for specific purposes, embracing the principle of \'separation of concerns\'. These networks grant internet access only, restricting local access unless explicitly required. All equipment receives monthly security and stability updates and supports the ‘best practise’ WPA3 security standard.',
           },
           {
-            title: 'Can your networks be customized to integrate existing systems?',
+            title: 'Can Your Networks Be Customized To Integrate Existing Systems?',
             description: 'In the preliminary consultation phase, our network experts understand any existing equipment and configuration to ensure seamless integration.',
           },
           {
-            title: 'How do you keep costs this low for the end-user?',
+            title: 'How Do You Keep Costs This Low For The End-User?',
             description: 'wifiOne leverages cutting-edge enterprise equipment with cloud management; this means no additional on-premises management equipment. Equipment is highly integrated, reducing the number of devices, licensing and management burden.',
           },
         ],

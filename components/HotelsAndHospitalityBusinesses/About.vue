@@ -2,7 +2,7 @@
   <section class="hotel-hospital-about">
     <div class="container">
       <div class="hotel-hospital-about-wrapper">
-        <img src="../../assets/images/customers/office-2.png" alt="">
+        <img src="~/assets/images/customers/office-3.png" alt="">
         <h2 class="hotel-hospital-about-title">HOSPITALITY BUSINESSES</h2>
         <p class="hotel-hospital-about-text">
           Transform your hotel, mall, cafe, or restaurant with wifiOne's comprehensive WiFi and network solutions.

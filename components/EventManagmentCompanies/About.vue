@@ -2,7 +2,7 @@
   <section class="event-management-about">
     <div class="container">
       <div class="event-management-about-wrapper">
-        <img src="/assets/images/customers/office-2.png" alt="">
+        <img src="~/assets/images/customers/office-2.png" alt="">
         <h2 class="event-management-about-title">EVENT MANAGEMENT COMPANIES</h2>
         <p class="event-management-about-text">
           Our service ensures a seamless experience for your attendees, with smooth voice/video calling thanks to the wire-free 5G technology.

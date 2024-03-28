@@ -23,17 +23,17 @@
           <div class="social-icone">
             <ul class="list-inline">
               <li class="d-inline">
-                <a href="#">
+                <a href="https://sg.linkedin.com/in/danielblueman" target="_blank">
                   <i class="fa fa-facebook-f" />
                 </a>
               </li>
               <li class="d-inline">
-                <a href="#">
+                <a href="https://sg.linkedin.com/in/danielblueman" target="_blank">
                   <i class="fa fa-x-twitter" />
                 </a>
               </li>
               <li class="d-inline">
-                <a href="#">
+                <a href="https://sg.linkedin.com/in/danielblueman" target="_blank">
                   <i class="fa fa-instagram" />
                 </a>
               </li>

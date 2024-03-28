@@ -9,7 +9,7 @@
             <h1 class="text-white">Managed Music System</h1>
             </div>
             <p class="text-white managed-music-top-text">Centralized control and management of multi-zone speaker systems for optimized audio
-              <br> experiences in various areas.</p>
+              <br> experiences in various areas</p>
             <div class="text-left">
               <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect"> Contact Us</span></a>
             </div>
