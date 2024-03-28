@@ -24,7 +24,7 @@
             <h3 class="text-white text-left slider-subtitle">Tailored solutions supporting <br> your business</h3>
             <p class="text-white text-left slider-text">Designed-in Quality, Security, and Performance at Zero Upfront Cost</p>
             <div class="text-left">
-              <a class="button blue-btn button-icon text-left" href="/contact-us"><span class="btn-effect">Find Your WiFi Plan</span></a>
+              <a class="button blue-btn button-icon text-left" href="https://airtable.com/appEyQDxvrFn2Nl3g/pag5JY5uAjs2dEyfM/form" target="_blank"><span class="btn-effect">Find Your WiFi Plan</span></a>
             </div>
           </div>
         </div>

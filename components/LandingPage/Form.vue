@@ -63,7 +63,7 @@
                   <span class="">Same-day equipment replacement</span>
                 </div>
                 <div class=" text-center mt-5 w-100">
-                  <a class="button white-btn button-icon w-100" href="#"><span class="btn-effect">Get Monthly Plan</span></a>
+                  <a class="button white-btn button-icon w-100" href="https://airtable.com/appEyQDxvrFn2Nl3g/pag5JY5uAjs2dEyfM/form" target="_blank"><span class="btn-effect">Get Monthly Plan</span></a>
                 </div>
               </div>
             </div>

@@ -91,7 +91,7 @@
             <div class="sub-main">
               <nav aria-label="breadcrumb">
                 <div class="blue-btn button">
-                  <a href="#" class="">Get Started</a>
+                  <a href="https://airtable.com/appEyQDxvrFn2Nl3g/pag5JY5uAjs2dEyfM/form" target="_blank">Get Started</a>
                 </div>
               </nav>
             </div>
